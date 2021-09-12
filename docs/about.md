@@ -1,6 +1,7 @@
 toc: false
 
-# About
+
+# About <a href="https://accellera.org" target="_blank"><img style="float: right;" src="/images/logo_accellera.png"></a>
 
 SystemC.org is maintained by [Accellera Systems Initiative](https://accellera.org).
 
