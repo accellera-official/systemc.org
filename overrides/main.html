@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+
+{%- block site_name %}
+<a class="navbar-brand" href="#">
+  <img src="/images/systemc.png" alt="Logo" style="width:140px;"></a>
+</a>
+{%- endblock %}
+
+
+{% block htmltitle %}
+<title>systemc.org</title>
+{% endblock %}
+
+
+{%- block content %}
+{% if not page.meta.toc %}
+<div class="col-md-9" role="main">{% include "content.html" %}</div>
+<div class="col-md-3">{% include "toc.html" %}</div>
+{% else %}
+<div class="col-md-12" role="main">{% include "content.html" %}</div>
+{% endif %}
+{%- endblock %}
+
+
+{%- block next_prev %}
+{%- endblock %}
+
+
+{%- block footer %}
+<hr>
+<p>Copyright &copy; 2021 <a href="https://accellera.org/" target="_blank">Accellera Systems Initiative</a></p>
+{%- endblock %}

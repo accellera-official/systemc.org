@@ -1,0 +1,17 @@
+site_name: test
+site_url: http://systemc.org/
+
+theme:
+  name: mkdocs
+  custom_dir: overrides/
+  nav_style: light
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+- Home: 'index.md'
+- Downloads: 'downloads.md' 
+- Events:
+    - 'SystemC Evolution Day 2021': 'events/sced2021.md'
+- About: 'about.md'
