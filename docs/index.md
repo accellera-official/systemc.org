@@ -2,7 +2,7 @@
 
 **The language for System-level modeling, design and verification**
 
-SystemC™ addresses the need for a system design and verification language that spans hardware and software. It is a language built in standard C++ by extending the language with the use of class libraries. The language is particularly suited to model system's partitioning, to evaluate and verify the assignment of blocks to either hardware or software implementations, and to architect and measure the interactions between and among functional blocks. Leading companies in the intellectual property (IP), electronic design automation (EDA), semiconductor, electronic systems, and embedded software industries currently use SystemC for architectural exploration, to deliver high-performance hardware blocks at various levels of abstraction and to develop virtual platforms for hardware/software co-design. SystemC has been standardized by the Open SystemC Initiative (OSCI) and Accellera Systems Initiative and ratified as IEEE Std. 1666™-2011.
+SystemC™ addresses the need for a system design and verification language that spans hardware and software. It is a language built in standard C++ by extending the language with the use of class libraries. The language is particularly suited to model system's partitioning, to evaluate and verify the assignment of blocks to either hardware or software implementations, and to architect and measure the interactions between and among functional blocks. Leading companies in the intellectual property (IP), electronic design automation (EDA), semiconductor, electronic systems, and embedded software industries currently use SystemC for architectural exploration, to deliver high-performance hardware blocks at various levels of abstraction and to develop virtual platforms for hardware/software co-design. SystemC has been standardized by the Open SystemC Initiative (OSCI) and [Accellera Systems Initiative][1] and ratified as [IEEE Std. 1666™-2011][2].
 
 ![image](/images/systemc-architecture.png)
 
@@ -22,7 +22,7 @@ The Transaction Level Modeling standard defines interfaces for SystemC, providin
 
 ## SystemC Analog/Mixed-Signal (AMS)
 
-The SystemC AMS standard defined in IEEE Std. 1666.1-2016 introduces system-level design and modeling of embedded Analog/Mixed-Signal (AMS) systems. SystemC AMS provides unique capabilities for the design and modeling of embedded analog/mixed-signal applications at higher levels of design abstraction. The SystemC AMS extensions define a uniform and standardized modeling approach that can be used in combination with digitally-oriented ESL design methods, supporting a design refinement methodology for functional modeling, architecture exploration, and virtual prototyping of embedded analog/mixed-signal systems.
+The SystemC AMS standard defined in [IEEE Std. 1666.1-2016][3] introduces system-level design and modeling of embedded Analog/Mixed-Signal (AMS) systems. SystemC AMS provides unique capabilities for the design and modeling of embedded analog/mixed-signal applications at higher levels of design abstraction. The SystemC AMS extensions define a uniform and standardized modeling approach that can be used in combination with digitally-oriented ESL design methods, supporting a design refinement methodology for functional modeling, architecture exploration, and virtual prototyping of embedded analog/mixed-signal systems.
 
 ## SystemC Configuration, Control and Inspection (CCI)
 
@@ -33,3 +33,7 @@ The goal of Configuration, Control and Inspection (CCI) is to improve efficiency
 The SystemC Verification (SCV) library provides a common set of APIs that are used as a basis to verification activities with SystemC (generation of values under constraints, transaction recording, etc.). These APIs are implemented in all major SystemC simulators available on the market.
 
 The UVM-SystemC library provides an implementation of the Universal Verification Methodology (UVM) in SystemC. The UVM-SystemC class library enables the development of scalable and reusable verification collateral for system-level verification and testing.
+
+[1]: https://accellera.org
+[2]: https://standards.ieee.org/standard/1666-2011.html
+[3]: https://standards.ieee.org/standard/1666_1-2016.html
