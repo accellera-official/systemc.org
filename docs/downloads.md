@@ -1,6 +1,6 @@
 # SystemC Downloads
 
-THis page lists the most recent versions of the SystemC standards and implementations. Older versions can be found on the [Accellera SystemC download page](https://www.accellera.org/downloads/standards/systemc).
+This page lists the most recent versions of the SystemC standards and implementations. Older versions can be found on the [Accellera SystemC download page](https://www.accellera.org/downloads/standards/systemc).
 
 ## Language Reference Manuals
 
