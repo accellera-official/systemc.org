@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+
+{%- block site_name %}
+<a class="navbar-brand" href="/">
+  <img src="/images/systemc.png" alt="Logo" style="width:140px;"></a>
+</a>
+{%- endblock %}
+
+
+{% block htmltitle %}
+<title>systemc.org</title>
+{% endblock %}
+
+
+{% block content %}
+<div class="col-md-12" role="main">
+  <h1 id="404-page-not-found" style="text-align: center; margin-top: 30px;">404</h1>
+  <p style="text-align: center"><strong>{% trans %}Page not found{% endtrans %}</strong></p>
+</div>
+{% endblock %}
+
+
+{%- block next_prev %}
+{%- endblock %}
+
+
+{%- block footer %}
+<hr>
+<p>Copyright &copy; 2021 <a href="https://accellera.org/" target="_blank">Accellera Systems Initiative</a></p>
+{%- endblock %}
