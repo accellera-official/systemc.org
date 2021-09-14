@@ -16,6 +16,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>http://systemc.org/privacy/</loc>
+         <lastmod>2021-09-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>http://systemc.org/events/sced2021/</loc>
          <lastmod>2021-09-14</lastmod>
          <changefreq>daily</changefreq>
