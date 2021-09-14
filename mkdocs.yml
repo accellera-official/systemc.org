@@ -1,6 +1,8 @@
 site_name: test
 site_url: http://systemc.org/
 
+repo_url: https://github.com/accellera-official/systemc/
+
 theme:
   name: mkdocs
   custom_dir: overrides/
