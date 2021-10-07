@@ -4,7 +4,7 @@
 
 SystemC™ addresses the need for a system design and verification language that spans hardware and software. It is a language built in standard C++ by extending the language with the use of class libraries. The language is particularly suited to model system's partitioning, to evaluate and verify the assignment of blocks to either hardware or software implementations, and to architect and measure the interactions between and among functional blocks. Leading companies in the intellectual property (IP), electronic design automation (EDA), semiconductor, electronic systems, and embedded software industries currently use SystemC for architectural exploration, to deliver high-performance hardware blocks at various levels of abstraction and to develop virtual platforms for hardware/software co-design. SystemC has been standardized by the Open SystemC Initiative (OSCI) and [Accellera Systems Initiative][1] and ratified as [IEEE Std. 1666™-2011][2].
 
-![image](/images/systemc-architecture.png)
+![image](/images/systemc-architecture.svg)
 
 ## Why SystemC?
 
@@ -28,7 +28,7 @@ The SystemC AMS standard defined in [IEEE Std. 1666.1-2016][3] introduces system
 
 The goal of Configuration, Control and Inspection (CCI) is to improve efficiency and ROI for model creators and tool providers. They CCI standards will allow suppliers to instrument models so that a rich user experience is enabled, and they will allow industry tools to leverage this instrumentation to provide powerful debug and analysis capabilities. The CCI working group is currently defining standards for the exchange of information between SystemC models and tools.
 
-## SystemC Verification (UVM-SystemC)
+## SystemC Verification (UVM-SystemC, SCV)
 
 The UVM-SystemC library provides an implementation of the Universal Verification Methodology (UVM) in SystemC. The UVM-SystemC class library enables the development of scalable and reusable verification collateral for system-level verification and testing.
 
