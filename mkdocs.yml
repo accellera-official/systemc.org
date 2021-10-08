@@ -13,6 +13,7 @@ extra_css:
 
 nav:
 - Home: 'index.md'
+- Overview: 'overview.md' 
 - Downloads: 'downloads.md' 
 - Events:
     - 'SystemC Evolution Day 2021': 'events/sced2021.md'
