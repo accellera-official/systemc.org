@@ -5,13 +5,12 @@ toc: false
     <li data-target="#carousel_homepage" data-slide-to="0" class="active"></li>
     <li data-target="#carousel_homepage" data-slide-to="1"></li>
   </ol>
-
   <div class="carousel-inner">
     <div class="carousel-item active">
       <div class="hero container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
-            <a href="/overview/"><img width=439 style="box-shadow: 0px 0px 10px 10px #1e1e1e;" src="/images/sc_example.png" class="d-block mx-lg-auto img-fluid" loading="lazy"></a>
+            <a href="/overview/"><img style="box-shadow: 0px 0px 10px 10px #1e1e1e;" src="/images/sc_example.png" class="d-block mx-lg-auto img-fluid" loading="lazy"></a>
           </div>
           <div class="col-lg-6">
             <h1 class="display-5 fw-bold lh-1 mb-3">Welcome to SystemC.org!</h1>
