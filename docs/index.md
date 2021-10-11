@@ -1,9 +1,9 @@
 toc: false
 
-<div class="carousel slide" data-ride="carousel" data-interval="10000" >
+<div id="carousel_homepage" class="carousel slide" data-ride="carousel" data-interval="10000" >
   <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carousel_homepage" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel_homepage" data-slide-to="1"></li>
   </ol>
 
   <div class="carousel-inner">
