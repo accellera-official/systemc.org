@@ -1,7 +1,6 @@
 toc: false
 
-
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<div class="carousel slide" data-ride="carousel" data-interval="10000" >
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -16,7 +15,7 @@ toc: false
           </div>
           <div class="col-lg-6">
             <h1 class="display-5 fw-bold lh-1 mb-3">Welcome to SystemC.org!</h1>
-            <p class="lead">Welcome to the new SystemC Community Portal! Your online reference for everything related to SystemC, the language for System-level modeling, design and verification.</p>
+            <p class="lead">Welcome to the new SystemC Community Portal! Your online reference for everything related to SystemC, the language for system-level design, modeling and verification.</p>
             <a href="/overview/" class="btn btn-primary btn-lg">Overview</a>
             <a href="/downloads/" class="btn btn-secondary btn-lg">Downloads</a>
           </div>
@@ -31,7 +30,7 @@ toc: false
           </div>
           <div class="col-lg-6">
             <h1 class="display-5 fw-bold lh-1 mb-3">SystemC Evolution Day 2021</h1>
-            <p class="lead">The sixth SystemC Evolution Day is a full-day, online workshop on the application and evolution of SystemC standards.<br>
+            <p class="lead">The sixth SystemC Evolution Day is a full-day online workshop on the application and evolution of SystemC standards.<br>
             Join the community and experts to advance the SystemC ecosystem together!</p>
             <a href="/events/sced2021/" class="btn btn-primary btn-lg">Show program</a>
             <a href="https://dvcon-europe.org/registration/" class="btn btn-secondary btn-lg">Free registration</a>
