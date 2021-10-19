@@ -24,6 +24,8 @@ The Transaction Level Modeling standard defines interfaces for SystemC, providin
 
 The SystemC AMS standard defined in [IEEE Std. 1666.1-2016][3] introduces system-level design and modeling of embedded Analog/Mixed-Signal (AMS) systems. SystemC AMS provides unique capabilities for the design and modeling of embedded analog/mixed-signal applications at higher levels of design abstraction. The SystemC AMS extensions define a uniform and standardized modeling approach that can be used in combination with digitally-oriented ESL design methods, supporting a design refinement methodology for functional modeling, architecture exploration, and virtual prototyping of embedded analog/mixed-signal systems.
 
+[More information about SystemC AMS](/overview/systemc-ams/)
+
 ## SystemC Configuration, Control and Inspection (CCI)
 
 The goal of Configuration, Control and Inspection (CCI) is to improve efficiency and ROI for model creators and tool providers. They CCI standards will allow suppliers to instrument models so that a rich user experience is enabled, and they will allow industry tools to leverage this instrumentation to provide powerful debug and analysis capabilities. The CCI working group is currently defining standards for the exchange of information between SystemC models and tools.
