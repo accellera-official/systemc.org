@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="741"
+   height="521"
+   overflow="hidden"
+   version="1.1"
+   id="svg145"
+   sodipodi:docname="systemc-ams-architecture.svg"
+   style="overflow:hidden"
+   inkscape:version="0.92.1 r15371">
+  <metadata
+     id="metadata149">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview147"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.30729167"
+     inkscape:cx="370"
+     inkscape:cy="272"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g143" />
+  <defs
+     id="defs5">
+    <clipPath
+       id="clip0">
+      <rect
+         x="0"
+         y="0"
+         width="960"
+         height="768"
+         id="rect2" />
+    </clipPath>
+  </defs>
+  <g
+     clip-path="url(#clip0)"
+     id="g143"
+     transform="translate(-110,-135)">
+    <rect
+       x="110.5"
+       y="197.5"
+       width="740"
+       height="77"
+       stroke-miterlimit="10"
+       id="rect9"
+       style="fill:#e46c0a;stroke:#e46c0a;stroke-linejoin:round;stroke-miterlimit:10" />
+    <text
+       font-weight="400"
+       font-size="21"
+       transform="translate(227.302,234)"
+       id="text19"
+       style="font-weight:400;font-size:21px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff">Methodology<tspan
+   font-size="21"
+   x="137.627"
+   y="0"
+   id="tspan11"
+   style="font-size:21px">-</tspan>
+<tspan
+   font-size="21"
+   x="152.127"
+   y="0"
+   id="tspan13"
+   style="font-size:21px">and Technology</tspan>
+<tspan
+   font-size="21"
+   x="317.95999"
+   y="0"
+   id="tspan15"
+   style="font-size:21px">-</tspan>
+<tspan
+   font-size="21"
+   x="325.62701"
+   y="0"
+   id="tspan17"
+   style="font-size:21px">specific Libraries</tspan>
+</text>
+    <rect
+       x="147.5"
+       y="259.5"
+       width="703"
+       height="38"
+       stroke-miterlimit="10"
+       id="rect21"
+       style="fill:#92b70d;stroke:#d9ef9f;stroke-linejoin:round;stroke-miterlimit:10" />
+    <text
+       font-weight="400"
+       font-size="21"
+       transform="translate(248.333,285)"
+       id="text27"
+       style="font-weight:400;font-size:21px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff">SystemC Analog/Mixed<tspan
+   font-size="21"
+   x="245.17999"
+   y="0"
+   id="tspan23"
+   style="font-size:21px">-</tspan>
+<tspan
+   font-size="21"
+   x="252.847"
+   y="0"
+   id="tspan25"
+   style="font-size:21px">Signal (AMS) Language</tspan>
+</text>
+    <rect
+       x="498.5"
+       y="297.5"
+       width="176"
+       height="131"
+       stroke-miterlimit="10"
+       id="rect29"
+       style="fill:#92b70d;stroke:#d9ef9f;stroke-linejoin:round;stroke-miterlimit:10" />
+    <text
+       font-weight="400"
+       font-size="19"
+       transform="translate(510.917,326)"
+       id="text39"
+       style="font-weight:400;font-size:19px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff">Electrical Linear <tspan
+   font-size="19"
+   x="2.6666901"
+   y="20"
+   id="tspan31"
+   style="font-size:19px">Networks (ELN)</tspan>
+<tspan
+   font-size="15"
+   x="0.58666998"
+   y="50"
+   id="tspan33"
+   style="font-size:15px">Predefined primitive</tspan>
+<tspan
+   font-size="15"
+   x="2.0866699"
+   y="70"
+   id="tspan35"
+   style="font-size:15px">modules, terminals,</tspan>
+<tspan
+   font-size="15"
+   x="52.833302"
+   y="90"
+   id="tspan37"
+   style="font-size:15px">nodes</tspan>
+</text>
+    <rect
+       x="110.5"
+       y="135.5"
+       width="740"
+       height="62"
+       stroke-miterlimit="10"
+       id="rect41"
+       style="fill:#ff7700;stroke:#ff7700;stroke-linejoin:round;stroke-miterlimit:10" />
+    <text
+       font-weight="400"
+       font-size="21"
+       transform="translate(420.452,160)"
+       id="text45"
+       style="font-weight:400;font-size:21px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff">Application<tspan
+   font-size="15"
+   x="-28.7533"
+   y="22"
+   id="tspan43"
+   style="font-size:15px">Written by the End User</tspan>
+</text>
+    <rect
+       x="110.5"
+       y="531.5"
+       width="740"
+       height="62"
+       stroke-miterlimit="10"
+       id="rect47"
+       style="fill:#274a91;stroke:#274a91;stroke-linejoin:round;stroke-miterlimit:10" />
+    <text
+       font-weight="400"
+       font-size="21"
+       transform="translate(348.765,558)"
+       id="text55"
+       style="font-weight:400;font-size:21px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff">SystemC Core Language<tspan
+   font-size="15"
+   x="55.853298"
+   y="22"
+   id="tspan49"
+   style="font-size:15px">IEEE Std. 1666</tspan>
+<tspan
+   font-size="15"
+   x="164.02"
+   y="22"
+   id="tspan51"
+   style="font-size:15px">-</tspan>
+<tspan
+   font-size="15"
+   x="169.353"
+   y="22"
+   id="tspan53"
+   style="font-size:15px">2011</tspan>
+</text>
+    <rect
+       x="323.5"
+       y="297.5"
+       width="175"
+       height="131"
+       stroke-miterlimit="10"
+       id="rect57"
+       style="fill:#92b70d;stroke:#d9ef9f;stroke-linejoin:round;stroke-miterlimit:10" />
+    <text
+       font-weight="400"
+       font-size="19"
+       transform="translate(349.919,326)"
+       id="text67"
+       style="font-weight:400;font-size:19px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff">Linear Signal<tspan
+   font-size="19"
+   x="12.58"
+   y="20"
+   id="tspan59"
+   style="font-size:19px">Flow (LSF)</tspan>
+<tspan
+   font-size="15"
+   x="-13.7533"
+   y="50"
+   id="tspan61"
+   style="font-size:15px">Predefined primitive</tspan>
+<tspan
+   font-size="15"
+   x="3.4133301"
+   y="70"
+   id="tspan63"
+   style="font-size:15px">modules, ports,</tspan>
+<tspan
+   font-size="15"
+   x="35.166698"
+   y="90"
+   id="tspan65"
+   style="font-size:15px">signals</tspan>
+</text>
+    <rect
+       x="147.5"
+       y="297.5"
+       width="176"
+       height="131"
+       stroke-miterlimit="10"
+       id="rect69"
+       style="fill:#92b70d;stroke:#d9ef9f;stroke-linejoin:round;stroke-miterlimit:10" />
+    <text
+       font-weight="400"
+       font-size="19"
+       transform="translate(180.876,326)"
+       id="text79"
+       style="font-weight:400;font-size:19px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff">Timed Data<tspan
+   font-size="19"
+   x="4.2133298"
+   y="20"
+   id="tspan71"
+   style="font-size:19px">Flow (TDF)</tspan>
+<tspan
+   font-size="15"
+   x="-2.3666699"
+   y="50"
+   id="tspan73"
+   style="font-size:15px">Modules, ports,</tspan>
+<tspan
+   font-size="15"
+   x="-15.4533"
+   y="70"
+   id="tspan75"
+   style="font-size:15px">signals, embedded</tspan>
+<tspan
+   font-size="15"
+   x="-5.1999998"
+   y="90"
+   id="tspan77"
+   style="font-size:15px">linear equations</tspan>
+</text>
+    <rect
+       x="147.5"
+       y="428.5"
+       width="176"
+       height="45"
+       stroke-miterlimit="10"
+       id="rect81"
+       style="fill:#92b70d;stroke:#d9ef9f;stroke-linejoin:round;stroke-miterlimit:10" />
+    <text
+       font-weight="400"
+       font-size="19"
+       transform="translate(188.173,457)"
+       id="text83"
+       style="font-weight:400;font-size:19px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff">Scheduler</text>
+    <rect
+       x="323.5"
+       y="428.5"
+       width="351"
+       height="45"
+       stroke-miterlimit="10"
+       id="rect85"
+       style="fill:#92b70d;stroke:#d9ef9f;stroke-linejoin:round;stroke-miterlimit:10" />
+    <text
+       font-weight="400"
+       font-size="19"
+       transform="translate(414.761,457)"
+       id="text87"
+       style="font-weight:400;font-size:19px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff">Linear DAE Solver</text>
+    <rect
+       x="147.5"
+       y="473.5"
+       width="527"
+       height="58"
+       stroke-miterlimit="10"
+       id="rect89"
+       style="fill:#92b70d;stroke:#d9ef9f;stroke-linejoin:round;stroke-miterlimit:10" />
+    <text
+       font-weight="400"
+       font-size="19"
+       transform="translate(181.842,498)"
+       id="text105"
+       style="font-weight:400;font-size:19px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff">Time<tspan
+   font-size="19"
+   x="45.5933"
+   y="0"
+   id="tspan91"
+   style="font-size:19px">-</tspan>
+<tspan
+   font-size="19"
+   x="52.259998"
+   y="0"
+   id="tspan93"
+   style="font-size:19px">domain and small</tspan>
+<tspan
+   font-size="19"
+   x="219.093"
+   y="0"
+   id="tspan95"
+   style="font-size:19px">-</tspan>
+<tspan
+   font-size="19"
+   x="225.75999"
+   y="0"
+   id="tspan97"
+   style="font-size:19px">signal frequency</tspan>
+<tspan
+   font-size="19"
+   x="380.18701"
+   y="0"
+   id="tspan99"
+   style="font-size:19px">-</tspan>
+<tspan
+   font-size="19"
+   x="386.853"
+   y="0"
+   id="tspan101"
+   style="font-size:19px">domain</tspan>
+<tspan
+   font-size="19"
+   x="113.053"
+   y="20"
+   id="tspan103"
+   style="font-size:19px">simulation infrastructure</tspan>
+</text>
+    <rect
+       x="673.5"
+       y="297.5"
+       width="177"
+       height="234"
+       stroke-miterlimit="10"
+       id="rect107"
+       style="fill:#92b70d;stroke:#d9ef9f;stroke-linejoin:round;stroke-miterlimit:10" />
+    <text
+       font-weight="400"
+       font-size="19"
+       transform="translate(706.01,326)"
+       id="text123"
+       style="font-weight:400;font-size:19px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff">Utilities and <tspan
+   font-size="19"
+   x="4.12006"
+   y="22"
+   id="tspan109"
+   style="font-size:19px">Data Types</tspan>
+<tspan
+   font-size="15"
+   x="4.6666899"
+   y="51"
+   id="tspan111"
+   style="font-size:15px">Complex type</tspan>
+<tspan
+   font-size="15"
+   x="13"
+   y="71"
+   id="tspan113"
+   style="font-size:15px">Vector type</tspan>
+<tspan
+   font-size="15"
+   x="13.8334"
+   y="91"
+   id="tspan115"
+   style="font-size:15px">Matrix type</tspan>
+<tspan
+   font-size="15"
+   x="18.7467"
+   y="111"
+   id="tspan117"
+   style="font-size:15px">Constants</tspan>
+<tspan
+   font-size="15"
+   x="28.333401"
+   y="131"
+   id="tspan119"
+   style="font-size:15px">Tracing</tspan>
+<tspan
+   font-size="15"
+   x="19.6667"
+   y="151"
+   id="tspan121"
+   style="font-size:15px">Reporting</tspan>
+</text>
+    <rect
+       x="110.5"
+       y="259.5"
+       width="37"
+       height="272"
+       stroke-miterlimit="10"
+       id="rect125"
+       style="fill:#92b70d;stroke:#d9ef9f;stroke-linejoin:round;stroke-miterlimit:10" />
+    <text
+       font-weight="400"
+       font-size="21"
+       transform="rotate(-90,324.8485,189.1515)"
+       id="text131"
+       style="font-weight:400;font-size:21px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff">IEEE Std. 1666.1<tspan
+   font-size="21"
+   x="177"
+   y="3.25144e-014"
+   id="tspan127"
+   style="font-size:21px">-</tspan>
+<tspan
+   font-size="21"
+   x="185"
+   y="3.39839e-014"
+   id="tspan129"
+   style="font-size:21px">2016</tspan>
+</text>
+    <rect
+       x="110.5"
+       y="593.5"
+       width="740"
+       height="62"
+       stroke-miterlimit="10"
+       id="rect133"
+       style="fill:#1fd19a;stroke:#1fd19a;stroke-linejoin:round;stroke-miterlimit:10" />
+    <text
+       font-weight="400"
+       font-size="21"
+       transform="translate(323.471,620)"
+       id="text141"
+       style="font-weight:400;font-size:21px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff">Programming Language C++<tspan
+   font-size="15"
+   x="65.580002"
+   y="22"
+   id="tspan135"
+   style="font-size:15px">ISO/IEC Std. 14882</tspan>
+<tspan
+   font-size="15"
+   x="204.74699"
+   y="22"
+   id="tspan137"
+   style="font-size:15px">-</tspan>
+<tspan
+   font-size="15"
+   x="210.08"
+   y="22"
+   id="tspan139"
+   style="font-size:15px">2003</tspan>
+</text>
+  </g>
+</svg>

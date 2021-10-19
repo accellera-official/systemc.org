@@ -13,7 +13,9 @@ extra_css:
 
 nav:
 - Home: 'index.md'
-- Overview: 'overview.md' 
+- Overview: 
+    - 'SystemC': 'overview/systemc.md' 
+    - 'SystemC AMS': 'overview/systemc-ams.md' 
 - Downloads: 'downloads.md' 
 - Resources:
     - 'Videos': 'resources/videos.md' 
