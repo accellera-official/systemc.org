@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>http://systemc.org/</loc>
-         <lastmod>2021-10-19</lastmod>
+         <loc>https://systemc.org/</loc>
+         <lastmod>2021-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://systemc.org/about/</loc>
-         <lastmod>2021-10-19</lastmod>
+         <loc>https://systemc.org/about/</loc>
+         <lastmod>2021-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://systemc.org/downloads/</loc>
-         <lastmod>2021-10-19</lastmod>
+         <loc>https://systemc.org/downloads/</loc>
+         <lastmod>2021-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://systemc.org/privacy/</loc>
-         <lastmod>2021-10-19</lastmod>
+         <loc>https://systemc.org/privacy/</loc>
+         <lastmod>2021-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://systemc.org/events/sced2021/</loc>
-         <lastmod>2021-10-19</lastmod>
+         <loc>https://systemc.org/events/sced2021/</loc>
+         <lastmod>2021-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://systemc.org/overview/systemc-ams/</loc>
-         <lastmod>2021-10-19</lastmod>
+         <loc>https://systemc.org/overview/systemc-ams/</loc>
+         <lastmod>2021-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://systemc.org/overview/systemc/</loc>
-         <lastmod>2021-10-19</lastmod>
+         <loc>https://systemc.org/overview/systemc/</loc>
+         <lastmod>2021-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://systemc.org/resources/videos/</loc>
-         <lastmod>2021-10-19</lastmod>
+         <loc>https://systemc.org/resources/videos/</loc>
+         <lastmod>2021-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
