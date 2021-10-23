@@ -13,8 +13,8 @@ toc: false
             <a href="/overview/"><img style="box-shadow: 0px 0px 10px 10px #1e1e1e;" src="/images/sc_example.png" class="d-block mx-lg-auto img-fluid" loading="lazy"></a>
           </div>
           <div class="col-lg-6">
-            <h1 class="display-5 fw-bold lh-1 mb-3">Welcome to SystemC.org!</h1>
-            <p class="lead">Welcome to the new SystemC Community Portal! Your online reference for everything related to SystemC, the language for system-level design, modeling and verification.</p>
+            <h1 class="display-5 fw-bold lh-1 mb-3">Welcome to the new SystemC Community Portal</h1>
+            <p class="lead">Your online reference for everything related to SystemC, the language for system-level design, modeling and verification.</p>
             <a href="/overview/" class="btn btn-primary btn-lg">Overview</a>
             <a href="/downloads/" class="btn btn-secondary btn-lg">Downloads</a>
           </div>
