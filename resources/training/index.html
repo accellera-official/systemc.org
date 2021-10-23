@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://systemc.org/overview/systemc-ams/">
+        <link rel="canonical" href="https://systemc.org/resources/training/">
         <link rel="shortcut icon" href="../../img/favicon.ico">
 <title>systemc.org</title>
 
@@ -38,36 +38,36 @@
                             <li class="navitem">
                                 <a href="../.." class="nav-link">Home</a>
                             </li>
-                            <li class="dropdown active">
+                            <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Overview <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../systemc/" class="dropdown-item">SystemC</a>
+    <a href="../../overview/systemc/" class="dropdown-item">SystemC</a>
 </li>
                                     
 <li>
-    <a href="./" class="dropdown-item active">SystemC AMS</a>
+    <a href="../../overview/systemc-ams/" class="dropdown-item">SystemC AMS</a>
 </li>
                                 </ul>
                             </li>
                             <li class="navitem">
                                 <a href="../../downloads/" class="nav-link">Downloads</a>
                             </li>
-                            <li class="dropdown">
+                            <li class="dropdown active">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../../resources/videos/" class="dropdown-item">Videos</a>
+    <a href="../videos/" class="dropdown-item">Videos</a>
 </li>
                                     
 <li>
-    <a href="../../resources/books/" class="dropdown-item">Books</a>
+    <a href="../books/" class="dropdown-item">Books</a>
 </li>
                                     
 <li>
-    <a href="../../resources/training/" class="dropdown-item">Training</a>
+    <a href="./" class="dropdown-item active">Training</a>
 </li>
                                 </ul>
                             </li>
@@ -107,21 +107,29 @@
 
 <div class="col-md-9" role="main">
 
-<h1 id="systemc-analogmixed-signal-extensions">SystemC Analog/Mixed-Signal Extensions</h1>
-<p>The SystemC AMS standard (<a href="https://standards.ieee.org/standard/1666_1-2016.html">IEEE Std. 1666.1-2016</a>) introduces system-level design and modeling of embedded Analog/Mixed-Signal (AMS) systems. The SystemC AMS extensions define a uniform and standardized modeling approach at higher levels of abstraction, that can be used in combination with digital and SystemC-centric design methods, supporting a design refinement methodology for functional modeling, architecture exploration, and virtual prototyping of embedded analog/mixed-signal systems and applications.</p>
-<p><img alt="image" src="/images/systemc-ams-architecture.svg" /></p>
-<h2 id="why-systemc-ams">Why SystemC AMS?</h2>
-<p>The SystemC AMS standard, ratified as <a href="https://standards.ieee.org/standard/1666_1-2016.html">IEEE Std. 1666.1-2016</a>, fulfills the need of the electronics industry to have a standardized system-level modeling language for mixed-signal applications based on SystemC and C++. The SystemC AMS standard defines the execution semantics and language constructs for system-level design and modeling of embedded analog/mixed-signal systems at higher levels of abstraction, focusing on modeling accuracy, fidelity and simulation speed.</p>
-<h2 id="what-is-the-difference-between-systemc-ams-and-other-hdl-languages">What is the difference between SystemC AMS and other HDL languages?</h2>
-<p>The SystemC AMS extensions focus on the system-level (ESL) and architecture modeling aspects for mixed-signal  applications, such as communcation, RF, automotive and sensor applications. By having AMS extensions for SystemC, users can now create mixed-signal virtual prototypes to make an executable description of the entire system in a C++ based manner, enabling a seamless integration of HW/SW architectures in SystemC, TLM, embedded software in C, and analog or contiuous-time functionality modeled in SystemC AMS.</p>
-<p>For abstract mixed-signal modeling, SystemC AMS offers the efficient Timed Data Flow model of computation to describe continuous signals in a discrete-time manner. The use of data flow semantics make the simulation much faster than traditional real-number-modeling approaches which use the inefficient discrete-event (digital) simulator, such as Verilog-AMS wreal or SystemVerilog real nettypess. Timed Data Flow simulation in SystemC AMS applies smart temporal abstraction techniques which reduce the simulation overhead, resulting in a significant speed-up, which is essential for virtual prototyping. This technique is comparable with TLM, but is now introduced for AMS signals.</p>
-<h2 id="is-there-a-reference-implementation-available-for-systemc-ams">Is there a reference implementation available for SystemC AMS?</h2>
-<p>A <a href="https://www.coseda-tech.com/systemc-ams-proof-of-concept">SystemC AMS proof-of-concept implementation</a> is available under Apache 2.0 license, offered by COSEDA Technologies GmbH. It contains a class library in C++, and therefore can be compiled against a SystemC IEEE Std 1666-2011 compatible simulator. </p>
-<p>In addition, commercial simulation environments are available supporting SystemC and SystemC AMS, offereing much more capabilities compared to the reference implementations. For example, commercial tooling supprt enhanced design automation for system-level design, offer modeling libraries and enhanced tracing and debug capabilities. Please contact your local EDA vendor representative whether SystemC AMS is supported.</p>
-<h2 id="how-can-i-learn-to-use-systemc-ams">How can I learn to use SystemC AMS?</h2>
-<p>It is recommended is to start reading the SystemC AMS user's guide, which can be downloaded <a href="https://www.accellera.org/images/downloads/standards/systemc/Accellera_SystemC_AMS_Users_Guide_January_2020.pdf">here</a>. The user's guide explains all fundamentals of the SystemC AMS language and how to use the extensive set of features for AMS behavioral modeling at the system level. The application examples from the SystemC AMS user's guide can be found <a href="https://www.accellera.org/images/downloads/standards/systemc/application_examples.zip">here</a>.</p>
-<h2 id="is-systemc-ams-an-international-standard">Is SystemC AMS an international standard?</h2>
-<p>Yes. SystemC AMS has been transferred to IEEE, resulting in the release of IEEE Std 1666.1-2016. Thanks to Accellera sponsorship, the IEEE standard is made available under the <a href="https://ieeexplore.ieee.org/browse/standards/get-program/page">IEEE Get Program</a> free of charge. You can download the IEEE Std 1666.1-2016 <a href="https://standards.ieee.org/standard/1666_1-2016.html">here</a>.</p></div>
+<h1 id="systemc-training">SystemC Training</h1>
+<p>This page gives an overview of the available SystemC training. Please <a href="https://github.com/accellera-official/systemc.org/issues">let us know</a> if a training program is missing or needs update. </p>
+<h2 id="cadence">Cadence</h2>
+<p><a href="https://www.cadence.com/en_US/home/training/all-courses/82202.html">SystemC Language Fundamentals</a></p>
+<p><a href="https://www.cadence.com/en_US/home/training/all-courses/86170.html">SystemC Synthesis with Stratus HLS</a></p>
+<p><a href="https://www.cadence.com/en_US/home/training/all-courses/84488.html">SystemC Transaction-Level Modeling (TLM 2.0)</a></p>
+<h2 id="dizain-sync">dizain-sync</h2>
+<p><a href="https://dizain-sync.com/trainings/systemc-courses/systemc-introduction-for-modeling-with-tlm-2-0">SystemC Introduction for Modeling with TLM 2.0</a></p>
+<p><a href="https://dizain-sync.com/trainings/systemc-courses/introduction-to-systemc-for-verification">Introduction to SystemC for Verification</a></p>
+<p><a href="https://dizain-sync.com/trainings/systemc-courses/advanced-systemc-for-verification">Advanced SystemC for Verification</a></p>
+<h2 id="doulos">Doulos</h2>
+<p><a href="https://www.doulos.com/training/systemc-tlm-20/comprehensive-systemc/">Comprehensive SystemC</a></p>
+<p><a href="https://www.doulos.com/training/systemc-tlm-20/comprehensive-systemc-online/">Comprehensive SystemC Online</a></p>
+<p><a href="https://www.doulos.com/training/systemc-tlm-20/essential-cplusplus-for-systemc/">Essential C++ for SystemC</a></p>
+<p><a href="https://www.doulos.com/training/systemc-tlm-20/essential-cplusplus-for-systemc-online/">Essential C++ for SystemC Online</a></p>
+<p><a href="https://www.doulos.com/training/systemc-tlm-20/fundamentals-of-systemc/">Fundamentals of SystemC</a></p>
+<p><a href="https://www.doulos.com/training/systemc-tlm-20/fundamentals-of-systemc-online/">Fundamentals of SystemC Online</a></p>
+<p><a href="https://www.doulos.com/training/systemc-tlm-20/modular-systemc/">Modular SystemC</a></p>
+<p><a href="https://www.doulos.com/training/systemc-tlm-20/systemc-modeling-using-tlm-20/">SystemC Modeling using TLM-2.0</a></p>
+<p><a href="https://www.doulos.com/training/systemc-tlm-20/systemc-modeling-using-tlm-20-online/">SystemC Modeling using TLM-2.0 Online</a></p>
+<p><a href="https://www.doulos.com/training/systemc-tlm-20/comprehensive-cplusplus/">Comprehensive C++</a></p>
+<h2 id="siemens">Siemens</h2>
+<p><a href="https://eda.learn.sw.siemens.com/training/courses/systemc-for-modeling-with-tlm-20">SystemC For Modeling with TLM 2.0</a></p></div>
 <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
     <div class="navbar-header">
         <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
@@ -133,25 +141,21 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#systemc-analogmixed-signal-extensions" class="nav-link">SystemC Analog/Mixed-Signal Extensions</a>
+            <li class="nav-item" data-level="1"><a href="#systemc-training" class="nav-link">SystemC Training</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#why-systemc-ams" class="nav-link">Why SystemC AMS?</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#what-is-the-difference-between-systemc-ams-and-other-hdl-languages" class="nav-link">What is the difference between SystemC AMS and other HDL languages?</a>
+            <li class="nav-item" data-level="2"><a href="#cadence" class="nav-link">Cadence</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#is-there-a-reference-implementation-available-for-systemc-ams" class="nav-link">Is there a reference implementation available for SystemC AMS?</a>
+            <li class="nav-item" data-level="2"><a href="#dizain-sync" class="nav-link">dizain-sync</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#how-can-i-learn-to-use-systemc-ams" class="nav-link">How can I learn to use SystemC AMS?</a>
+            <li class="nav-item" data-level="2"><a href="#doulos" class="nav-link">Doulos</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#is-systemc-ams-an-international-standard" class="nav-link">Is SystemC AMS an international standard?</a>
+            <li class="nav-item" data-level="2"><a href="#siemens" class="nav-link">Siemens</a>
               <ul class="nav flex-column">
               </ul>
             </li>

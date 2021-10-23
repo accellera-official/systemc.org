@@ -41,6 +41,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://systemc.org/resources/training/</loc>
+         <lastmod>2021-10-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://systemc.org/resources/videos/</loc>
          <lastmod>2021-10-23</lastmod>
          <changefreq>daily</changefreq>
