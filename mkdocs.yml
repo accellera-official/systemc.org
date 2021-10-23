@@ -19,6 +19,7 @@ nav:
 - Downloads: 'downloads.md' 
 - Resources:
     - 'Videos': 'resources/videos.md' 
+    - 'Books': 'resources/books.md' 
 - Events:
     - 'SystemC Evolution Day 2021': 'events/sced2021.md'
 - Forums: https://forums.accellera.org/forum/9-systemc/

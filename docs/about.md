@@ -3,7 +3,7 @@ toc: false
 
 # About <a href="https://accellera.org" target="_blank"><img style="float: right;" src="/images/logo_accellera.png"></a>
 
-SystemC.org is maintained by the SystemC Working Groups at [Accellera Systems Initiative][1].
+[systemc.org][5] is maintained by the SystemC Working Groups at [Accellera Systems Initiative][1].
 
 About Accellera Systems Initiative
 ----------------------------------
@@ -22,3 +22,4 @@ Accellera's [SystemC Working Groups][4] are responsible for the definition and d
 [2]: https://accellera.org/about/members
 [3]: https://accellera.org/activities
 [4]: https://www.accellera.org/activities/working-groups
+[5]: https://systemc.org
