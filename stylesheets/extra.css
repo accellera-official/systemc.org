@@ -56,11 +56,6 @@ body::before {
   font-weight: normal;
 }
 
-.whitespace {
-  display: inline-block;
-  margin-left: 40px;
-}
-
 a.nav-link {
    color: #464646;
    font-weight: normal;
