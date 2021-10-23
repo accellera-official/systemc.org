@@ -1,22 +1,22 @@
 # systemc.org
 
-Website sources rendered using [MkDocs](https://www.mkdocs.org/)
+Website sources rendered using [MkDocs][1]
 
-See the published website at [https://systemc.org](https://systemc.org)
+See the published website at [https://systemc.org][2]
 
-Copyright &copy; 2021 [Accellera Systems Initiative](https://accellera.org)
+Copyright &copy; 2021 [Accellera Systems Initiative][3]
 
 # Contributing via pull requests
 
-To contribute to [https://systemc.org](https://systemc.org), it is recommended to install MkDocs to examine your contributions first.
+Please check the [CONTRIBUTING][5] guidelines how to contribute to [https://systemc.org][2]. It is recommended to install MkDocs to validate your contributions first.
 
 ```
 pip install mkdocs
 ```
 
-A detailed MkDocs installation procedure can be found [here](https://www.mkdocs.org/getting-started/#installation).
+A detailed MkDocs installation procedure can be found [here][4].
 
-Before creating a pull request, it is recommended to preview your edits in a locally rendered website, by running the mkdocs serve command:
+Before creating a pull request, it is recommended to preview your edits in a locally rendered website, by running the `mkdocs serve` command:
 
 ```
 $ mkdocs serve
@@ -28,3 +28,10 @@ INFO    -  Cleaning site directory
 ```
 
 Open up `http://127.0.0.1:8000/` in your browser, and you'll see the website displayed. If your rendered content looks good, you can proceed with the submission of your pull request.
+
+
+[1]: https://www.mkdocs.org/
+[2]: https://systemc.org
+[3]: https://accellera.org
+[4]: https://www.mkdocs.org/getting-started/#installation
+[5]: CONTRIBUTING.md
