@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://systemc.org/resources/training/">
+        <link rel="canonical" href="https://systemc.org/resources/projects/">
         <link rel="shortcut icon" href="../../img/favicon.ico">
 <title>systemc.org</title>
 
@@ -67,11 +67,11 @@
 </li>
                                     
 <li>
-    <a href="./" class="dropdown-item active">Training</a>
+    <a href="../training/" class="dropdown-item">Training</a>
 </li>
                                     
 <li>
-    <a href="../projects/" class="dropdown-item">Projects</a>
+    <a href="./" class="dropdown-item active">Projects</a>
 </li>
                                 </ul>
                             </li>
@@ -111,29 +111,92 @@
 
 <div class="col-md-9" role="main">
 
-<h1 id="systemc-training">SystemC Training</h1>
-<p>This page gives an overview of the available SystemC training. Please <a href="https://github.com/accellera-official/systemc.org/issues">let us know</a> if a training program is missing or needs update. </p>
-<h2 id="cadence">Cadence</h2>
-<p><a href="https://www.cadence.com/en_US/home/training/all-courses/82202.html">SystemC Language Fundamentals</a></p>
-<p><a href="https://www.cadence.com/en_US/home/training/all-courses/86170.html">SystemC Synthesis with Stratus HLS</a></p>
-<p><a href="https://www.cadence.com/en_US/home/training/all-courses/84488.html">SystemC Transaction-Level Modeling (TLM 2.0)</a></p>
-<h2 id="dizain-sync">dizain-sync</h2>
-<p><a href="https://dizain-sync.com/trainings/systemc-courses/systemc-introduction-for-modeling-with-tlm-2-0">SystemC Introduction for Modeling with TLM 2.0</a></p>
-<p><a href="https://dizain-sync.com/trainings/systemc-courses/introduction-to-systemc-for-verification">Introduction to SystemC for Verification</a></p>
-<p><a href="https://dizain-sync.com/trainings/systemc-courses/advanced-systemc-for-verification">Advanced SystemC for Verification</a></p>
-<h2 id="doulos">Doulos</h2>
-<p><a href="https://www.doulos.com/training/systemc-tlm-20/comprehensive-systemc/">Comprehensive SystemC</a></p>
-<p><a href="https://www.doulos.com/training/systemc-tlm-20/comprehensive-systemc-online/">Comprehensive SystemC Online</a></p>
-<p><a href="https://www.doulos.com/training/systemc-tlm-20/essential-cplusplus-for-systemc/">Essential C++ for SystemC</a></p>
-<p><a href="https://www.doulos.com/training/systemc-tlm-20/essential-cplusplus-for-systemc-online/">Essential C++ for SystemC Online</a></p>
-<p><a href="https://www.doulos.com/training/systemc-tlm-20/fundamentals-of-systemc/">Fundamentals of SystemC</a></p>
-<p><a href="https://www.doulos.com/training/systemc-tlm-20/fundamentals-of-systemc-online/">Fundamentals of SystemC Online</a></p>
-<p><a href="https://www.doulos.com/training/systemc-tlm-20/modular-systemc/">Modular SystemC</a></p>
-<p><a href="https://www.doulos.com/training/systemc-tlm-20/systemc-modeling-using-tlm-20/">SystemC Modeling using TLM-2.0</a></p>
-<p><a href="https://www.doulos.com/training/systemc-tlm-20/systemc-modeling-using-tlm-20-online/">SystemC Modeling using TLM-2.0 Online</a></p>
-<p><a href="https://www.doulos.com/training/systemc-tlm-20/comprehensive-cplusplus/">Comprehensive C++</a></p>
-<h2 id="siemens">Siemens</h2>
-<p><a href="https://eda.learn.sw.siemens.com/training/courses/systemc-for-modeling-with-tlm-20">SystemC For Modeling with TLM 2.0</a></p></div>
+<h1 id="systemc-projects">SystemC Projects</h1>
+<p>This page gives an overview of open-source SystemC projects.
+Please <a href="https://github.com/accellera-official/systemc.org/issues">let us know</a> if a project is missing or needs update.</p>
+<h2 id="models">Models</h2>
+<p>This is a list of SystemC models for use in virtual platforms:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">Description</th>
+<th align="left">License</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><a href="https://github.com/nvdla/hw/tree/nvdlav1/cmod">NVDLA</a></td>
+<td align="left">SystemC TLM2.0-compatible model of the Nvidia Deep Learning Accelerator</td>
+<td align="left">NVIDIA Open NVDLA License and Agreement v1.0</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/janweinstock/vcml/tree/master/src/vcml/models">VCML Models</a></td>
+<td align="left">The VCML productivity library contains many component models (ARM, RISC-V, Virtio, ...)</td>
+<td align="left">Apache 2.0</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/aut0/vcml-nvdla">VCML NVDLA</a></td>
+<td align="left">VCML integration of the NVDLA model</td>
+<td align="left">Apache 2.0</td>
+</tr>
+</tbody>
+</table>
+<h2 id="productivity-libraries">Productivity Libraries</h2>
+<p>Productivity libraries contain common resources that are required for building SystemC TLM2.0 virtual platforms.</p>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">Contents</th>
+<th align="left">License</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><a href="https://git.minres.com/SystemC/SystemC-Components">SCC</a></td>
+<td align="left">Sockets, Tracing, Registers, TLM2.0 transaction router</td>
+<td align="left">Apache 2.0</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/janweinstock/vcml">VCML</a></td>
+<td align="left">Sockets, Tracing, Registers, GDB server, Logging, Session Protocol, Component Models, Network backends, TLM2.0 protocols</td>
+<td align="left">Apache 2.0</td>
+</tr>
+</tbody>
+</table>
+<h2 id="virtual-platforms">Virtual Platforms</h2>
+<p>This is a list of open-source Virtual Platforms (VPs):</p>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">Description</th>
+<th align="left">Workloads</th>
+<th align="left">License</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><a href="https://github.com/aut0/avp64">AVP64</a></td>
+<td align="left">OCX QEMU-based ARMv8 multi-core VP</td>
+<td align="left">CoreMark, Dhrystone, Linux, Xen hypervisor</td>
+<td align="left">MIT</td>
+</tr>
+<tr>
+<td align="left"><a href="https://git.minres.com/VP/HIFIVE1-VP">HIFIVE1-VP</a></td>
+<td align="left">DBT-RISE-based RISC-V VP</td>
+<td align="left">FreeRTOS</td>
+<td align="left">BSD 3-Clause</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/janweinstock/or1kmvp">OR1KMVP</a></td>
+<td align="left">OR1KISS-based multi-core OpenRISC1000 VP</td>
+<td align="left">Linux</td>
+<td align="left">Apache 2.0</td>
+</tr>
+</tbody>
+</table></div>
 <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
     <div class="navbar-header">
         <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
@@ -145,21 +208,17 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#systemc-training" class="nav-link">SystemC Training</a>
+            <li class="nav-item" data-level="1"><a href="#systemc-projects" class="nav-link">SystemC Projects</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#cadence" class="nav-link">Cadence</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#dizain-sync" class="nav-link">dizain-sync</a>
+            <li class="nav-item" data-level="2"><a href="#models" class="nav-link">Models</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#doulos" class="nav-link">Doulos</a>
+            <li class="nav-item" data-level="2"><a href="#productivity-libraries" class="nav-link">Productivity Libraries</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#siemens" class="nav-link">Siemens</a>
+            <li class="nav-item" data-level="2"><a href="#virtual-platforms" class="nav-link">Virtual Platforms</a>
               <ul class="nav flex-column">
               </ul>
             </li>
