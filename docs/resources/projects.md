@@ -36,7 +36,7 @@ This is a list of open-source Virtual Platforms (VPs):
 [2]: https://github.com/nvdla/hw/tree/nvdlav1/cmod
 [3]: https://github.com/janweinstock/vcml/tree/master/src/vcml/models
 [4]: https://github.com/aut0/vcml-nvdla
-[5]: https://git.minres.com/SystemC/SystemC-Components
+[5]: https://github.com/Minres/SystemC-Components
 [6]: https://github.com/janweinstock/vcml
 [7]: https://github.com/aut0/avp64
 [8]: https://git.minres.com/VP/HIFIVE1-VP
