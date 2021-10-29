@@ -30,5 +30,12 @@ toc: false
       </div>
       <a href="https://vimeo.com/469412815" target="_blank">UVM-SystemC Randomization - Updates From The SystemC Verification Working Group - DVCon US 2019</a>
     </div>
+    <div class="col-md-6">
+      <div class="embed-responsive embed-responsive-16by9">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/pZDBrIL2Vec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <a href="https://www.youtube.com/watch?v=pZDBrIL2Vec&t=395s" target="_blank">Build a VP with SystemC and PySysC - DVCon Europe 2021</a>
+    </div>
+
   </div>
 </div>
