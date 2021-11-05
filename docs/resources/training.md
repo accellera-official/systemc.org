@@ -4,6 +4,12 @@ This page gives an overview of the available SystemC training. Please [let us kn
 
 ---
 
+## Arteris IP
+
+[IP-XACT & SystemC Virtual Prototyping Training][arteris_training_1]
+
+---
+
 ## Cadence
 
 [SystemC Language Fundamentals][cadence_training_1]
@@ -14,9 +20,15 @@ This page gives an overview of the available SystemC training. Please [let us kn
 
 ---
 
+## CircuitSutra
+
+[SystemC Modeling for Virtual Prototype Development][circuitsutra_training_1]
+
+---
+
 ## COSEDA Technologies GmbH
 
-[SystemC AMS][coseda_training_1]
+[SystemC and SystemC AMS][coseda_training_1]
 
 ---
 
@@ -54,9 +66,19 @@ This page gives an overview of the available SystemC training. Please [let us kn
 
 ---
 
-## Fraunhofer IESE
+## Fraunhofer
 
-[SystemC Seminar][fhg_training_1]
+[SystemC Basics][fhg_training_1]
+
+[SystemC Seminar][fhg_training_2]
+
+---
+
+## Hardent Academy / Willamette HDL 
+
+[SystemC Introduction for Modeling with TLM 2.0][hardent_training_1]
+
+[Introduction to SystemC for Verification][willamettehdl_training_1]
 
 ---
 
@@ -64,10 +86,15 @@ This page gives an overview of the available SystemC training. Please [let us kn
 
 [SystemC For Modeling with TLM 2.0][siemens_training_1]
 
+[issues]: https://github.com/accellera-official/systemc.org/issues
+
+[arteris_training_1]: https://www.arteris.com/ip-xact-systemc-virtual-prototype-training
 
 [cadence_training_1]: https://www.cadence.com/en_US/home/training/all-courses/82202.html
 [cadence_training_2]: https://www.cadence.com/en_US/home/training/all-courses/86170.html
 [cadence_training_3]: https://www.cadence.com/en_US/home/training/all-courses/84488.html
+
+[circuitsutra_training_1]: https://www.circuitsutra.com/systemc-training.html
 
 [coseda_training_1]: https://www.coseda-tech.com/systemc-ams-training
 
@@ -86,8 +113,11 @@ This page gives an overview of the available SystemC training. Please [let us kn
 [doulos_training_9]: https://www.doulos.com/training/systemc-tlm-20/systemc-modeling-using-tlm-20-online/
 [doulos_training_10]: https://www.doulos.com/training/systemc-tlm-20/comprehensive-cplusplus/
 
-[fhg_training_1]: https://www.iese.fraunhofer.de/en/seminare_training/virtual-prototyping.html#4
+[fhg_training_1]: https://www.eas.iis.fraunhofer.de/en/events/trainings/systemc-basics.html
+[fhg_training_2]: https://www.iese.fraunhofer.de/en/seminare_training/virtual-prototyping.html#4
+
+[hardent_training_1]: https://www.hardent.com/course/systemc-introduction-for-modeling-with-tlm-2-0/
 
 [siemens_training_1]: https://eda.learn.sw.siemens.com/training/courses/systemc-for-modeling-with-tlm-20
 
-[issues]: https://github.com/accellera-official/systemc.org/issues
+[willamettehdl_training_1]: https://www.whdl.com/courses/introduction-to-systemc-for-verification.html
