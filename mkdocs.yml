@@ -20,6 +20,7 @@ nav:
 - Resources:
     - 'Books': 'resources/books.md'
     - 'Libraries & Projects': 'resources/projects.md'
+    - 'Tools': 'resources/tools.md'
     - 'Training': 'resources/training.md'
     - 'Videos': 'resources/videos.md' 
 - Events:
