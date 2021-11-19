@@ -2,7 +2,7 @@
 
 This page gives an overview of electronics design automation tools and technologies supporting SystemC. 
 
-Please [let us know][1] if an EDA tool or technology is missing or needs update.
+Please [let us know][issues] if an EDA tool or technology is missing or needs update.
 
 ## Industry Supported Tools
 
@@ -63,3 +63,5 @@ Please [let us know][1] if an EDA tool or technology is missing or needs update.
 [50]: https://www.accellera.org/images/downloads/standards/systemc/systemc-2.3.3.tar.gz
 [51]: https://www.coseda-tech.com/systemc-ams-proof-of-concept
 [52]: https://www.veripool.org/verilator/
+
+[issues]: https://github.com/accellera-official/systemc.org/issues 
