@@ -19,7 +19,7 @@ nav:
 - Downloads: 'downloads.md' 
 - Resources:
     - 'Books': 'resources/books.md'
-    - 'Projects': 'resources/projects.md'
+    - 'Libraries & Projects': 'resources/projects.md'
     - 'Training': 'resources/training.md'
     - 'Videos': 'resources/videos.md' 
 - Events:

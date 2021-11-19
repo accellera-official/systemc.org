@@ -1,7 +1,7 @@
-# SystemC Projects
+# SystemC Libraries & Projects
 
-This page gives an overview of open-source SystemC projects.
-Please [let us know][1] if a project is missing or needs update.
+This page gives an overview of open-source SystemC libraries and projects.
+Please [let us know][1] if a project or library is missing or needs update.
 
 ## Models
 
@@ -16,10 +16,11 @@ This is a list of SystemC models for use in virtual platforms:
 
 ## Productivity Libraries
 
-Productivity libraries contain common resources that are required for building SystemC TLM2.0 virtual platforms.
+Productivity libraries contain common resources and building blocks that can be used for High-Level Synthesis or the creation of SystemC-based virtual platforms. 
 
 | Name                         | Description                                                                            | License                      |
 |:---------------------------- | :------------------------------------------------------------------------------------- | :--------------------------- |
+| [High-Level Synthesis Libs (HLSLibs)][13] | Repository for the unlimited length integer and fixed-point AC types usable with SystemC, plus math, DSP and ML building blocks, as well as SystemC MatchLib | Apache 2.0 |
 | [SystemC-Components (SCC)][5] | A light weight productivity library for SystemC and TLM 2.0 based modeling tasks using C++11 provides common functions, components and modules often needed in SystemC based models | Apache 2.0 |
 | [Virtual Components Modeling Library (VCML)][6]  | Sockets, Tracing, Registers, GDB server, Logging, Session Protocol, Component Models, Network backends, TLM2.0 protocols | Apache 2.0 |
 
@@ -53,3 +54,4 @@ This is a list of open-source Virtual Platforms (VPs):
 [10]: https://github.com/Minres/TGC-VP
 [11]: https://github.com/accellera-official/PySysC
 [12]: https://github.com/VP-Vibes/VPV-Peripherals
+[13]: https://hlslibs.org/
