@@ -10,14 +10,14 @@ Please [let us know][issues] if a universiry or institute is missing or needs up
 | [RWTH Aachen University][11] | Germany | Faculty of Electrical Engineering and Information Technology | Computer Science 3 |
 | [Sorbonne University][8] | France | LIP6 / CIAN - Analog and Digital Integrated Circuit |  |
 | [Texas A&M University][12] | USA | Electrical & Computer Engineering  | Advanced Digital System Design |
-| [Techical University Chemnitz][10] | Germany | Faculty Electrical Engineering and Information Technology / Circuit and System Design | Design of Digital Systems |
-| [Techical University Delft ][13] | Netherlands | Microelectronics / Circuits and Systems Group | VLSI Systems on Chip |
-| [Techical University Dresden][9] | Germany | Institute of Computer Engineering | Hardware Modeling and Simulation |
-| [Techical University Kaiserslautern][2] | Germany | Computer Science / Cyber-Physical Systems | Virtual Prototyping and HW/SW Co-Design |
-| [Techical University Munich][3] | Germany | Department of Electrical and Computer Engineering | SystemC Lab |
+| [Technical University Chemnitz][10] | Germany | Faculty Electrical Engineering and Information Technology / Circuit and System Design | Design of Digital Systems |
+| [Technical University Delft ][13] | Netherlands | Microelectronics / Circuits and Systems Group | VLSI Systems on Chip |
+| [Technical University Dresden][9] | Germany | Institute of Computer Engineering | Hardware Modeling and Simulation |
+| [Technical University Kaiserslautern][2] | Germany | Computer Science / Cyber-Physical Systems | Virtual Prototyping and HW/SW Co-Design |
+| [Technical University Munich][3] | Germany | Department of Electrical and Computer Engineering | SystemC Lab |
 | [Ulm University][1] | Germany | Institute of Microelectronics | Electronic System Design using C and SystemC |
 | [University of California, Irvine][7] | USA | Center for Embedded and Cyber-physical Systems (CECS) | Embedded Systems Modeling and Design |
-| [University of Texas at Austin][4] | USA | System-Level Architecture and Modeling Group | Embedded System Design and Modeling |
+| [University of Texas, Austin][4] | USA | System-Level Architecture and Modeling Group | Embedded System Design and Modeling |
 | [University of Southampton][5] | UK | Electronics and Computer Science | Digital Systems Synthesis |
 
 
