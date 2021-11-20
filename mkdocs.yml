@@ -24,7 +24,7 @@ nav:
     - 'Books': 'resources/books.md'
     - 'Education': 'resources/education.md'
     - 'Libraries & Projects': 'resources/projects.md'
-    - 'Standards & Implementations': 'resources/downloads.md' 
+    - 'Standards & Implementations': 'resources/standards.md' 
     - 'Tools': 'resources/tools.md'
     - 'Training': 'resources/training.md'
     - 'Videos': 'resources/videos.md' 

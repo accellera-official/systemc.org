@@ -1,4 +1,4 @@
-# SystemC Downloads
+# SystemC Standards & Implementations
 
 This page lists the most recent versions of the SystemC standards and implementations. Older versions can be found on the [Accellera SystemC download page][1].
 
