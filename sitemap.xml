@@ -36,17 +36,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://systemc.org/resources/downloads/</loc>
-         <lastmod>2021-11-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://systemc.org/resources/education/</loc>
          <lastmod>2021-11-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://systemc.org/resources/projects/</loc>
+         <lastmod>2021-11-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://systemc.org/resources/standards/</loc>
          <lastmod>2021-11-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
