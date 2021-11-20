@@ -32,15 +32,29 @@ This is a list of open-source Virtual Platforms (VPs):
 | :-------------- | :--------------------------------------- | :----------------------------------------- | :----------- |
 | [ARMv8 Virtual Platform (AVP64)][7]      | OCX QEMU-based ARMv8 multi-core VP       | CoreMark, Dhrystone, Linux, Xen hypervisor | MIT          |
 | [HIFIVE1-VP][8] | DBT-RISE-based RISC-V VP                 | FreeRTOS                                   | BSD 3-Clause |
-| [OpenRISC 1000 Multicore Virtual Platform (OR1KMVP)][9]    | OR1KISS-based multi-core OpenRISC1000 VP | Linux                                      | Apache 2.0   |
+| [OpenRISC 1000 Multicore VP (OR1KMVP)][9]    | OR1KISS-based multi-core OpenRISC1000 VP | Linux                                      | Apache 2.0   |
 | [TGC-VP][10]    | The Scale4Edge ecosystem RISC-V VP | FreeRTOS | Apache 2.0 |
+| [Xilinx Zynq-7000][16] | QEMU based Xilinx Zynq-7000 SoC connected SystemC TLM 2.0  |  | MIT |
+
+## Compilers
+
+| Name       | Description                                                                                                              | License    |
+| :--------- | :----------------------------------------------------------------------------------------------------------------------- | :--------- |
+| [SystemC compiler][14] | Compiler which translates synthesizable SystemC design to synthesizable SystemVerilog design | Apache 2.0 |
+| [Verilator][15] | Compiler and simulator which translates Verilog/SystemVerilog to SystemC | LGPL-3.0  |
+
+## Simulators
+
+| Name          | Description                               | License |
+| :------------ | :---------------------------------------- | :------ |
+| [SystemC][50] | SystemC Reference Implementation          | Apache 2.0 |
+| [SystemC-AMS][51] | SystemC-AMS Proof-of-concept implementation | Apache 2.0 |
 
 ## Python Integration
 
 | Name       | Description                                                                                                              | License    |
 | :--------- | :----------------------------------------------------------------------------------------------------------------------- | :--------- |
 | [PySysC][11] | A Python package to make SystemC usable from Python. It supports composition of a SystemC/TLM model as well as running the simulation. | Apache 2.0 |
-
 
 [1]: https://github.com/accellera-official/systemc.org/issues
 [2]: https://github.com/nvdla/vp
@@ -55,3 +69,9 @@ This is a list of open-source Virtual Platforms (VPs):
 [11]: https://github.com/accellera-official/PySysC
 [12]: https://github.com/VP-Vibes/VPV-Peripherals
 [13]: https://hlslibs.org/
+[14]: https://github.com/intel/systemc-compiler
+[15]: https://github.com/verilator/verilator
+[16]: https://github.com/Xilinx/systemctlm-cosim-demo
+
+[50]: https://www.accellera.org/images/downloads/standards/systemc/systemc-2.3.3.tar.gz
+[51]: https://www.coseda-tech.com/systemc-ams-proof-of-concept

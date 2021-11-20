@@ -11,6 +11,7 @@ Please [let us know][issues] if an EDA tool or technology is missing or needs up
 | [360 DV-SC][17] | [Onespin][onespin] | Formal verification of algorithmic and HLS models |
 | [Active HDL][14] | [Aldec][aldec] | Windows based integrated FPGA Design Creation and Simulation solution |
 | [Catapult HLS][11] | [Siemens EDA][siemens] | High-level synthesis of C/C++ or SystemC descriptions to RTL |
+| [CoFluent][18] | [Intel][intel] | System modeling and simulation solution to analyze performance properties |
 | [CyberWorkBench][15] | [NEC][nec] | High-level synthesis of C/C++ or SystemC descriptions to RTL |
 | [COSIDE][1]   | [COSEDA][coseda]  | Integrated design environment for heterogeneous system modeling using SystemC and SystemC-AMS |
 | [Helium][4] | [Cadence][cnds] | Integrated design environment to enable early pre-silicon software bring-up and concurrent hardware/software co-verification |
@@ -46,6 +47,7 @@ Please [let us know][issues] if an EDA tool or technology is missing or needs up
 [15]: https://www.nec.com/en/global/prod/cwb/index.html?
 [16]: https://www.mathworks.com/help/hdlverifier/ug/getting-started-with-tlm-generator.html
 [17]: https://www.onespin.com/solutions/functional-correctness
+[18]: https://www.intel.com/content/www/us/en/cofluent/overview.html
 
 [coseda]: https://www.coseda-tech.com
 [snps]: https://www.synopsys.com/
@@ -59,9 +61,6 @@ Please [let us know][issues] if an EDA tool or technology is missing or needs up
 [nec]: https://www.nec.com/
 [mathworks]: https://www.mathworks.com/
 [onespin]: https://www.onespin.com/
-
-[50]: https://www.accellera.org/images/downloads/standards/systemc/systemc-2.3.3.tar.gz
-[51]: https://www.coseda-tech.com/systemc-ams-proof-of-concept
-[52]: https://www.veripool.org/verilator/
+[intel]: https://www.intel.com/
 
 [issues]: https://github.com/accellera-official/systemc.org/issues 

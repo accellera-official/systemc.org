@@ -16,15 +16,18 @@ nav:
 - Overview: 
     - 'SystemC': 'overview/systemc.md' 
     - 'SystemC AMS': 'overview/systemc-ams.md' 
-- Downloads: 'downloads.md' 
+- Community:
+    - Events:
+      - 'SystemC Evolution Day 2021': 'events/sced2021.md'
+    - Discussion forum: https://forums.accellera.org/forum/9-systemc/
 - Resources:
     - 'Books': 'resources/books.md'
+    - 'Education': 'resources/education.md'
     - 'Libraries & Projects': 'resources/projects.md'
+    - 'Standards & Implementations': 'resources/downloads.md' 
     - 'Tools': 'resources/tools.md'
     - 'Training': 'resources/training.md'
     - 'Videos': 'resources/videos.md' 
-- Events:
-    - 'SystemC Evolution Day 2021': 'events/sced2021.md'
-- Forums: https://forums.accellera.org/forum/9-systemc/
+- Playground: https://www.edaplayground.com/x/56Q4 
 - About: 'about.md'
 
