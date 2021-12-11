@@ -31,6 +31,9 @@ This is a list of open-source Virtual Platforms (VPs):
 | Name            | Description                              | Workloads                                  | License      |
 | :-------------- | :--------------------------------------- | :----------------------------------------- | :----------- |
 | [ARMv8 Virtual Platform (AVP64)][7]      | OCX QEMU-based ARMv8 multi-core VP       | CoreMark, Dhrystone, Linux, Xen hypervisor | MIT          |
+| [GreenSocs A53 VP][17] | ARM Cortex A53 multi-core VP (registration required) | Linux | GPLv2 |
+| [GreenSocs N1 VP][18] | ARM Neoverse N1 multi-core VP (registration required) | Linux | GPLv2 |
+| [GreenSocs RISC-V64 VP][19] | 64-bit RISC-V multi-core VP (registration required) | Linux | GPLv2 |
 | [HIFIVE1-VP][8] | DBT-RISE-based RISC-V VP                 | FreeRTOS                                   | BSD 3-Clause |
 | [OpenRISC 1000 Multicore VP (OR1KMVP)][9]    | OR1KISS-based multi-core OpenRISC1000 VP | Linux                                      | Apache 2.0   |
 | [TGC-VP][10]    | The Scale4Edge ecosystem RISC-V VP | FreeRTOS | Apache 2.0 |
@@ -72,6 +75,9 @@ This is a list of open-source Virtual Platforms (VPs):
 [14]: https://github.com/intel/systemc-compiler
 [15]: https://github.com/verilator/verilator
 [16]: https://github.com/Xilinx/systemctlm-cosim-demo
+[17]: https://git.greensocs.com/platforms/greensocs-cortex-a53
+[18]: https://git.greensocs.com/platforms/greensocs-neoverse-n1
+[19]: https://git.greensocs.com/platforms/greensocs-riscv64
 
 [50]: https://www.accellera.org/images/downloads/standards/systemc/systemc-2.3.3.tar.gz
 [51]: https://www.coseda-tech.com/systemc-ams-proof-of-concept
