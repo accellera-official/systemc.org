@@ -23,7 +23,6 @@ Please [let us know][issues] if an EDA tool or technology is missing or needs up
 | [VCS][9] | [Synopsys][snps] | Multi-language simulation environment supporting Verilog, SystemVerilog, VHDL, and SystemC |
 | [Virtualizer][3] | [Synopsys][snps] | Integrated design environment for the development and deployment of virtual prototypes |
 | [Vista][5] | [Siemens EDA][siemens] | Integrated design environment for virtual prototyping, debugging, and analyzing of complex systems |
-| [Vivado HLS][10] | [Xilinx][xlx] | High-level synthesis of C/C++ or SystemC descriptions to RTL |
 | [VLAB][8] | [ASTC][vlab] | Simulation environment to enable virtualization of embedded products, driving rapid design iterations across hardware and software |
 | [Xcelium][7] | [Cadence][cnds] | Multi-language simulation environment supporting Verilog, SystemVerilog, VHDL, and SystemC |
 
