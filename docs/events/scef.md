@@ -6,7 +6,7 @@ toc: false
 
 In addition to our [SystemC Evolution Day][1] events, we are also continuing the SystemC Evolution with smaller, regular, online workshops. We refer to these workshops as *fikas*, to honor the fika tradition of sharing a coffee, slowing down a bit, and talking about things that we care about. These virtual events are free of charge.
 
-If you have topics that you think should be included in upcoming fikas, please let us know at [systemc-evolution-day@lists.accellera.org](mailto:systemc-evolution-day@lists.accellera.org).
+If you have topics that you think should be included in upcoming fikas, please let us know at [systemc-evolution-fika@lists.accellera.org](mailto:systemc-evolution-fika@lists.accellera.org).
 
 <img style="width:300px;" src="/images/fika.jpg">
 
@@ -26,7 +26,7 @@ If you have topics that you think should be included in upcoming fikas, please l
 
 ## Contact us
 
-[systemc-evolution-day@lists.accellera.org](mailto:systemc-evolution-day@lists.accellera.org)
+[systemc-evolution-fika@lists.accellera.org](mailto:systemc-evolution-fika@lists.accellera.org)
 
 [1]: https://systemc.org/events/sced2021/
 [2]: https://www.accellera.org/news/events/systemc-evolution-fika/systemc-evolution-fika-june-2021
