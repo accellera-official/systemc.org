@@ -1,3 +1,5 @@
+toc: false
+
 # SystemC Education
 
 This page gives an overview of the available education and university programs teaching SystemC. 
@@ -6,7 +8,8 @@ Please [let us know][issues] if a universiry or institute is missing or needs up
 
 | University    | Country     | Department     | Lectures                                       |
 | :------------ | :---------- | :--------------| :---------------------------------------------------- |
-| [Johannes Kepler University Linz][6] | Austria | Institute for Complex Systems (ICS)| Virtual Prototyping/SystemC |
+| [Grenoble Alpes University][14] | France | Grenoble INP Ensimag | Transaction Level Modeling in SystemC |
+| [Johannes Kepler University Linz][6] | Austria | Institute for Complex Systems (ICS) | Virtual Prototyping/SystemC |
 | [RWTH Aachen University][11] | Germany | Faculty of Electrical Engineering and Information Technology | Computer Science 3 |
 | [Sorbonne University][8] | France | LIP6 / CIAN - Analog and Digital Integrated Circuit |  |
 | [Texas A&M University][12] | USA | Electrical & Computer Engineering  | Advanced Digital System Design |
@@ -36,3 +39,4 @@ Please [let us know][issues] if a universiry or institute is missing or needs up
 [11]: https://www.elektrotechnik.rwth-aachen.de/
 [12]: https://cesg.tamu.edu/
 [13]: https://cas.tudelft.nl/
+[14]: https://ensimag.grenoble-inp.fr/en
