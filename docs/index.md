@@ -14,7 +14,7 @@ toc: false
           </div>
           <div class="col-lg-6">
             <h1 class="display-5 fw-bold lh-1 mb-3">Welcome to the SystemC Community Portal</h1>
-            <p class="lead">Your online reference for everything related to SystemC, the language for system-level design, modeling and verification.</p>
+            <p class="lead">Your online reference for everything related to SystemC, the language for system-level design, high-level synthesis, modeling and verification.</p>
           <a href="/overview/systemc/" class="btn btn-primary btn-lg">Overview</a>
          <a href="/resources/standards/" class="btn btn-secondary btn-lg">Downloads</a>
         </div>
