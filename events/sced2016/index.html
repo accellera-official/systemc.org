@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://systemc.org/events/sced2016/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+<title>systemc.org</title>
+
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+        <link href="../../stylesheets/extra.css" rel="stylesheet">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+<a class="navbar-brand" href="/"><img src="/images/systemc.png" alt="Logo" style="width:140px;"></a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Overview <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../overview/systemc/" class="dropdown-item">SystemC</a>
+</li>
+                                    
+<li>
+    <a href="../../overview/systemc-ams/" class="dropdown-item">SystemC AMS</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Community <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Events</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../scevents/" class="dropdown-item">SystemC Evolution Events</a>
+</li>
+            
+<li>
+    <a href="../scef202204/" class="dropdown-item">SystemC Evolution Fika - 7 April 2022</a>
+</li>
+            
+<li>
+    <a href="../scef202106/" class="dropdown-item">SystemC Evolution Fika - June 2021</a>
+</li>
+            
+<li>
+    <a href="../scef202103/" class="dropdown-item">SystemC Evolution Fika - March 2021</a>
+</li>
+            
+<li>
+    <a href="../sced2021/" class="dropdown-item">SystemC Evolution Day 2021</a>
+</li>
+            
+<li>
+    <a href="../sced2020/" class="dropdown-item">SystemC Evolution Day 2020</a>
+</li>
+            
+<li>
+    <a href="../sced2019/" class="dropdown-item">SystemC Evolution Day 2019</a>
+</li>
+            
+<li>
+    <a href="../sced2018/" class="dropdown-item">SystemC Evolution Day 2018</a>
+</li>
+            
+<li>
+    <a href="../sced2017/" class="dropdown-item">SystemC Evolution Day 2017</a>
+</li>
+            
+<li>
+    <a href="./" class="dropdown-item active">SystemC Evolution Day 2016</a>
+</li>
+    </ul>
+  </li>
+                                    
+<li>
+    <a href="https://forums.accellera.org/forum/9-systemc/" class="dropdown-item">Discussion forum</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../resources/books/" class="dropdown-item">Books</a>
+</li>
+                                    
+<li>
+    <a href="../../resources/education/" class="dropdown-item">Education</a>
+</li>
+                                    
+<li>
+    <a href="../../resources/projects/" class="dropdown-item">Libraries & Projects</a>
+</li>
+                                    
+<li>
+    <a href="../../resources/standards/" class="dropdown-item">Standards & Implementations</a>
+</li>
+                                    
+<li>
+    <a href="../../resources/tools/" class="dropdown-item">Tools</a>
+</li>
+                                    
+<li>
+    <a href="../../resources/training/" class="dropdown-item">Training</a>
+</li>
+                                    
+<li>
+    <a href="../../resources/videos/" class="dropdown-item">Videos</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="navitem">
+                                <a href="https://www.edaplayground.com/x/56Q4" class="nav-link">Playground</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../about/" class="nav-link">About</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+    <li class="nav-item">
+        <a href="https://github.com/accellera-official/systemc/" class="nav-link"><i class="fa fa-github"></i> GitHub</a>
+    </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+<div class="col-md-12" role="main">
+
+<h1 id="systemc-evolution-day-2016">SystemC Evolution Day 2016 <img style="float: right; width:300px;" src="/images/systemC-evolution-day-2016b.png"></h1>
+<p><strong>Workshop on the Evolution of SystemC Standards</strong><br>
+<strong>Tuesday, May 3, 2016</strong><br>
+<strong>Munich, Germany</strong></p>
+<h2 id="highlights">Highlights</h2>
+<p><strong>Enthusiastic SystemC User Community Joins Forces at First SystemC Evolution Day</strong></p>
+<p>As a result of the high level of interest in the SystemC birds-of-a-feather session at DVCon Europe 2015, the SystemC user community met again earlier this month for a full day to discuss the evolution of the various SystemC standards. With more than 50 participants, the new Accellera-sponsored technical workshop was sold out, with representatives from more than 20 companies and seven universities in attendance.</p>
+<p>The main objective of the SystemC Evolution Day was to identify the areas to align and accelerate the different SystemC standardization initiatives within Accellera and propose solutions for standards inclusion. The workshop started with presentations covering user experiences and standardization proposals in the fields of high-level synthesis, parallel SystemC simulation, transaction-level modeling (TLM) and interactive tracing and debug. In the afternoon, various technical sessions focused on the interaction between multiple SystemC working groups addressing C++11/14 standard adoption, multi-threaded SystemC, TLM for serial interfaces and UVM-SystemC combined with Configuration Control and Inspection (CCI). In a wrap-up session, the main conclusions were shared, including proposals for further standardization. The material and presentations are available for Accellera members active in any of the SystemC working groups.</p>
+<p>The participants were all very excited to actively contribute to the success of this workshop. After the positive feedback from the attendees, the organization committee is exploring the best and most effective way to continue the workshop on a regular basis. </p>
+<p><img src="/images/systemcevolutionday2016b.jpg"></p>
+<h2 id="summary-of-the-event">Summary of the Event</h2>
+<p>The first SystemC Evolution Day was a new full-day technical workshop on the evolution of SystemC standards to advance the SystemC ecosystem.  In several in-depth sessions, selected current and future standardization topics around SystemC were discussed in order to accelerate their progress for inclusion in Accellera and IEEE standards.</p>
+<p>The SystemC Evolution Day is intended as a lean, user-centric, hands-on forum bringing together the experts from the SystemC user community and the Accellera working groups to advance SystemC-related standards in a full day workshop.</p>
+<p>Date: 3 May 2016<br>
+Time: 10:00 - 18:00 CEST<br>
+Location:  Intel Deutschland, Am Campeon 10, 85579 Neubiberg, Munich, Germany</p>
+<h2 id="organization-team">Organization Team:</h2>
+<ul>
+<li>Philipp A Hartmann, Intel</li>
+<li>Oliver Bell, Intel,</li>
+<li>Martin Barnasconi, NXP</li>
+<li>Matthias Bauer, Infineon</li>
+</ul>
+<h2 id="agenda">Agenda</h2>
+<table>
+<thead>
+<tr>
+<th>Time (CEST)&nbsp;&nbsp;</th>
+<th>Title</th>
+<th>Presenter/Moderator</th>
+<th>Affiliation(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10:00 - 10:45</td>
+<td><strong>Welcome, Introduction, SystemC WG Updates</strong><br><a href="https://workspace.accellera.org/document/dl/10935">Presentation</a></td>
+<td>Philipp A Hartmann<sup>1</sup><br>Martin Barnasconi<sup>2</sup></td>
+<td><sup>1</sup>Intel<br><sup>2</sup>Accellera</td>
+</tr>
+<tr>
+<td>10:45 - 12:45</td>
+<td><strong>Lightning Talks</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Addressing the HLS Coding Barrier</strong><br><a href="#addressing-the-hls-coding-barrier">Abstract</a> | <a href="https://workspace.accellera.org/document/dl/10927">Presentation</a></td>
+<td>Dominik Strasser</td>
+<td>OneSpin Solutions</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Seven Obstacles in the Way of Parallel SystemC Simulation</strong><br><a href="#seven-obstacles-in-the-way-of-parallel-systemc-simulation">Abstract</a> | <a href="https://workspace.accellera.org/document/dl/10928">Presentation</a></td>
+<td>Rainer Dömer</td>
+<td>University of California, Irvine</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Events and Timing in TLM - Extend and Clarify</strong><br><a href="#events-and-timing-in-tlm-extend-and-clarify">Abstract</a> | <a href="https://workspace.accellera.org/document/dl/10929">Presentation</a></td>
+<td>Jakob Engblom</td>
+<td>Intel Corporation</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Tracing and Interactive Test/Debug in SystemC and SystemC AMS</strong><br><a href="#tracing-and-interactive-testdebug-in-systemc-and-systemc-ams">Abstract</a> | <a href="https://workspace.accellera.org/document/dl/10930">Presentation</a></td>
+<td>Karsten Einwich</td>
+<td>COSEDA Technologies</td>
+</tr>
+<tr>
+<td>12:45 - 13:45</td>
+<td><strong>Lunch break</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13:45 – 17:15</td>
+<td><strong>Technical Sessions</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>1.1 SystemC/TLM and Language Standards (C++11/14)</strong><br><a href="#11-systemctlm-and-language-standards-c1114">Abstract</a> | <a href="https://workspace.accellera.org/document/dl/10931">Presentation</a></td>
+<td>Ralph Görgen</td>
+<td>OFFIS</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>1.2 Multi-Threaded SystemC and External Interfaces</strong><br><a href="#12-multi-threaded-systemc-and-external-interfaces">Abstract</a> | <a href="https://workspace.accellera.org/document/dl/10932">Presentation</a></td>
+<td>Mark Burton</td>
+<td>Greensocs</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>2.1 TLM Standard for Serial Interfaces</strong><br><a href="#21-tlm-standard-for-serial-interfaces">Abstract</a> | <a href="https://workspace.accellera.org/document/dl/10933">Presentation</a></td>
+<td>Martin Schnieringer</td>
+<td>Bosch</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>2.2 UVM-SystemC &amp; Configuration, Control and Inspection (CCI)</strong><br><a href="#22-uvm-systemc-configuration-control-and-inspection-cci">Abstract</a> | <a href="https://workspace.accellera.org/document/dl/10934">Presentation</a></td>
+<td>Martin Barnasconi</td>
+<td>NXP</td>
+</tr>
+<tr>
+<td>13:45 – 17:15</td>
+<td><strong>Wrap-up, next standardization steps, closing</strong><br><a href="https://workspace.accellera.org/document/dl/10936">Presentation</a></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="lightning-talks">Lightning Talks</h2>
+<p>In the morning a series of lightning talks are presented covering concrete, but smaller, standardization proposals as well as introducing new standardization needs around SystemC. For each of these short presentations, time for an interactive discussion will be included to gather feedback and support and for identifying the next steps towards standardization.</p>
+<h3 id="addressing-the-hls-coding-barrier">Addressing the HLS Coding Barrier</h3>
+<p>Presenter: Dominik Strasser, OneSpin Solutions</p>
+<p>The verification of code for HLS is an important SystemC application. By working with HLS customers in the formal verification area, a number of inconsistencies in the standard have emerged, which require non-standard solutions on a synthesis tool-by-tool basis. These include simulation-synthesis mismatches, differing number formats and others, reminiscent of the early RTL synthesis days. OneSpin would like to present its findings at the event and discuss how we might resolve these synthesis coding style issues, to enable more general verification tools to be applied in different synthesis flows.</p>
+<h3 id="seven-obstacles-in-the-way-of-parallel-systemc-simulation">Seven Obstacles in the Way of Parallel SystemC Simulation</h3>
+<p>Presenter: Rainer Dömer, University of California, Irvine, USA</p>
+<p>The IEEE 1666‐2011 standard defines SystemC based on discrete event simulation and sequential co-routine semantics, despite explicit parallelism in the model and ample parallel processor cores available in today’s host computers. In order to evolve the SystemC standard towards faster parallel discrete event simulation, substantial hurdles must be overcome. This presentation identifies seven obstacles in the standard that stand in the way of efficient parallel SystemC simulation, including the co‐operative multitasking semantics, the role of channels, TLM‐2.0, sequential modeling mindset, and technical details. For each obstacle, we discuss the problem and propose a potential solution toward truly parallel SystemC.</p>
+<h3 id="events-and-timing-in-tlm-extend-and-clarify">Events and Timing in TLM – Extend and Clarify</h3>
+<p>Presenter: Jakob Engblom, Intel Corporation</p>
+<p>We propose a small addition to the TLM features of SystemC, a payload-enhanced event class, along with a mechanism that will let active initiators serve events to passive devices without involving the kernel, inside their own temporal decoupling time slice.  By having a payload in the event, it is possible to write certain types of TLM code in a more natural way.  By allowing one module to defer the execution of events to another module, more efficient scheduling of event-driven code and more consistent temporal decoupling semantics are made possible – at the cost of putting more responsibility on the initiators.</p>
+<h3 id="tracing-and-interactive-testdebug-in-systemc-and-systemc-ams">Tracing and Interactive Test/Debug in SystemC and SystemC AMS</h3>
+<p>Presenter: Karsten Einwich, COSEDA Technologies</p>
+<p>This presentation aims to initiate the discussion, whether the SystemC and SystemC-AMS tracing should/can be unified. The more flexible tracing infrastructure in SystemC AMS adds extended tracing capabilities around user-defined data type support as well as advanced control of the tracing during the simulation. Additionally, the SystemC AMS working group currently discusses to integrate an interactive debug feature, allowing to read/write/listen to values in the SystemC model in a consistent way. This feature can be generalized and should be make available for SystemC as well.</p>
+<h2 id="technical-sessions">Technical Sessions</h2>
+<p>In the afternoon, technical in-depth sessions on ongoing standardization topics are held with a special focus on areas with overlap between multiple SystemC Working Groups. The following sessions are planned:</p>
+<h3 id="11-systemctlm-and-language-standards-c1114">1.1 SystemC/TLM and Language Standards (C++11/14)</h3>
+<p>Moderator: Ralph Görgen, OFFIS</p>
+<p>The evolution of the C++ language – more specific: the new standards C++11 and C++14 – have introduced a number of features that can significantly improve quality, safety and performance. In this session, it is planned to discuss and evaluate how these features can be used efficiently by SystemC and TLM designers and methodology library providers and how they can leveraged to improve design productivity, model quality and simulation performance. This includes the exploration of possible extensions of the core SystemC languages for improved C++11 integration and the consequences for the underlying standards.</p>
+<h3 id="12-multi-threaded-systemc-and-external-interfaces">1.2 Multi-Threaded SystemC and External Interfaces</h3>
+<p>Moderator: Mark Burton, GreenSocs</p>
+<p>There has been much research in the area of multi-threading SystemC, both at the level of processes and threads and at the level of models themselves, both automatic and co-operative. In this topic, we welcome contributions about how SystemC itself can be made more parallel, and how multi-threaded models can be deployed in SystemC. As it is closely related, we also welcome contributions that explore the integration of external simulators and models into SystemC, especially where those simulators are themselves multi-threaded. The eventual aim of this topic will be to propose additions to the language which will facilitate multi-threading as well as interfaces to foreign simulation environments that will support multi-threading.</p>
+<h3 id="21-tlm-standard-for-serial-interfaces">2.1 TLM Standard for Serial Interfaces</h3>
+<p>Moderator: Martin Schnieringer, Bosch</p>
+<p>TLM 2.0 as part of IEEE 1666-2011 is a well-defined and widely deployed abstraction level for on-chip memory mapped components connected via buses and interconnects, enabling quick platform assembly. For common (automotive) serial protocols such as SPI, CAN, FlexRay, I2C, etc., no such modeling is established yet, resulting in additional integration effort of various ad-hoc solutions from different sources. In this session, ongoing activities in that area are presented and discussed, including requirements and scenarios that shall be supported by such a standard for TLM Serial Interfaces. Additionally, the potential reuse of existing TLM 2.0 components such as interfaces, sockets, phases, payloads etc. and missing elements required for allowing easy and intuitive modeling of serial interfaces will be explored.</p>
+<h3 id="22-uvm-systemc-configuration-control-and-inspection-cci">2.2 UVM-SystemC &amp; Configuration, Control and Inspection (CCI)</h3>
+<p>Moderator: Martin Barnasconi, NXP</p>
+<p>Accellera’s Universal Verification Methodology (UVM), originally developed in SystemVerilog, is now made available in SystemC to facilitate the creation and reuse of system-level verification components and environments. The UVM-SystemC library offers dedicated verification functionality such as fine-grained simulation phases, factory overrides, configuration management, register model, and test and stimuli control. In parallel, the SystemC Configuration, Control and Inspection (CCI) standard is under development for the exchange of information between the design under verification (DUV) and tooling. The objective of this session is to align and unite the proposed methods for the DUV register configuration and control, from a test bench and tools perspective.</p>
+<h2 id="wrap-up">Wrap-up</h2>
+<p>After the technical sessions, a dedicated wrap-up slot will be used to present the main results from the different in-depth discussions, summarizing next steps for further progressing these topics within the relevant Accellera SystemC Working Groups by the Accellera members. If you would like to become an Accellera member to participate in the working groups, information on how to join can be found at www.accellera.org/about/join. </p>
+<h2 id="contact-us">Contact us</h2>
+<p><a href="mailto:systemc-evolution-day@lists.accellera.org">systemc-evolution-day@lists.accellera.org</a></p></div>
+
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+<hr>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4" style="text-align: left;">&copy; 2022 <a href="https://accellera.org/" target="_blank">Accellera Systems Initiative</a></div>
+        <div class="col-md-4" style="text-align: center;"><a href="https://github.com/accellera-official/systemc.org" target="_blank">Contribute</a></div>
+        <div class="col-md-4" style="text-align: right;">
+            <a href="/privacy/">Privacy Policy</a>
+        </div>
+    </div>
+</div>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
