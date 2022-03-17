@@ -30,11 +30,16 @@ The SystemC AMS standard defined in [IEEE Std. 1666.1-2016][3] introduces system
 
 The goal of Configuration, Control and Inspection (CCI) is to improve efficiency and ROI for model creators and tool providers. They CCI standards will allow suppliers to instrument models so that a rich user experience is enabled, and they will allow industry tools to leverage this instrumentation to provide powerful debug and analysis capabilities. The CCI working group is currently defining standards for the exchange of information between SystemC models and tools.
 
+[More information about SystemC CCI](/overview/systemc-cci/)
+
 ## SystemC Verification (UVM-SystemC, SCV)
 
 The UVM-SystemC library provides an implementation of the Universal Verification Methodology (UVM) in SystemC. The UVM-SystemC class library enables the development of scalable and reusable verification collateral for system-level verification and testing.
 
 The SystemC Verification (SCV) library provides a common set of APIs that are used as a basis to verification activities with SystemC (generation of values under constraints, transaction recording, etc.). These APIs are implemented in all major SystemC simulators available on the market.
+
+[More information about SystemC Verification](/overview/systemc-verification/)
+
 
 [1]: https://accellera.org
 [2]: https://standards.ieee.org/standard/1666-2011.html

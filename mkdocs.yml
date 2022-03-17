@@ -16,6 +16,8 @@ nav:
 - Overview: 
     - 'SystemC': 'overview/systemc.md' 
     - 'SystemC AMS': 'overview/systemc-ams.md' 
+    - 'SystemC CCI': 'overview/systemc-cci.md' 
+    - 'SystemC Verification': 'overview/systemc-verification.md' 
 - Community:
     - Events:
       - 'SystemC Evolution Events': 'events/scevents.md'
