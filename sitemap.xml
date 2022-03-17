@@ -71,6 +71,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://systemc.org/overview/systemc-cci/</loc>
+         <lastmod>2022-03-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://systemc.org/overview/systemc-verification/</loc>
+         <lastmod>2022-03-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://systemc.org/overview/systemc/</loc>
          <lastmod>2022-03-17</lastmod>
          <changefreq>daily</changefreq>
