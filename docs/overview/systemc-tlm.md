@@ -8,7 +8,7 @@ The extended APIs provide a fundamental, general-purpose interoperability layer.
 
 Several TLM features boost simulation performance — enabling what is called "speed interoperability" in addition to "model interoperability" for SystemC virtual platforms. Temporal decoupling allows initiator models, such as instruction set simulators, to run ahead of the SystemC kernel and synchronize only periodically to significantly reduce the required number of costly context switches. The direct memory interface allows interconnect models to be bypassed, facilitating high-speed access to modeled memory. A dedicated transaction debug interface ensures that debugging is an integral part of a system model while enabling debug activity without interference with the system simulation.
 
-SystemC TLM is integral part of the SystemC langauge standard defined in [IEEE Std 1666-2011][1].
+SystemC TLM is integral part of the SystemC language standard defined in [IEEE Std 1666-2011][1].
 
 <img style="width:90%" src="/images/systemc-tlm-layers.svg">
 
