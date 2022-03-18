@@ -76,6 +76,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://systemc.org/overview/systemc-tlm/</loc>
+         <lastmod>2022-03-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://systemc.org/overview/systemc-verification/</loc>
          <lastmod>2022-03-18</lastmod>
          <changefreq>daily</changefreq>
