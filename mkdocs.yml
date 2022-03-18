@@ -17,6 +17,7 @@ nav:
     - 'SystemC': 'overview/systemc.md' 
     - 'SystemC AMS': 'overview/systemc-ams.md' 
     - 'SystemC CCI': 'overview/systemc-cci.md' 
+    - 'SystemC TLM': 'overview/systemc-tlm.md' 
     - 'SystemC Verification': 'overview/systemc-verification.md' 
 - Community:
     - Events:
