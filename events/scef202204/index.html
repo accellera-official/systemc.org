@@ -221,25 +221,25 @@ Location: Online, Virtual Workshop.</p>
 </tr>
 <tr>
 <td>16:10 - 16:30</td>
-<td><strong>sc-during: Parallel Programming on Top of SystemC</strong></td>
+<td><strong>sc-during: Parallel Programming on Top of SystemC</strong><br><a href="#sc-during-parallel-programming-on-top-of-systemc">Abstract</a></td>
 <td>Matthieu Moy</td>
 <td>Laboratoire d’Informatique<br>du Parallélisme (LIP),<br> Lyon, France</td>
 </tr>
 <tr>
 <td>16:30 - 16:50</td>
-<td><strong>Ensuring reproducible parallel LT TLM models simulation with SCale SystemC kernel</strong></td>
+<td><strong>Ensuring reproducible parallel LT TLM models simulation with SCale SystemC kernel</strong><br><a href="#ensuring-reproducible-parallel-lt-tlm-models-simulation-with-scale-systemc-kernel">Abstract</a></td>
 <td>Tanguy Sassolas</td>
 <td>CEA - LIST, Gif-sur-Yvette, France</td>
 </tr>
 <tr>
 <td>16:50 - 17:10</td>
-<td><strong>The Intel Simics Simulator and SystemC and Threading</strong></td>
+<td><strong>The Intel Simics Simulator and SystemC and Threading</strong><br><a href="#the-intel-simics-simulator-and-systemc-and-threading">Abstract</a></td>
 <td>Jakob Engblom</td>
 <td>Intel, Stockholm, Sweden</td>
 </tr>
 <tr>
 <td>17:10 - 17:30</td>
-<td><strong>RISC: A Compiler for Parallel SystemC with Maximum Standard Compliance</strong></td>
+<td><strong>RISC: A Compiler for Parallel SystemC with Maximum Standard Compliance</strong><br><a href="#risc-a-compiler-for-parallel-systemc-with-maximum-standard-compliance">Abstract</a></td>
 <td>Rainer Dömer</td>
 <td>University of California,<br> Irvine, CA, USA</td>
 </tr>
@@ -251,6 +251,26 @@ Location: Online, Virtual Workshop.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="abstracts">Abstracts</h2>
+<h2 id="sc-during-parallel-programming-on-top-of-systemc">sc-during: Parallel Programming on Top of SystemC</h2>
+<p><em>Presenter: Matthieu Moy, Laboratoire d’Informatique du Parallélisme (LIP), Lyon, France</em></p>
+<p>The SystemC/TLM technologies are widely accepted in the industry for fast system-level simulation. An important limitation of SystemC regarding performance is that the reference implementation is sequential, and the official semantics makes parallel executions difficult.
+We propose an approach that explicitly targets loosely timed systems, and offers the user a set of primitives to express tasks with duration, as opposed to the notion of time in SystemC which allows only instantaneous computations and time elapses without computation.
+Our tool exploits this notion of duration to run the simulation in parallel. It runs on top of any (unmodified) SystemC implementation, which lets legacy SystemC code continue running as-it-is. This allows the user to focus on the performance-critical parts of the program that need to be parallelized.</p>
+<p>More information: <a href="https://matthieu-moy.fr/spip/?sc-during-Parallel-Programming-on">https://matthieu-moy.fr/spip/?sc-during-Parallel-Programming-on</a></p>
+<h2 id="ensuring-reproducible-parallel-lt-tlm-models-simulation-with-scale-systemc-kernel">Ensuring reproducible parallel LT TLM models simulation with SCale SystemC kernel</h2>
+<p><em>Presenter: Tanguy Sassolas, CEA - LIST, Gif-sur-Yvette, France</em></p>
+<p>To meet virtual prototyping simulation needs for the design of complex SoC, several techniques (TLM, DMI, temporal decoupling) were used to abstract the modelling while maintaining the sequential evaluation stemming from SystemC standard coroutine approach. Parallelization of models at this level of abstraction requires ensuring atomic evaluation of all sc_threads to maintain expected model behavior and ensure reproducible simulation, key to guest software debugging. This presentation will detail how the SCale SystemC kernel tackles this issue through efficient monitoring of sc_thread’s accesses to shared resources and process-level rollback when necessary.</p>
+<p>More information: <a href="https://hal.archives-ouvertes.fr/hal-03487607/document">https://hal.archives-ouvertes.fr/hal-03487607/documen</a></p>
+<h2 id="the-intel-simics-simulator-and-systemc-and-threading">The Intel Simics Simulator and SystemC and Threading</h2>
+<p><em>Presenter: Jakob Engblom, Intel Corporation, Stockholm, Sweden</em></p>
+<p>This presentation gives a short introduction to the threading model used in version 6 of the Intel® Simics® simulator, and how SystemC subsystems are integrated into it. The Simics framework supports running multiple different SystemC subsystems in parallel, using the Simics simulator core threading mechanisms. The requirement to stick to standard SystemC kernel semantics imposes some limitations on the available parallelism.</p>
+<p>More information: <a href="https://www.intel.com/content/www/us/en/developer/articles/tool/simics-simulator.html">https://www.intel.com/content/www/us/en/developer/articles/tool/simics-simulator.html</a></p>
+<h2 id="risc-a-compiler-for-parallel-systemc-with-maximum-standard-compliance">RISC: A Compiler for Parallel SystemC with Maximum Standard Compliance</h2>
+<p><em>Presenter: Rainer Dömer | University of California, Irvine, CA, USA</em></p>
+<p>We briefly review the major obstacles that stand in the way of standard-compliant parallel SystemC simulation and then present the Recoding Infrastructure for SystemC (RISC), which is a compiler-based approach to overcome these obstacles. RISC enables the parallel simulation of unmodified SystemC models with maximum standard compliance.
+Reference: R. Dömer: "Seven Obstacles in the Way of Standard-Compliant Parallel SystemC Simulation", IEEE Embedded Systems Letters, vol. 8, no. 4, pp. 81-84, December 2016.</p>
+<p>More information: <a href="https://www.cecs.uci.edu/~doemer/risc.html">https://www.cecs.uci.edu/~doemer/risc.html</a></p>
 <h2 id="contact-us">Contact us</h2>
 <p><a href="mailto:systemc-evolution-fika@lists.accellera.org">systemc-evolution-fika@lists.accellera.org</a></p></div>
 
