@@ -61,6 +61,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://systemc.org/events/scef202209/</loc>
+         <lastmod>2022-04-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://systemc.org/events/scevents/</loc>
          <lastmod>2022-04-14</lastmod>
          <changefreq>daily</changefreq>
