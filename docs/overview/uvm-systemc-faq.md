@@ -12,7 +12,7 @@ Accellera solicits feedback on the UVM-SystemC standard defined in the LRM. Furt
 
 ## Does UVM-SystemC support constrained randomization?
 
-While the previous version of UVM-SystemC (beta2) did not contain a constraint solver for randomization, the current release does now support randomization and constraints.
+The UVM-SystemC proof-of-concept implementation does not contain a constraint solver for randomization. Instead, an add-on library for randomization and constraints is required, such as CRAVE.
 
 ## Where can I find UVM-SystemC examples?
 
