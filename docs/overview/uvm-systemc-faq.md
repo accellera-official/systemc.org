@@ -1,0 +1,73 @@
+toc: false
+
+# UVM-SystemC Frequently Asked Questions
+
+## What is UVM-SystemC?
+
+UVM-SystemC is a new standard to develop structured verification environments following the Universal Verification Methodology (UVM). UVM-SystemC is defined in a language reference manual (LRM) and supported by a proof-of-concept implementation, implemented as a class library based on C++ and SystemC.
+
+## What is the objective of the public review period?
+
+Accellera solicits feedback on the UVM-SystemC standard defined in the LRM. Furthermore, feedback is welcome highlighting discrepancies between the standard and the proof-of-concept implementation.
+
+## Does UVM-SystemC support constrained randomization?
+
+While the previous version of UVM-SystemC (beta2) did not contain a constraint solver for randomization, the current release does now support randomization and constraints.
+
+## Where can I find UVM-SystemC examples?
+
+The UVM-SystemC release contains some basic examples showing the capabilities of the standard and proof-of-concept implementation.
+
+## What do I need to run UVM-SystemC?
+
+UVM-SystemC requires a C++ compiler and a SystemC library compatible with IEEE Std 1666-2011, for example the Accellera SystemC 2.3.0 to 2.3.3 proof-of-concept implementation, which can be found here.
+
+## Is UVM-SystemC compatible with UVM in SystemVerilog?
+
+The UVM-SystemC language definition aims to be fully compatible with the Accellera UVM standard in SystemVerilog. The development of UVM-SystemC is based on UVM 1.1, and in the process of being updated to align with UVM 1.2. Due to some reserved keywords in C++, a few functions and methods differ. In addition, the use of C++ and SystemC language concepts are promoted, resulting in more elegant and powerful functionality. The differences between UVM-SystemC and UVM-SystemVerilog are clearly indicated in the LRM.
+
+## Is UVM-SystemC compatible with version UVM 1.1 or UVM 1.2?
+
+Please check the language reference manual for the exact definition of the API.
+Can I mix Verification IP developed in UVM-SystemC with VIP created in UVM-SystemVerilog?
+
+The UVM-SystemC release does not address multi-language concepts. Additional libraries are necessary to interface between the SystemC and SystemVerilog elements. Please contact your local EDA solution provider whether they can offer a multi-language interface.
+
+## Can I create register models in UVM-SystemC?
+
+The current version of UVM-SystemC does not contain the register abstraction layer to create register models. Creation of register and memory models is planned for one of the future releases
+
+## Is UVM-SystemC supported by commercial EDA tools?
+
+Please contact your local EDA solution provider to check if UVM-SystemC is supported. As UVM-SystemC is built on top of SystemC, most SystemC IEEE Std 1666-2011 compatible simulators should be able to incorporate UVM-SystemC.
+
+## Can I verify my SystemC virtual prototype with UVM-SystemC?
+
+Yes, any SystemC representation can be combined with the UVM-SystemC verification environment.
+Can I verify my RTL design with UVM-SystemC?
+
+Including your RTL design (in Verilog, SystemVerilog or VHDL) requires mixed-language support. Please contact your local EDA solution provider to check if UVM-SystemC can be combined with your RTL design.
+
+## Is there a User’s Guide for UVM-SystemC?
+
+The release package of UVM-SystemC contains a tutorial presentation, which contains examples showing how to create UVM-SystemC components, test benches, and tests.
+
+## Will UVM-SystemC become an IEEE standard?
+
+Accellera will host the development of UVM-SystemC standard and proof-of-concept implementation, to ensure it develops into a mature and stable standard. As soon as certain quality and stability level is reached, Accellera will consider contributing UVM-SystemC to the IEEE Standards Association. It is expected that this will take some years.
+
+## Is UVM-SystemC open source?
+
+Yes, the UVM-SystemC language reference manual as well as the proof-of-concept library are released under the Apache 2.0 open source license.
+
+## Where can I find more information on UVM-SystemC?
+
+Please visit the [SystemC Verification Working Group page](https://www.accellera.org/activities/working-groups/systemc-verification). For more details or visit the Accellera [forums](http://forums.accellera.org).
+
+## How can I contribute to this initiative?
+
+Accellera members can contribute to this project by joining the SystemC Verification Working Group (login required). If your company is not member, you can find out more about Accellera membership here.
+
+## What is the timeline for the next release?
+
+Releases are created when defined milestones are reached. Ongoing major activities are the development and testing of the register layer and constraint randomization capabilities. Additional support and contributions are highly appreciated. The Working Group’s plan is to release the next version of UVM-SystemC in 2019, but this is highly dependent on the progress and number of active contributors to the development.
