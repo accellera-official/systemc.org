@@ -29,9 +29,10 @@ toc: false
           </div>
           <div class="col-lg-6">
             <h1 class="display-5 fw-bold lh-1 mb-3">SystemC Evolution Fika</h1>
-            <p class="lead">The third SystemC Fika took place on April 7. Main theme of the event was parallelization of SystemC simulations.</p>
-            <a href="/events/scef202204/" class="btn btn-primary btn-lg">Event details</a>
+            <p class="lead">The third SystemC Fika took place on April 7. The next Fika is scheduled at September 15, the Call for Presentations is now open.</p>
+            <a href="/events/scef202204/" class="btn btn-primary btn-lg">April 7 Event Summary </a>
             <!--<a href="https://form.jotform.com/220664698202963" class="btn btn-secondary btn-lg">Free registration</a>-->
+            <a href="/events/scef202209/" class="btn btn-secondary btn-lg">Call for Presentations</a>
           </div>
         </div>
       </div>
