@@ -96,6 +96,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://systemc.org/overview/uvm-systemc-faq/</loc>
+         <lastmod>2022-04-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://systemc.org/resources/books/</loc>
          <lastmod>2022-04-14</lastmod>
          <changefreq>daily</changefreq>
