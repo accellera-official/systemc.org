@@ -79,7 +79,13 @@
        font-size="19"
        transform="translate(69.6322,519)"
        id="text11"
-       style="font-weight:400;font-size:19px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff">Configuration</text>
+       style="font-weight:400;font-size:19px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff"><tspan
+   font-size="19"
+   x="5"
+   y="0"
+   id="tspan17"
+   style="font-size:19px">Configuration</tspan>
+   </text>
     <rect
        x="48.500099"
        y="462.5"
@@ -206,7 +212,7 @@
        id="text51"
        style="font-weight:400;font-size:19px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff">State<tspan
    font-size="19"
-   x="-71.873299"
+   x="-65.873299"
    y="22"
    id="tspan49"
    style="font-size:19px">(registers, variables)</tspan>
@@ -225,7 +231,7 @@
        id="text57"
        style="font-weight:400;font-size:19px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff">Data<tspan
    font-size="19"
-   x="-108.507"
+   x="-93.507"
    y="22"
    id="tspan55"
    style="font-size:19px">(performance, power, stats)</tspan>
@@ -257,13 +263,7 @@
    x="0.54540598"
    y="167"
    id="tspan65"
-   style="font-size:24px;fill:#99cc00">Standard</tspan>
-<tspan
-   font-size="24"
-   x="141.71201"
-   y="167"
-   id="tspan67"
-   style="font-size:24px;fill:#99cc00">interfaces</tspan>
+   style="font-size:24px;fill:#99cc00">Standard interfaces</tspan>
 </text>
     <path
        d="m 170,253.916 h 8.25 V 241 h 16.5 v 12.916 H 203 L 186.5,268 Z"
@@ -344,21 +344,15 @@
        font-size="19"
        transform="translate(753.094,508)"
        id="text101"
-       style="font-weight:400;font-size:19px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff">Build<tspan
+       style="font-weight:400;font-size:19px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff"><tspan
    font-size="19"
-   x="46.833302"
+   x="6"
    y="0"
    id="tspan95"
-   style="font-size:19px">-</tspan>
+   style="font-size:19px">Build-in debug</tspan>
 <tspan
    font-size="19"
-   x="53.5"
-   y="0"
-   id="tspan97"
-   style="font-size:19px">in debug</tspan>
-<tspan
-   font-size="19"
-   x="9.4133301"
+   x="16"
    y="22"
    id="tspan99"
    style="font-size:19px">functionality</tspan>

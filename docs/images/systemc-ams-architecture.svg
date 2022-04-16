@@ -80,30 +80,13 @@
        font-size="21"
        transform="translate(227.302,234)"
        id="text19"
-       style="font-weight:400;font-size:21px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff">Methodology<tspan
+       style="font-weight:400;font-size:21px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff"><tspan
    font-size="21"
-   x="137.627"
+   x="35"
    y="0"
    id="tspan11"
-   style="font-size:21px">-</tspan>
-<tspan
-   font-size="21"
-   x="152.127"
-   y="0"
-   id="tspan13"
-   style="font-size:21px">and Technology</tspan>
-<tspan
-   font-size="21"
-   x="317.95999"
-   y="0"
-   id="tspan15"
-   style="font-size:21px">-</tspan>
-<tspan
-   font-size="21"
-   x="325.62701"
-   y="0"
-   id="tspan17"
-   style="font-size:21px">specific Libraries</tspan>
+   style="font-size:21px">Methodology-and Technology-specific Libraries</tspan>
+
 </text>
     <rect
        x="147.5"
@@ -118,18 +101,12 @@
        font-size="21"
        transform="translate(248.333,285)"
        id="text27"
-       style="font-weight:400;font-size:21px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff">SystemC Analog/Mixed<tspan
+       style="font-weight:400;font-size:21px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff"><tspan
    font-size="21"
-   x="245.17999"
+   x="8"
    y="0"
    id="tspan23"
-   style="font-size:21px">-</tspan>
-<tspan
-   font-size="21"
-   x="252.847"
-   y="0"
-   id="tspan25"
-   style="font-size:21px">Signal (AMS) Language</tspan>
+   style="font-size:21px">SystemC Analog/Mixed-Signal (AMS) Language</tspan>
 </text>
     <rect
        x="498.5"
@@ -207,19 +184,7 @@
    x="55.853298"
    y="22"
    id="tspan49"
-   style="font-size:15px">IEEE Std. 1666</tspan>
-<tspan
-   font-size="15"
-   x="164.02"
-   y="22"
-   id="tspan51"
-   style="font-size:15px">-</tspan>
-<tspan
-   font-size="15"
-   x="169.353"
-   y="22"
-   id="tspan53"
-   style="font-size:15px">2011</tspan>
+   style="font-size:15px">IEEE Std. 1666-2011</tspan>
 </text>
     <rect
        x="323.5"
@@ -338,45 +303,15 @@
        font-size="19"
        transform="translate(181.842,498)"
        id="text105"
-       style="font-weight:400;font-size:19px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff">Time<tspan
+       style="font-weight:400;font-size:19px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff"><tspan
    font-size="19"
-   x="45.5933"
+   x="22.5933"
    y="0"
    id="tspan91"
-   style="font-size:19px">-</tspan>
+   style="font-size:19px">Time-domain and small-signal frequency domain</tspan>
 <tspan
    font-size="19"
-   x="52.259998"
-   y="0"
-   id="tspan93"
-   style="font-size:19px">domain and small</tspan>
-<tspan
-   font-size="19"
-   x="219.093"
-   y="0"
-   id="tspan95"
-   style="font-size:19px">-</tspan>
-<tspan
-   font-size="19"
-   x="225.75999"
-   y="0"
-   id="tspan97"
-   style="font-size:19px">signal frequency</tspan>
-<tspan
-   font-size="19"
-   x="380.18701"
-   y="0"
-   id="tspan99"
-   style="font-size:19px">-</tspan>
-<tspan
-   font-size="19"
-   x="386.853"
-   y="0"
-   id="tspan101"
-   style="font-size:19px">domain</tspan>
-<tspan
-   font-size="19"
-   x="113.053"
+   x="90.053"
    y="20"
    id="tspan103"
    style="font-size:19px">simulation infrastructure</tspan>
@@ -450,18 +385,12 @@
        font-size="21"
        transform="rotate(-90,324.8485,189.1515)"
        id="text131"
-       style="font-weight:400;font-size:21px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff">IEEE Std. 1666.1<tspan
+       style="font-weight:400;font-size:21px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff"><tspan
    font-size="21"
-   x="177"
-   y="3.25144e-014"
+   x="10"
+   y="0"
    id="tspan127"
-   style="font-size:21px">-</tspan>
-<tspan
-   font-size="21"
-   x="185"
-   y="3.39839e-014"
-   id="tspan129"
-   style="font-size:21px">2016</tspan>
+   style="font-size:21px">IEEE Std. 1666.1-2016</tspan>
 </text>
     <rect
        x="110.5"
@@ -481,19 +410,7 @@
    x="65.580002"
    y="22"
    id="tspan135"
-   style="font-size:15px">ISO/IEC Std. 14882</tspan>
-<tspan
-   font-size="15"
-   x="204.74699"
-   y="22"
-   id="tspan137"
-   style="font-size:15px">-</tspan>
-<tspan
-   font-size="15"
-   x="210.08"
-   y="22"
-   id="tspan139"
-   style="font-size:15px">2003</tspan>
+   style="font-size:15px">ISO/IEC Std. 14882-2003</tspan>
 </text>
   </g>
 </svg>
