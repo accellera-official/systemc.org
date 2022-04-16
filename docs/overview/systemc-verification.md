@@ -35,6 +35,6 @@ To enable coverage-driven verification, the functional coverage library FC4SC ca
 
 [1]: https://www.accellera.org/downloads/standards/systemc
 [2]: https://www.accellera.org/images/downloads/standards/systemc/scv-2.0.1.tar.gz
-[3]: https://www.accellera.org/images/downloads/drafts-review/uvm-systemc-10-beta3tar.gz
+[3]: https://www.accellera.org/images/downloads/drafts-review/uvm-systemc-10-beta4tar.gz
 [4]: http://www.informatik.uni-bremen.de/agra/systemc-verification/crave.html
 [5]: https://github.com/amiq-consulting/fc4sc
