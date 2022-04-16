@@ -85,19 +85,7 @@
    x="55.853298"
    y="22"
    id="tspan11"
-   style="font-size:15px">IEEE Std. 1666</tspan>
-<tspan
-   font-size="15"
-   x="164.02"
-   y="22"
-   id="tspan13"
-   style="font-size:15px">-</tspan>
-<tspan
-   font-size="15"
-   x="169.353"
-   y="22"
-   id="tspan15"
-   style="font-size:15px">2011</tspan>
+   style="font-size:15px">IEEE Std. 1666-2011</tspan>
 </text>
     <rect
        x="110.5"
@@ -117,19 +105,7 @@
    x="65.580002"
    y="22"
    id="tspan21"
-   style="font-size:15px">ISO/IEC Std. 14882</tspan>
-<tspan
-   font-size="15"
-   x="204.74699"
-   y="22"
-   id="tspan23"
-   style="font-size:15px">-</tspan>
-<tspan
-   font-size="15"
-   x="210.08"
-   y="22"
-   id="tspan25"
-   style="font-size:15px">2003</tspan>
+   style="font-size:15px">ISO/IEC Std. 14882-2003</tspan>
 </text>
     <rect
        x="110.5"
@@ -144,12 +120,12 @@
        font-size="21"
        transform="translate(195.518,212)"
        id="text33"
-       style="font-weight:400;font-size:21px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff">System-<tspan
+       style="font-weight:400;font-size:21px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff"><tspan
    font-size="21"
-   x="87.333298"
+   x="27.333298"
    y="0"
    id="tspan31"
-   style="font-size:21px">level Verification and Validation Methodology</tspan>
+   style="font-size:21px">System-level Verification and Validation Methodology</tspan>
 </text>
     <rect
        x="110.5"
@@ -350,27 +326,27 @@
        font-size="19"
        transform="translate(739.466,439)"
        id="text103"
-       style="font-weight:400;font-size:19px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff">Utilities<tspan
+       style="font-weight:400;font-size:19px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff"> Utilities<tspan
    font-size="15"
-   x="-1.16669"
+   x="1.83331"
    y="27"
    id="tspan95"
    style="font-size:15px">reporting,</tspan>
 <tspan
    font-size="15"
-   x="-2.25336"
+   x="1.74664"
    y="47"
    id="tspan97"
    style="font-size:15px">recording,</tspan>
 <tspan
    font-size="15"
-   x="-28.42"
+   x="-24.42"
    y="67"
    id="tspan99"
    style="font-size:15px">policies, phasing,</tspan>
 <tspan
    font-size="15"
-   x="1.33331"
+   x="5.33331"
    y="87"
    id="tspan101"
    style="font-size:15px">callbacks</tspan>
@@ -388,7 +364,13 @@
        font-size="19"
        transform="translate(129.759,439)"
        id="text115"
-       style="font-weight:400;font-size:19px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff">Randomization*<tspan
+       style="font-weight:400;font-size:19px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff"><tspan
+   font-size="19"
+   x="4"
+   y="0"
+   id="tspan1071"
+   style="font-size:19px">Randomization*</tspan>
+<tspan
    font-size="19"
    x="36.4333"
    y="22"
@@ -396,19 +378,19 @@
    style="font-size:19px">(CRAVE)</tspan>
 <tspan
    font-size="15"
-   x="-7.8733401"
+   x="-4.8733401"
    y="50"
    id="tspan109"
    style="font-size:15px">Random variables and</tspan>
 <tspan
    font-size="15"
-   x="0.29333499"
+   x="4.29333499"
    y="70"
    id="tspan111"
    style="font-size:15px">objects, constraints,</tspan>
 <tspan
    font-size="15"
-   x="9.2066698"
+   x="13.2066698"
    y="90"
    id="tspan113"
    style="font-size:15px">constraint solvers</tspan>
@@ -426,7 +408,13 @@
        font-size="19"
        transform="translate(305.54,439)"
        id="text131"
-       style="font-weight:400;font-size:19px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff">Functional coverage*<tspan
+       style="font-weight:400;font-size:19px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff"><tspan
+   font-size="19"
+   x="10"
+   y="0"
+   id="tspan119"
+   style="font-size:19px">Functional coverage*</tspan>
+<tspan
    font-size="19"
    x="61.66"
    y="22"
@@ -434,31 +422,19 @@
    style="font-size:19px">(FC4SC)</tspan>
 <tspan
    font-size="15"
-   x="30.24"
+   x="34.24"
    y="50"
    id="tspan121"
-   style="font-size:15px">Covergroups</tspan>
+   style="font-size:15px">Covergroups, bins,</tspan>
 <tspan
    font-size="15"
-   x="123.74"
-   y="50"
-   id="tspan123"
-   style="font-size:15px">, bins,</tspan>
-<tspan
-   font-size="15"
-   x="2.99332"
+   x="6.99332"
    y="70"
    id="tspan125"
-   style="font-size:15px">coverpoints</tspan>
+   style="font-size:15px">coverpoints, crosses, type</tspan>
 <tspan
    font-size="15"
-   x="88.826698"
-   y="70"
-   id="tspan127"
-   style="font-size:15px">, crosses, type</tspan>
-<tspan
-   font-size="15"
-   x="13.74"
+   x="17.74"
    y="90"
    id="tspan129"
    style="font-size:15px">and instance, sampling</tspan>
@@ -476,27 +452,33 @@
        font-size="19"
        transform="translate(563.031,439)"
        id="text145"
-       style="font-weight:400;font-size:19px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff">Temporal <tspan
+       style="font-weight:400;font-size:19px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff"><tspan
    font-size="19"
-   x="-9.6732798"
+   x="4"
+   y="0"
+   id="tspan135"
+   style="font-size:19px">Temporal</tspan>
+<tspan
+   font-size="19"
+   x="-5.6732798"
    y="22"
    id="tspan135"
    style="font-size:19px">assertions*</tspan>
 <tspan
    font-size="15"
-   x="-13.0067"
+   x="-9.0067"
    y="50"
    id="tspan137"
    style="font-size:15px">Immediate and</tspan>
 <tspan
    font-size="15"
-   x="-39.419998"
+   x="-35.419998"
    y="70"
    id="tspan139"
    style="font-size:15px">concurrent assertions,</tspan>
 <tspan
    font-size="15"
-   x="-37.0867"
+   x="-32.0867"
    y="90"
    id="tspan141"
    style="font-size:15px">combining sequences</tspan>

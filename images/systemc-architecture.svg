@@ -80,19 +80,7 @@
        font-size="21"
        transform="translate(131.302,120)"
        id="text15"
-       style="font-weight:400;font-size:21px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff">Methodology<tspan
-   font-size="21"
-   x="137.627"
-   y="0"
-   id="tspan11"
-   style="font-size:21px">-</tspan>
-<tspan
-   font-size="21"
-   x="152.127"
-   y="0"
-   id="tspan13"
-   style="font-size:21px">and Technology</tspan>
--specific Libraries</text>
+       style="font-weight:400;font-size:21px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff">Methodology- and Technolog-specific Libraries</text>
     <rect
        x="51.500099"
        y="232.5"
@@ -172,40 +160,16 @@
        id="text71"
        style="font-weight:400;font-size:19px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff">Data Types<tspan
    font-size="15"
-   x="-18.706699"
-   y="41"
-   id="tspan39"
-   style="font-size:15px">4</tspan>
-<tspan
-   font-size="15"
-   x="-9.3733501"
-   y="41"
-   id="tspan41"
-   style="font-size:15px">-</tspan>
-<tspan
-   font-size="15"
-   x="-4.0399799"
+   x="-10.0399799"
    y="41"
    id="tspan43"
-   style="font-size:15px">valued logic type</tspan>
+   style="font-size:15px">4-valued logic type</tspan>
 <tspan
    font-size="15"
-   x="-29.3734"
-   y="61"
-   id="tspan45"
-   style="font-size:15px">4</tspan>
-<tspan
-   font-size="15"
-   x="-20.040001"
-   y="61"
-   id="tspan47"
-   style="font-size:15px">-</tspan>
-<tspan
-   font-size="15"
-   x="-14.7067"
+   x="-20.7067"
    y="61"
    id="tspan49"
-   style="font-size:15px">valued logic vectors</tspan>
+   style="font-size:15px">4-valued logic vectors</tspan>
 <tspan
    font-size="15"
    x="12.2133"
@@ -214,58 +178,22 @@
    style="font-size:15px">Bit vectors</tspan>
 <tspan
    font-size="15"
-   x="-37.040001"
+   x="-29.040001"
    y="101"
    id="tspan53"
-   style="font-size:15px">Finite</tspan>
+   style="font-size:15px">Finite-precision integers</tspan>
 <tspan
    font-size="15"
-   x="3.6266501"
-   y="101"
-   id="tspan55"
-   style="font-size:15px">-</tspan>
-<tspan
-   font-size="15"
-   x="8.9600201"
-   y="101"
-   id="tspan57"
-   style="font-size:15px">precision integers</tspan>
-<tspan
-   font-size="15"
-   x="-44.040001"
-   y="121"
-   id="tspan59"
-   style="font-size:15px">Limited</tspan>
-<tspan
-   font-size="15"
-   x="10.6266"
-   y="121"
-   id="tspan61"
-   style="font-size:15px">-</tspan>
-<tspan
-   font-size="15"
-   x="15.96"
+   x="-36"
    y="121"
    id="tspan63"
-   style="font-size:15px">precision integers</tspan>
+   style="font-size:15px">Limited-precision integers</tspan>
 <tspan
    font-size="15"
-   x="-12.2067"
-   y="141"
-   id="tspan65"
-   style="font-size:15px">Fixed</tspan>
-<tspan
-   font-size="15"
-   x="27.293301"
-   y="141"
-   id="tspan67"
-   style="font-size:15px">-</tspan>
-<tspan
-   font-size="15"
-   x="32.626598"
+   x="-10"
    y="141"
    id="tspan69"
-   style="font-size:15px">point types</tspan>
+   style="font-size:15px">Fixed-point types</tspan>
 </text>
     <rect
        x="181.5"
@@ -344,19 +272,7 @@
        font-size="19"
        transform="translate(238.895,449)"
        id="text101"
-       style="font-weight:400;font-size:19px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff">Event<tspan
-   font-size="19"
-   x="53.5"
-   y="0"
-   id="tspan95"
-   style="font-size:19px">-</tspan>
-<tspan
-   font-size="19"
-   x="60.166698"
-   y="0"
-   id="tspan97"
-   style="font-size:19px">driven Simulation</tspan>
-<tspan
+       style="font-weight:400;font-size:19px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff">Event-driven Simulation<tspan
    font-size="15"
    x="46.0867"
    y="22"
@@ -376,18 +292,7 @@
        font-size="21"
        transform="rotate(-90,231.84845,192.15155)"
        id="text109"
-       style="font-weight:400;font-size:21px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff">IEEE Std. 1666<tspan
-   font-size="21"
-   x="156"
-   y="2.86567e-014"
-   id="tspan105"
-   style="font-size:21px">-</tspan>
-<tspan
-   font-size="21"
-   x="164"
-   y="3.0126299e-014"
-   id="tspan107"
-   style="font-size:21px">2011</tspan>
+       style="font-weight:400;font-size:21px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff">IEEE Std. 1666-2011
 </text>
     <rect
        x="51.500099"
@@ -421,25 +326,7 @@
    x="-36.5867"
    y="16"
    id="tspan117"
-   style="font-size:11px">IEEE</tspan>
-<tspan
-   font-size="11"
-   x="-10.0867"
-   y="16"
-   id="tspan119"
-   style="font-size:11px">Std. 1666.1</tspan>
-<tspan
-   font-size="11"
-   x="51.9133"
-   y="16"
-   id="tspan121"
-   style="font-size:11px">-</tspan>
-<tspan
-   font-size="11"
-   x="55.7467"
-   y="16"
-   id="tspan123"
-   style="font-size:11px">2016</tspan>
+   style="font-size:12px">IEEE Std. 1666.1-2016</tspan>
 </text>
     <rect
        x="14.5001"
@@ -533,19 +420,7 @@
    x="65.580002"
    y="22"
    id="tspan151"
-   style="font-size:15px">ISO/IEC Std. 14882</tspan>
-<tspan
-   font-size="15"
-   x="204.74699"
-   y="22"
-   id="tspan153"
-   style="font-size:15px">-</tspan>
-<tspan
-   font-size="15"
-   x="210.08"
-   y="22"
-   id="tspan155"
-   style="font-size:15px">2003</tspan>
+   style="font-size:15px">ISO/IEC Std. 14882-2003</tspan>
 </text>
   </g>
 </svg>
