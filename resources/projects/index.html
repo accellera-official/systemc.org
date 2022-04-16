@@ -199,6 +199,7 @@
 <h1 id="systemc-libraries-projects">SystemC Libraries &amp; Projects</h1>
 <p>This page gives an overview of open-source SystemC libraries and projects.
 Please <a href="https://github.com/accellera-official/systemc.org/issues">let us know</a> if a project or library is missing or needs update.</p>
+<p><br></p>
 <h2 id="models">Models</h2>
 <p>This is a list of SystemC models for use in virtual platforms:</p>
 <table>
@@ -237,8 +238,9 @@ Please <a href="https://github.com/accellera-official/systemc.org/issues">let us
 </tr>
 </tbody>
 </table>
-<h2 id="productivity-libraries">Productivity Libraries</h2>
-<p>Productivity libraries contain common resources and building blocks that can be used for High-Level Synthesis or the creation of SystemC-based virtual platforms. </p>
+<p><br></p>
+<h2 id="productivity-and-utility-libraries">Productivity and Utility Libraries</h2>
+<p>The Productivity and utility libraries contain common resources, building blocks, and utilities that can be used for creation of SystemC-based virtual platforms, supporting different use cases such as software development, Architecture exploration, and High-Level Synthesis. </p>
 <table>
 <thead>
 <tr>
@@ -263,20 +265,32 @@ Please <a href="https://github.com/accellera-official/systemc.org/issues">let us
 <td align="left">Sockets, Tracing, Registers, GDB server, Logging, Session Protocol, Component Models, Network backends, TLM2.0 protocols</td>
 <td align="left">Apache-2.0</td>
 </tr>
+<tr>
+<td align="left"><a href="https://gitlab.com/moy/sc-during">sc-during</a></td>
+<td align="left">Parallel programming on top of SystemC/TLM</td>
+<td align="left">LGPLv2.1</td>
+</tr>
 </tbody>
 </table>
-<h2 id="virtual-platforms">Virtual Platforms</h2>
-<p>This is a list of open-source Virtual Platforms (VPs):</p>
+<p><br></p>
+<h2 id="virtual-platforms-and-virtual-prototypes">Virtual Platforms and Virtual Prototypes</h2>
+<p>This is a list of open-source Virtual Platforms and Virtual Prototypes (VPs):</p>
 <table>
 <thead>
 <tr>
 <th align="left">Name</th>
 <th align="left">Description</th>
-<th align="left">Workloads</th>
+<th align="left">OS / Workloads</th>
 <th align="left">License</th>
 </tr>
 </thead>
 <tbody>
+<tr>
+<td align="left"><a href="https://github.com/agra-uni-bremen/symex-vp">SymEx-VP</a></td>
+<td align="left">A concolic testing framework for RISC-V embedded software with support for SystemC peripherals.</td>
+<td align="left">RIOT, Zephyr, NuttX, Zig</td>
+<td align="left">GPLv3</td>
+</tr>
 <tr>
 <td align="left"><a href="https://github.com/aut0/avp64">ARMv8 Virtual Platform (AVP64)</a></td>
 <td align="left">OCX QEMU-based ARMv8 multi-core VP</td>
@@ -302,7 +316,7 @@ Please <a href="https://github.com/accellera-official/systemc.org/issues">let us
 <td align="left">GPLv2</td>
 </tr>
 <tr>
-<td align="left"><a href="https://git.minres.com/VP/HIFIVE1-VP">HIFIVE1-VP</a></td>
+<td align="left"><a href="https://github.com/Minres/HIFIVE1-VP">HIFIVE1-VP</a></td>
 <td align="left">DBT-RISE-based RISC-V VP</td>
 <td align="left">FreeRTOS</td>
 <td align="left">BSD-3-Clause</td>
@@ -327,7 +341,8 @@ Please <a href="https://github.com/accellera-official/systemc.org/issues">let us
 </tr>
 </tbody>
 </table>
-<h2 id="compilers-and-source-to-source-transformations">Compilers and source-to-source transformations</h2>
+<p><br></p>
+<h2 id="compilers-parsers-and-source-to-source-transformations">Compilers, parsers, and source-to-source transformations</h2>
 <table>
 <thead>
 <tr>
@@ -350,10 +365,16 @@ Please <a href="https://github.com/accellera-official/systemc.org/issues">let us
 <tr>
 <td align="left"><a href="https://github.com/verilator/verilator">Verilator</a></td>
 <td align="left">Compiler and simulator which translates Verilog/SystemVerilog to SystemC</td>
-<td align="left">LGPL-3.0</td>
+<td align="left">LGPLv3</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/anikau31/systemc-clang">systemc-clang</a></td>
+<td align="left">Static analysis framework for RTL and TLM SystemC models including a HDL synthesis plugin that generates Verilog</td>
+<td align="left">systemc-clang</td>
 </tr>
 </tbody>
 </table>
+<p><br></p>
 <h2 id="simulators">Simulators</h2>
 <table>
 <thead>
@@ -365,17 +386,18 @@ Please <a href="https://github.com/accellera-official/systemc.org/issues">let us
 </thead>
 <tbody>
 <tr>
-<td align="left"><a href="https://www.accellera.org/images/downloads/standards/systemc/systemc-2.3.3.tar.gz">SystemC</a></td>
-<td align="left">SystemC 2.3.3 Reference Implementation</td>
+<td align="left"><a href="https://github.com/accellera-official/systemc">SystemC</a></td>
+<td align="left">SystemC Reference Implementation</td>
 <td align="left">Apache-2.0</td>
 </tr>
 <tr>
 <td align="left"><a href="https://www.coseda-tech.com/systemc-ams-proof-of-concept">SystemC-AMS</a></td>
-<td align="left">SystemC-AMS 2.3 Proof-of-concept implementation</td>
+<td align="left">SystemC-AMS Proof-of-concept implementation</td>
 <td align="left">Apache-2.0</td>
 </tr>
 </tbody>
 </table>
+<p><br></p>
 <h2 id="python-integration">Python Integration</h2>
 <table>
 <thead>
@@ -393,6 +415,7 @@ Please <a href="https://github.com/accellera-official/systemc.org/issues">let us
 </tr>
 </tbody>
 </table>
+<p><br></p>
 <h2 id="verification">Verification</h2>
 <table>
 <thead>
@@ -414,8 +437,18 @@ Please <a href="https://github.com/accellera-official/systemc.org/issues">let us
 <td align="left">Apache-2.0</td>
 </tr>
 <tr>
-<td align="left"><a href="https://www.accellera.org/images/downloads/drafts-review/uvm-systemc-10-beta3tar.gz">UVM-SystemC</a></td>
+<td align="left"><a href="https://www.accellera.org/images/downloads/drafts-review/uvm-systemc-10-beta4tar.gz">UVM-SystemC</a></td>
 <td align="left">Accellera implementation and standard of the Universal Verification Methodology (UVM) in SystemC</td>
+<td align="left">Apache-2.0</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/agra-uni-bremen/crave">CRAVE</a></td>
+<td align="left">Constrained RAndom Verification Enviroment<br><em>NOTE: Join Accellera to get access to the latest version of this library</em></td>
+<td align="left">MIT</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/amiq-consulting/fc4sc">FC4SC</a></td>
+<td align="left">Functional Coverage for SystemC<br><em>NOTE: Join Accellera to get access to the latest version of this library</em></td>
 <td align="left">Apache-2.0</td>
 </tr>
 </tbody>
@@ -437,15 +470,15 @@ Please <a href="https://github.com/accellera-official/systemc.org/issues">let us
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#productivity-libraries" class="nav-link">Productivity Libraries</a>
+            <li class="nav-item" data-level="2"><a href="#productivity-and-utility-libraries" class="nav-link">Productivity and Utility Libraries</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#virtual-platforms" class="nav-link">Virtual Platforms</a>
+            <li class="nav-item" data-level="2"><a href="#virtual-platforms-and-virtual-prototypes" class="nav-link">Virtual Platforms and Virtual Prototypes</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#compilers-and-source-to-source-transformations" class="nav-link">Compilers and source-to-source transformations</a>
+            <li class="nav-item" data-level="2"><a href="#compilers-parsers-and-source-to-source-transformations" class="nav-link">Compilers, parsers, and source-to-source transformations</a>
               <ul class="nav flex-column">
               </ul>
             </li>
