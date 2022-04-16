@@ -14,7 +14,7 @@ The SystemC Verification Library 2.0.1 was released in December 2017. This relea
 
 ## UVM in SystemC (UVM-SystemC)
 
-The UVM-SystemC library provides an implementation of the Universal Verification Methodology (UVM) in SystemC. The UVM-SystemC class library enables the development of scalable and reusable verification collateral for system-level verification and testing. The aim of UVM-SystemC is to be API compatible with UVM in SystemVerilog, to faciliate seamless integration and exchange of Verification IP (VIP) between system-level and IP-level test benches.
+The UVM-SystemC library provides an implementation of the Universal Verification Methodology (UVM) in SystemC/C++. The UVM-SystemC class library enables the development of scalable and reusable verification collateral for system-level verification and testing. The aim of UVM-SystemC is to be API compatible with UVM in SystemVerilog, to faciliate seamless integration and exchange of Verification IP (VIP) between system-level and IP-level test benches.
 
 See also: [UVM-SystemC Frequently Asked Questions](/overview/uvm-systemc-faq/)
 
@@ -29,7 +29,7 @@ To enable coverage-driven verification, the functional coverage library FC4SC ca
 ## Resources
 
  * [SystemC Verification Library (SCV) 2.0.1 ][2]
- * [UVM-SystemC Library 1.0-beta3][3]
+ * [UVM-SystemC Library 1.0-beta4][3]
  * [CRAVE][4]
  * [FC4SC][5]
 
