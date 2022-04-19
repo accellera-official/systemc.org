@@ -22,7 +22,7 @@ This page lists the most recent versions of the SystemC standards and implementa
 
 [SystemC Verification Library (SCV) 2.0.1 ][9]
 
-[UVM-SystemC Library 1.0beta3][10]
+[UVM-SystemC Library 1.0beta4][10]
 
 ## GitHub repositories
 
@@ -37,5 +37,5 @@ This page lists the most recent versions of the SystemC standards and implementa
 [7]: https://www.coseda-tech.com/systemc-ams-proof-of-concept
 [8]: https://www.accellera.org/images/downloads/standards/systemc/cci-1.0.0.zip
 [9]: https://www.accellera.org/images/downloads/standards/systemc/scv-2.0.1.tar.gz
-[10]: https://www.accellera.org/images/downloads/drafts-review/uvm-systemc-10-beta3tar.gz
+[10]: https://www.accellera.org/images/downloads/drafts-review/uvm-systemc-10-beta4tar.gz
 [11]: https://github.com/accellera-official/systemc
