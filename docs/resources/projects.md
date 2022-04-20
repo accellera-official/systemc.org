@@ -102,7 +102,7 @@ This is a list of open-source Virtual Platforms and Virtual Prototypes (VPs):
 [18]: https://git.greensocs.com/platforms/greensocs-neoverse-n1
 [19]: https://git.greensocs.com/platforms/greensocs-riscv64
 [20]: http://www.cecs.uci.edu/~doemer/risc.html
-[21]: https://www.accellera.org/images/downloads/drafts-review/uvm-systemc-10-beta4tar.gz
+[21]: https://www.accellera.org/images/downloads/standards/systemc/uvm-systemc-1.0-beta4.tar.gz
 [22]: https://forums.accellera.org/files/file/65-uvm-ml-open-architecture/
 [23]: https://verificationacademy.com/topics/verification-methodology/uvm-connect
 [24]: https://github.com/hsa-ees/paranut
