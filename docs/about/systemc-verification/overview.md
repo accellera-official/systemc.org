@@ -16,7 +16,7 @@ The SystemC Verification Library 2.0.1 was released in December 2017. This relea
 
 The UVM-SystemC library provides an implementation of the Universal Verification Methodology (UVM) in SystemC/C++. The UVM-SystemC class library enables the development of scalable and reusable verification collateral for system-level verification and testing. The aim of UVM-SystemC is to be API compatible with UVM in SystemVerilog, to faciliate seamless integration and exchange of Verification IP (VIP) between system-level and IP-level test benches.
 
-See also: [UVM-SystemC Frequently Asked Questions](/overview/uvm-systemc-faq/)
+See also: [UVM-SystemC Frequently Asked Questions](/about/systemc-verification/uvm-systemc-faq/)
 
 ### Constrained Randomization library (CRAVE)
 

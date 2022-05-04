@@ -13,14 +13,18 @@ extra_css:
 
 nav:
 - Home: index.md
-- Overview: 
-    - SystemC: overview/systemc.md
-    - SystemC AMS: overview/systemc-ams.md
-    - SystemC CCI: overview/systemc-cci.md
-    - SystemC TLM: overview/systemc-tlm.md
+- About:
+    - SystemC: 
+      - Overview: about/systemc/overview.md
+#      - Documentation: about/systemc/documentation.md
+      - TLM: about/systemc/tlm.md
+    - SystemC AMS: 
+      - Overview: about/systemc-ams/overview.md
+    - SystemC CCI:
+      - Overview: about/systemc-cci/overview.md
     - SystemC Verification:
-      - Overview: overview/systemc-verification.md
-      - UVM-SystemC FAQ: overview/uvm-systemc-faq.md
+      - Overview: about/systemc-verification/overview.md
+      - UVM-SystemC FAQ: about/systemc-verification/uvm-systemc-faq.md
 - Community:
     - Events:
       - SystemC Evolution Events: events/scevents.md
