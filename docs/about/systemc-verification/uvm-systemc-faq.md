@@ -64,7 +64,7 @@ Yes, the UVM-SystemC language reference manual as well as the proof-of-concept l
 
 ## Where can I find more information on UVM-SystemC?
 
-The latest UVM-SystemC proof-of-concept implementation cabe be downloaded [here](https://www.accellera.org/downloads/drafts-review).
+The latest UVM-SystemC proof-of-concept implementation can be downloaded [here](https://www.accellera.org/downloads/drafts-review).
 Please visit the [SystemC Verification Working Group](https://www.accellera.org/activities/working-groups/systemc-verification) page for more information or post your questions and findings in the Accellera [forums](http://forums.accellera.org). 
 
 ## How can I contribute to this initiative?
