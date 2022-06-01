@@ -2,7 +2,7 @@ toc: false
 
 # SystemC Evolution Events<img style="float: right; width:300px;" src="/images/scef.png">
 <br>
-**The next Fika will take place at 7 April 2022 as online/virtual event. Visit [this page](../scef202204) for more information!**
+**The next Fika will take place at 15 September 2022 as online/virtual event. Visit [this page](../scef202209) for more information!**
 
 In addition to our SystemC Evolution Day events, we are also continuing the SystemC Evolution with smaller, regular, online workshops. We refer to these workshops as *fikas*, to honor the fika tradition of sharing a coffee, slowing down a bit, and talking about things that we care about. These virtual events are free of charge.
 
@@ -12,6 +12,7 @@ If you have topics that you think should be included in upcoming fikas, please l
 
 
 ## See the past SystemC Evolution Fikas
+* [April 2022](../scef202204/)
 * [June 2021](../scef202106/)
 * [March 2021](../scef202103/)
 
