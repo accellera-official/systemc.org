@@ -18,6 +18,7 @@ Please [let us know][issues] if an EDA tool or technology is missing or needs up
 | [Platform Architect][2] | [Synopsys][snps] | SystemC TLM 2.0 based graphical environment for early analysis and optimization of multicore SoC architectures for performance and power |
 | [Questa][6] | [Siemens EDA][siemens] | Multi-language simulation environment supporting Verilog, SystemVerilog, VHDL, and SystemC |
 | [Simulink Coder][16] | [Mathworks][mathworks] | SystemC/TLM component generator using the Simulink Coder |
+| [SIM-V][19] | [MachineWare][machineware] | RISC-V full system simulator with SystemC TLM-2.0 interfaces |
 | [Stratus HLS][12] | [Cadence][cnds] | High-level synthesis of C/C++ or SystemC descriptions to RTL |
 | [Tina][13] | [DesignSoft][tina] | Circuit Simulator for Analog, Digital, MCU and RF Circuits |
 | [VCS][9] | [Synopsys][snps] | Multi-language simulation environment supporting Verilog, SystemVerilog, VHDL, and SystemC |
@@ -47,6 +48,7 @@ Please [let us know][issues] if an EDA tool or technology is missing or needs up
 [16]: https://www.mathworks.com/help/hdlverifier/ug/getting-started-with-tlm-generator.html
 [17]: https://www.onespin.com/solutions/functional-correctness
 [18]: https://www.intel.com/content/www/us/en/cofluent/overview.html
+[19]: https://www.machineware.de/#simvcompute
 
 [coseda]: https://www.coseda-tech.com
 [snps]: https://www.synopsys.com/
@@ -59,6 +61,7 @@ Please [let us know][issues] if an EDA tool or technology is missing or needs up
 [aldec]: https://www.aldec.com/
 [nec]: https://www.nec.com/
 [mathworks]: https://www.mathworks.com/
+[machineware]: https://www.machineware.de/
 [onespin]: https://www.onespin.com/
 [intel]: https://www.intel.com/
 
