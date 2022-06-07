@@ -84,10 +84,10 @@ This is a list of open-source Virtual Platforms and Virtual Prototypes (VPs):
 
 [1]: https://github.com/accellera-official/systemc.org/issues
 [2]: https://github.com/nvdla/vp
-[3]: https://github.com/janweinstock/vcml/tree/master/src/vcml/models
+[3]: https://github.com/machineware-gmbh/vcml/tree/main/src/vcml/models
 [4]: https://github.com/aut0/vcml-nvdla
 [5]: https://github.com/Minres/SystemC-Components
-[6]: https://github.com/janweinstock/vcml
+[6]: https://github.com/machineware-gmbh/vcml
 [7]: https://github.com/aut0/avp64
 [8]: https://github.com/Minres/HIFIVE1-VP
 [9]: https://github.com/janweinstock/or1kmvp
