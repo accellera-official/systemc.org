@@ -12,6 +12,7 @@ Please [let us know][issues] if a publication is missing or needs update.
 | Title          | Author(s)   | Conference or Journal   | Publisher    |
 | :------------- | :---------- | :---------------------- | :----------- |
 | **2022** |
+| Equivalence Checking of System-Level and SPICE-Level Models of Linear Circuits | Kemal Çağlar Coşkun; Muhammad Hassan; Rolf Drechsler | Chips Open Access Journal | [MDPI][2022_5] |
 | DRAMSys4.0: An Open-Source Simulation Framework for In-depth DRAM Analyses | Lukas Steiner; Matthias Jung; Felipe S. Prado; Kirill Bykov; Norbert Wehn  | International Journal of Parallel Programming  | [Springer Link][2022_1] |
 | AMAIX In-Depth: A Generic Analytical Model for Deep Learning Accelerators | Niko ZurStassen; Lukas Jünger; Tim Kogel; Holger Keding; Rainer Leupers | International Journal of Parallel Programming  | [Springer Link][2022_2] |
 | Simulating Neural Network Processors | Jian Hu; Xianlong Zhang; Xiaohua Shi | Wireless Communications and Mobile Computing | [Hindawi][2022_3] |
@@ -41,6 +42,7 @@ Please [let us know][issues] if a publication is missing or needs update.
 [2022_2]: https://link.springer.com/article/10.1007/s10766-022-00728-3
 [2022_3]: https://www.hindawi.com/journals/wcmc/2022/7500195/
 [2022_4]: https://www.sciencedirect.com/science/article/pii/S1383762122000480
+[2022_5]: https://www.mdpi.com/2674-0729/1/1/6
 
 [2021_1]: https://link.springer.com/article/10.1007/s11432-020-3308-4
 [2021_2]: https://www.hindawi.com/journals/ijrc/2021/5584391/
