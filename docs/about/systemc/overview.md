@@ -42,7 +42,12 @@ The SystemC Verification (SCV) library provides a common set of APIs that are us
 
 [More information about SystemC Verification](/about/systemc-verification/overview)
 
+## Resources
+
+* [Download SystemC/TLM standard, IEEE 1666-2011][1] 
+* [SystemC/TLM reference implementation on GitHub][4]
 
 [1]: https://accellera.org
 [2]: https://standards.ieee.org/standard/1666-2011.html
 [3]: https://standards.ieee.org/standard/1666_1-2016.html
+[4]: https://github.com/accellera-official/systemc

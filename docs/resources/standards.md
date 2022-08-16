@@ -28,6 +28,11 @@ This page lists the most recent versions of the SystemC standards and implementa
 
 [accellera-official/systemc][11]
 
+[accellera-official/cci][12]
+
+[accellera-official/systemc-common-practices][13]
+
+
 [1]: https://www.accellera.org/downloads/standards/systemc
 [2]: https://standards.ieee.org/standard/1666-2011.html
 [3]: https://standards.ieee.org/standard/1666_1-2016.html
@@ -38,4 +43,8 @@ This page lists the most recent versions of the SystemC standards and implementa
 [8]: https://www.accellera.org/images/downloads/standards/systemc/cci-1.0.0.zip
 [9]: https://www.accellera.org/images/downloads/standards/systemc/scv-2.0.1.tar.gz
 [10]: https://www.accellera.org/images/downloads/standards/systemc/uvm-systemc-1.0-beta4.tar.gz
+
 [11]: https://github.com/accellera-official/systemc
+[12]: https://github.com/accellera-official/cci
+[13]: https://github.com/accellera-official/systemc-common-practices
+

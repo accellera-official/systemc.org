@@ -28,8 +28,17 @@ It is recommended is to start reading the SystemC AMS user's guide, which can be
 
 Yes. SystemC AMS has been transferred to IEEE, resulting in the release of IEEE Std 1666.1-2016. Thanks to Accellera sponsorship, the IEEE standard is made available under the [IEEE Get Program][2] free of charge. You can download the IEEE Std 1666.1-2016 [here][1].
 
+## Resources
+
+ * [Download SystemC AMS standard, IEEE 1666.1-2016][1]
+ * [Download SystemC AMS proof-of-concept implementation][3]
+ * [Download SystemC AMS User's Guide ][4]
+ * [Download SystemC AMS Application examples][5]
+ * Tutorial: [Experience the Next ~Wave~ of Analog and Digital Signal Processing using SystemC AMS 2.0][6]
+
 [1]: https://standards.ieee.org/standard/1666_1-2016.html
 [2]: https://ieeexplore.ieee.org/browse/standards/get-program/page
 [3]: https://www.coseda-tech.com/systemc-ams-proof-of-concept
 [4]: https://www.accellera.org/images/downloads/standards/systemc/Accellera_SystemC_AMS_Users_Guide_January_2020.pdf
 [5]: https://www.accellera.org/images/downloads/standards/systemc/application_examples.zip
+[6]: https://www.accellera.org/resources/videos/systemc-ams-tutorial-2014
