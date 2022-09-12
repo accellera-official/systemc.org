@@ -253,32 +253,32 @@ Registration will open in August.
 </thead>
 <tbody>
 <tr>
-<td>16:00 - 16:30</td>
+<td>16:00 - 16:15</td>
 <td><strong>Introduction</strong></td>
 <td>Ola Dahl</td>
 <td>Ericsson, Stockholm, Sweden</td>
 </tr>
 <tr>
-<td>16:30 - 17:00</td>
+<td>16:15 - 16:45</td>
 <td><strong>A fault-injection methodology for the system-level reliability analysis of computing systems modeled in SystemC</strong><br><a href="#a-fault-injection-methodology-for-the-system-level-reliability-analysis-of-computing-systems-modeled-in-systemc">Abstract</a></td>
 <td>Antonio Miele</td>
 <td>University Politecnico di Milano, Italy</td>
 </tr>
 <tr>
-<td>17:00 - 17:30</td>
-<td><strong>A Scalable Platform for QEMU Based Fault Effect Analysis for RISC-V Hardware Architectures</strong><br><a href="#a-scalable-platform-for-qemu-based-fault-effect-analysis-for-risc-v-hardware-architectures">Abstract</a></td>
-<td>Peer Adelt</td>
-<td>Heinz Nixdorf Institut/Universität Paderborn, Paderborn, Germany</td>
-</tr>
-<tr>
-<td>17:30 - 18:00</td>
+<td>16:45 - 17:15</td>
 <td><strong>Dynamic Fault Injection with SystemC AMS for Quantitative Safety Verification</strong><br><a href="#dynamic-fault-injection-with-systemc-ams-for-quantitative-safety-verification">Abstract</a></td>
 <td>Thomas Markwirth</td>
 <td>Fraunhofer IIS/EAS, Dresden, Germany</td>
 </tr>
 <tr>
-<td>18:00 - 18:10</td>
-<td><strong>Closure</strong></td>
+<td>17:15 - 17:45</td>
+<td><strong>A Scalable Platform for QEMU Based Fault Effect Analysis for RISC-V Hardware Architectures</strong><br><a href="#a-scalable-platform-for-qemu-based-fault-effect-analysis-for-risc-v-hardware-architectures">Abstract</a></td>
+<td>Peer Adelt</td>
+<td>Heinz Nixdorf Institut/Universität Paderborn, Paderborn, Germany</td>
+</tr>
+<tr>
+<td>17:45 - 18:00</td>
+<td><strong>Q&amp;A and Closure</strong></td>
 <td>Ola Dahl</td>
 <td>Ericsson, Stockholm, Sweden</td>
 </tr>
@@ -288,12 +288,6 @@ Registration will open in August.
 <h3 id="a-fault-injection-methodology-for-the-system-level-reliability-analysis-of-computing-systems-modeled-in-systemc">A fault-injection methodology for the system-level reliability analysis of computing systems modeled in SystemC</h3>
 <p><em>Presenter: Antonio Miele, Ph.D., Politecnico di Milano, Italy</em></p>
 <p>Fault injection is the commonly-used strategy for evaluating the reliability of a mission-/safety-critical computing system in the various phases of the design flow. Depending on the specific phase of the design flow fault injection is employed, it is required to define 1) fault models, describing the effects of physical faults in the specification/implementation of the computing system, 2) fault injection techniques actually corrupting the specification/implementation of the computing system to simulate/emulate the fault occurrence, and 3) error analysis strategies to study the effects of faults on the main outputs and within the system. This talk provides an overview of our past experiences in defining a fault injection and analysis framework integrated in a SystemC virtual simulation platform for multicore computing systems.</p>
-<h3 id="a-scalable-platform-for-qemu-based-fault-effect-analysis-for-risc-v-hardware-architectures">A Scalable Platform for QEMU Based Fault Effect Analysis for RISC-V Hardware Architectures</h3>
-<p><em>Authors: Peer Adelt, Bastian Koppelmann, Wolfgang Mueller, Christoph Scheytt</em></p>
-<p><em>Presenter: Peer Adelt, Heinz Nixdorf Institut/Universität Paderborn, Paderborn, Germany</em></p>
-<p>Fault effect simulation is a well-established technique for the qualification of robust embedded software and hardware as required by different safety standards. Our article introduces a Virtual Prototype based approach for the fault analysis and fast simulation of a set of automatically generated and target compiled software programs. 
-The approach scales to different RISC-V ISA standard subset configurations and is based on an instruction and hardware register coverage for automatic fault injections of permanent and transient bitflips. The analysis of each software binary evaluates its opcode type and register access coverage including the addressed memory space. Based on this information dedicated sets of fault injected hardware models, i.e., mutants, are generated. The simulation of all mutants conducted with the different binaries finally identifies the cases with a normal termination though executed on a faulty hardware model. They are identified as a subject for further investigations and improvements by the implementation of additional hardware or software safety countermeasures. Our final evaluation results with automatic C code generation, compilation, analysis, and simulation show that QEMU provides an adequate efficient platform, which also scales to more complex scenarios. </p>
-<p><a href="https://ieeexplore.ieee.org/document/9094540">More information</a></p>
 <h3 id="dynamic-fault-injection-with-systemc-ams-for-quantitative-safety-verification">Dynamic Fault Injection with SystemC AMS for Quantitative Safety Verification</h3>
 <p><em>Presenter: Thomas Markwirth, Fraunhofer IIS/EAS, Dresden, Germany</em></p>
 <p>In this presentation we demonstrate how SystemC AMS can be used for quantitative safety verification of a Battery Management System (BMS). We start out by presenting our technology for dynamically introducing fault structures into SystemC AMS models at runtime. The injection is done at the beginning of the simulation by dynamically rewiring the involved netlists. During the simulation, faults can be activated or deactivated triggered by sequences or statistically. We then show how this feature can be applied in quantitative safety verification, e.g. to determine the diagnostic coverage (DC) of a safety mechanism.</p>
@@ -302,6 +296,12 @@ The approach scales to different RISC-V ISA standard subset configurations and i
 <li><a href="https://ieeexplore.ieee.org/document/9474066">Dynamic fault injection into digital twins of safety-critical systems (DATE, 2021)</a></li>
 <li><a href="https://ieeexplore.ieee.org/document/8394196">Dynamic fault injection for system level simulation of MEMS - A design method for functional safety (DTIP, 2018)</a></li>
 </ul>
+<h3 id="a-scalable-platform-for-qemu-based-fault-effect-analysis-for-risc-v-hardware-architectures">A Scalable Platform for QEMU Based Fault Effect Analysis for RISC-V Hardware Architectures</h3>
+<p><em>Authors: Peer Adelt, Bastian Koppelmann, Wolfgang Mueller, Christoph Scheytt</em></p>
+<p><em>Presenter: Peer Adelt, Heinz Nixdorf Institut/Universität Paderborn, Paderborn, Germany</em></p>
+<p>Fault effect simulation is a well-established technique for the qualification of robust embedded software and hardware as required by different safety standards. Our article introduces a Virtual Prototype based approach for the fault analysis and fast simulation of a set of automatically generated and target compiled software programs. 
+The approach scales to different RISC-V ISA standard subset configurations and is based on an instruction and hardware register coverage for automatic fault injections of permanent and transient bitflips. The analysis of each software binary evaluates its opcode type and register access coverage including the addressed memory space. Based on this information dedicated sets of fault injected hardware models, i.e., mutants, are generated. The simulation of all mutants conducted with the different binaries finally identifies the cases with a normal termination though executed on a faulty hardware model. They are identified as a subject for further investigations and improvements by the implementation of additional hardware or software safety countermeasures. Our final evaluation results with automatic C code generation, compilation, analysis, and simulation show that QEMU provides an adequate efficient platform, which also scales to more complex scenarios. </p>
+<p><a href="https://ieeexplore.ieee.org/document/9094540">More information</a></p>
 <h2 id="contact-us">Contact us</h2>
 <p><a href="mailto:systemc-evolution-fika@lists.accellera.org">systemc-evolution-fika@lists.accellera.org</a></p></div>
 
