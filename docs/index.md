@@ -4,7 +4,7 @@ toc: false
   <ol class="carousel-indicators">
     <li data-target="#carousel_homepage" data-slide-to="0" class="active"></li>
     <li data-target="#carousel_homepage" data-slide-to="1"></li>
-    <li data-target="#carousel_homepage" data-slide-to="2"></li>
+<!--    <li data-target="#carousel_homepage" data-slide-to="2"></li> -->
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -22,6 +22,7 @@ toc: false
         </div>
       </div>
     </div>
+    <!--
     <div class="carousel-item hero">
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
@@ -33,11 +34,11 @@ toc: false
             <p class="lead">The SystemC Evolution Fika is a virtual event at 15 september. Registration is now open!</p>
             <a href="/events/scef202209/" class="btn btn-primary btn-lg">Event information</a>
             <a href="https://form.jotform.com/222345926752965" class="btn btn-secondary btn-lg">Register now</a>
-            <!--<a href="/events/scef202204/" class="btn btn-secondary btn-lg">Fika  Presentations 7 april</a>-->
           </div>
         </div>
       </div>
     </div>
+    -->
     <div class="carousel-item hero">
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
