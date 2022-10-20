@@ -19,6 +19,7 @@ nav:
     - SystemC AMS: overview/systemc-ams.md
     - SystemC CCI: overview/systemc-cci.md
     - SystemC Verification: overview/systemc-verification.md
+    - SystemC Common Practices (SCP): overview/systemc-scp.md
 #- Documentation:
 #    - SystemC: docs/systemc/documentation.md
 - Events:
