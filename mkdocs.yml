@@ -15,7 +15,7 @@ nav:
 - Home: index.md
 - Overview:
     - SystemC: overview/systemc.md
-    - TLM: overview/systemc-tlm.md
+    - SystemC TLM: overview/systemc-tlm.md
     - SystemC AMS: overview/systemc-ams.md
     - SystemC CCI: overview/systemc-cci.md
     - SystemC Verification: overview/systemc-verification.md
