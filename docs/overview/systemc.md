@@ -20,19 +20,19 @@ The SystemC community consists of a large and growing number of system design co
 
 The Transaction Level Modeling standard defines interfaces for SystemC, providing an essential framework for model exchange within companies and across the IP supply chain for architecture analysis, software development and performance analysis, and hardware verification. It explicitly addresses virtual prototyping in which SystemC models can easily be exchanged and arranged within a system, enabling the optimal reuse of models and modeling effort across different use cases.
 
-[More information about SystemC TLM](/overview/systemc/tlm/)
+[More information about SystemC TLM](/overview/systemc-tlm/)
 
 ## SystemC Analog/Mixed-Signal (AMS)
 
 The SystemC AMS standard defined in [IEEE Std. 1666.1-2016][3] introduces system-level design and modeling of embedded Analog/Mixed-Signal (AMS) systems. SystemC AMS provides unique capabilities for the design and modeling of embedded analog/mixed-signal applications at higher levels of design abstraction. The SystemC AMS extensions define a uniform and standardized modeling approach that can be used in combination with digitally-oriented ESL design methods, supporting a design refinement methodology for functional modeling, architecture exploration, and virtual prototyping of embedded analog/mixed-signal systems.
 
-[More information about SystemC AMS](/overview/systemc-ams/overview/)
+[More information about SystemC AMS](/overview/systemc-ams/)
 
 ## SystemC Configuration, Control and Inspection (CCI)
 
 The goal of Configuration, Control and Inspection (CCI) is to improve efficiency and ROI for model creators and tool providers. They CCI standards will allow suppliers to instrument models so that a rich user experience is enabled, and they will allow industry tools to leverage this instrumentation to provide powerful debug and analysis capabilities. The CCI working group is currently defining standards for the exchange of information between SystemC models and tools.
 
-[More information about SystemC CCI](/overview/systemc-cci/overview/)
+[More information about SystemC CCI](/overview/systemc-cci/)
 
 ## SystemC Verification (UVM-SystemC, SCV)
 
@@ -40,7 +40,7 @@ The UVM-SystemC library provides an implementation of the Universal Verification
 
 The SystemC Verification (SCV) library provides a common set of APIs that are used as a basis to verification activities with SystemC (generation of values under constraints, transaction recording, etc.). These APIs are implemented in all major SystemC simulators available on the market.
 
-[More information about SystemC Verification](/overview/systemc-verification/overview)
+[More information about SystemC Verification](/overview/systemc-verification/)
 
 ## Resources
 
