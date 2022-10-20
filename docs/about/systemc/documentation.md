@@ -1,5 +1,0 @@
-toc: false
-
-# SystemC Documentation
-
-

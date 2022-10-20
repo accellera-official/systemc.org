@@ -1,7 +1,7 @@
 site_name: test
 site_url: https://systemc.org/
 
-repo_url: https://github.com/accellera-official/systemc/
+repo_url: https://github.com/accellera-official/
 
 theme:
   name: mkdocs
@@ -13,35 +13,30 @@ extra_css:
 
 nav:
 - Home: index.md
-- About:
-    - SystemC: 
-      - Overview: about/systemc/overview.md
-#      - Documentation: about/systemc/documentation.md
-      - TLM: about/systemc/tlm.md
-    - SystemC AMS: 
-      - Overview: about/systemc-ams/overview.md
-    - SystemC CCI:
-      - Overview: about/systemc-cci/overview.md
-    - SystemC Verification:
-      - Overview: about/systemc-verification/overview.md
-      - UVM-SystemC FAQ: about/systemc-verification/uvm-systemc-faq.md
-- Community:
-    - Events:
-      - SystemC Evolution Events: events/scevents.md
-      - SystemC Evolution Fika - September 2022: events/scef202209.md
-      - SystemC Evolution Fika - April 2022: events/scef202204.md
-      - SystemC Evolution Fika - June 2021: events/scef202106.md
-      - SystemC Evolution Fika - March 2021: events/scef202103.md
-      - SystemC Evolution Day 2022: events/sced2022.md
-      - SystemC Evolution Day 2021: events/sced2021.md
-      - SystemC Evolution Day 2020: events/sced2020.md
-      - SystemC Evolution Day 2019: events/sced2019.md
-      - SystemC Evolution Day 2018: events/sced2018.md
-      - SystemC Evolution Day 2017: events/sced2017.md
-      - SystemC Evolution Day 2016: events/sced2016.md
-    - Discussion forum: https://forums.accellera.org/forum/9-systemc/
+- Overview:
+    - SystemC: overview/systemc.md
+    - TLM: overview/systemc-tlm.md
+    - SystemC AMS: overview/systemc-ams.md
+    - SystemC CCI: overview/systemc-cci.md
+    - SystemC Verification: overview/systemc-verification.md
+#- Documentation:
+#    - SystemC: docs/systemc/documentation.md
+- Events:
+    - SystemC Evolution Events: events/scevents.md
+    - SystemC Evolution Fika - September 2022: events/scef202209.md
+    - SystemC Evolution Fika - April 2022: events/scef202204.md
+    - SystemC Evolution Fika - June 2021: events/scef202106.md
+    - SystemC Evolution Fika - March 2021: events/scef202103.md
+    - SystemC Evolution Day 2022: events/sced2022.md
+    - SystemC Evolution Day 2021: events/sced2021.md
+    - SystemC Evolution Day 2020: events/sced2020.md
+    - SystemC Evolution Day 2019: events/sced2019.md
+    - SystemC Evolution Day 2018: events/sced2018.md
+    - SystemC Evolution Day 2017: events/sced2017.md
+    - SystemC Evolution Day 2016: events/sced2016.md
 - Resources:
     - Books: resources/books.md
+    - Discussion forum: https://forums.accellera.org/forum/9-systemc/
     - Education: resources/education.md
     - Libraries & Projects: resources/projects.md
     - Open Access Publications: resources/publications.md
