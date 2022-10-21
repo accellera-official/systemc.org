@@ -78,7 +78,7 @@ This is a list of open-source Virtual Platforms and Virtual Prototypes (VPs):
 | [UVM-Connect][23] | UVM-based library that provides TLM1 and TLM2 connectivity and object passing between SystemC and SystemVerilog UVM models and components | Apache-2.0 |
 | [UVM-ML][22] | Universal Verification Methodology Multi-Language (UVM-ML) Open Architecture supporting UVM-SV, UVM-e, and UVM-SC | Apache-2.0 |
 | [UVM-SystemC][21] | Accellera implementation and standard of the Universal Verification Methodology (UVM) in SystemC | Apache-2.0 |
-| [CRAVE][27] | Constrained RAndom Verification Enviroment<br>*NOTE: Join Accellera to get access to the latest version of this library* | MIT |
+| [CRAVE][27] | Constrained RAndom Verification Environment<br>*NOTE: Join Accellera to get access to the latest version of this library* | MIT |
 | [FC4SC][28] | Functional Coverage for SystemC<br>*NOTE: Join Accellera to get access to the latest version of this library* | Apache-2.0 |
 
 

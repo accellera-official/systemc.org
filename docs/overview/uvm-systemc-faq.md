@@ -73,4 +73,4 @@ Accellera members can contribute to this project by joining the SystemC Verifica
 
 ## What is the timeline for the next release?
 
-Releases are created when defined milestones are reached. Ongoing major activities are the integration and testing of the register layer and constraint randomization capabilities. Additional support and contributions are highly appreciated. The Working Group’s plan is to release regular updates including bug fixes and new functionity, but this is highly dependent on the progress and number of active contributors to the development.
+Releases are created when defined milestones are reached. Ongoing major activities are the integration and testing of the register layer and constraint randomization capabilities. Additional support and contributions are highly appreciated. The Working Group’s plan is to release regular updates including bug fixes and new functionality, but this is highly dependent on the progress and number of active contributors to the development.
