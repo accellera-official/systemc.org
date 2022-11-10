@@ -50,7 +50,7 @@ toc: false
             <p class="lead">The next SystemC Evolution Day is a face-to-face event at 8 december. The Call for Presentations is now open! </p>
             <a href="https://workspace.accellera.org/document/dl/11125" class="btn btn-primary btn-lg">Call for Presentations</a>
             <!--<a href="https://form.jotform.com/220664698202963" class="btn btn-secondary btn-lg">Free registration</a>-->
-            <a href="/events/sced2022/" class="btn btn-secondary btn-lg">More information</a>
+            <a href="/events/sced2022/" class="btn btn-secondary btn-lg">Info & Registration</a>
           </div>
         </div>
       </div>
