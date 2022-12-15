@@ -47,10 +47,10 @@ toc: false
           </div>
           <div class="col-lg-6">
             <h1 class="display-5 fw-bold lh-1 mb-3">SystemC Evolution Day</h1>
-            <p class="lead">The next SystemC Evolution Day is a face-to-face event at 8 December. The tentative program has been announced.</p>
-            <a href="/events/sced2022/" class="btn btn-primary btn-lg">Info & Program</a>
-            <!--<a href="https://form.jotform.com/220664698202963" class="btn btn-secondary btn-lg">Free registration</a>-->
-            <a href="https://dvcon-europe.org/registration/" class="btn btn-secondary btn-lg">Registration</a>
+            <p class="lead">The SystemC Evolution Day took place at 8 December. The presentations are now available.</p>
+            <a href="/events/sced2022/" class="btn btn-primary btn-lg">Program and Presentations</a>
+            <!--<a href="https://form.jotform.com/220664698202963" class="btn btn-secondary btn-lg">Free registration</a>
+            <a href="https://dvcon-europe.org/registration/" class="btn btn-secondary btn-lg">Registration</a>-->
           </div>
         </div>
       </div>
