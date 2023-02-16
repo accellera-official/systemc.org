@@ -12,7 +12,7 @@ More information on how to join Accellera can be found [here][6].
 
 ## Google Summer of Code 2023
 
-Accellera Systems Initiative applied as mentoring organization in [Google Summer of Code][8] (GSoC). Google Summer of Code is a global, online program focused on bringing new contributors into open source software development. Accellera is suggesting a list of project ideas which can be found here. We encourage contributors to the GSoC to review these proposals and contact us to discuss these further by email: gsoc[at]lists.accellera.org 
+Accellera Systems Initiative applied as mentoring organization in [Google Summer of Code][8] (GSoC). Google Summer of Code is a global, online program focused on bringing new contributors into open source software development. Accellera is suggesting a list of project ideas which can be found [here][9]. We encourage contributors to the GSoC to review these proposals and contact us to discuss these further by email: gsoc[at]lists.accellera.org 
 
 ## Join the Accellera SystemC Working Groups
 
@@ -32,3 +32,4 @@ If your organization is a member of Accellera Systems Initiative, you can sign u
 [7]: https://workspace.accellera.org/site/login
 
 [8]: https://summerofcode.withgoogle.com/
+[9]: https://systemc.org/gsoc2023/s
