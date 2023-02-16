@@ -32,4 +32,4 @@ If your organization is a member of Accellera Systems Initiative, you can sign u
 [7]: https://workspace.accellera.org/site/login
 
 [8]: https://summerofcode.withgoogle.com/
-[9]: https://systemc.org/gsoc2023/s
+[9]: https://systemc.org/gsoc2023/
