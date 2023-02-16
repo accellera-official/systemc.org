@@ -10,6 +10,10 @@ toc: false
 
 More information on how to join Accellera can be found [here][6].
 
+## Google Summer of Code 2023
+
+Accellera Systems Initiative applied as mentoring organization in [Google Summer of Code][8] (GSoC). Google Summer of Code is a global, online program focused on bringing new contributors into open source software development. Accellera is suggesting a list of project ideas which can be found here. We encourage contributors to the GSoC to review these proposals and contact us to discuss these further by email: gsoc[at]lists.accellera.org 
+
 ## Join the Accellera SystemC Working Groups
 
 Accellera's [SystemC Working Groups][4] are responsible for the definition and development of the SystemC Core and Transaction Level Modeling (TLM) language, including extensions for analog/mixed-signal (AMS), control, configuration, and inspection (CCI), sythesis and verification. Participants of these working groups include member companies and industry contributors. Technical contributors typically have many years of practical experience with IC and system-level design as well as developing system-level design methodologies and using EDA tools.
@@ -26,3 +30,5 @@ If your organization is a member of Accellera Systems Initiative, you can sign u
 [5]: https://systemc.org
 [6]: https://www.accellera.org/about/join
 [7]: https://workspace.accellera.org/site/login
+
+[8]: https://summerofcode.withgoogle.com/
