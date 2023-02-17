@@ -203,7 +203,7 @@
 <h2 id="timeline">Timeline</h2>
 <p>The timeline for GSoC 2023 can be found <a href="https://developers.google.com/open-source/gsoc/timeline">here</a>.</p>
 <h2 id="advancing-systemc-infrastructure">Advancing SystemC Infrastructure</h2>
-<p>The idea is to improve the overall quality of Accellera’s <a href="https://github.com/accellera-official/systemc">SystemC reference implementation</a> and <a href="https://github.com/accellera-official/cci">CCI library</a>and lower barriers to start using them. As of now, a Continuous Integration (CI) build and test flow exists only for SystemC CCI as part of the public release. Sanitizer builds, coverage tests are not part of this CI flow. For SystemC no CI flow is currently available. Furthermore, both the SystemC and SystemC CCI reference implementations are in need of a build system update to ease integration into other CMake projects.</p>
+<p>The idea is to improve the overall quality of Accellera’s <a href="https://github.com/accellera-official/systemc">SystemC reference implementation</a> and <a href="https://github.com/accellera-official/cci">Configuration, Control and Inspection (CCI) library</a> and lower barriers to start using them. As of now, a Continuous Integration (CI) build and test flow exists only for SystemC CCI as part of the public release. Sanitizer builds, coverage tests are not part of this CI flow. For SystemC no CI flow is currently available. Furthermore, both the SystemC and SystemC CCI reference implementations are in need of a build system update to ease integration into other CMake projects.</p>
 <ul>
 <li>Skills required: C++, CMake, Git, Github Actions, Automake, Perl, GoogleTest</li>
 <li>Mentors: Lukas Jünger, Mark Burton</li>
@@ -227,10 +227,10 @@
 <p>Federated simulation targets an efficient integration and orchestration of multiple system-level models and their execution semantics into one unified system simulation. It should facilitate multi-domain simulation where different models-of-computation are integrated and synchronized. Various initiatives in different industries have been started targeting Federated simulation and standardization, such as the Simulation Model Portability (<a href="https://ecss.nl/standard/ecss-e-st-40-07c-simulation-modelling-platform-2-march-2020/">SMP2</a>) and the Functional Mock-up Interface (<a href="https://fmi-standard.org/">FMI</a>). The idea is to demonstrate how SystemC Transaction Level Modeling (<a href="https://systemc.org/overview/systemc-tlm/">TLM</a>) can be used and interact with these other standardized simulation interfaces.</p>
 <p>You will learn about the intricacies of event-based and transaction-level simulation, and how different simulation standards handle concepts such as time. Concretely you will build a model using either SMP2 or FMI/FMU and let it communicate with an existing platform model, booting linux and showing your new device connects and works!</p>
 <ul>
-<li>Skills required :<ul>
+<li>Skills required:<ul>
 <li>Familiarity with Linux build environment (cmake flows, git, etc)</li>
 <li>C++</li>
-<li>Familiarity with concepts of remote procedure calls.</li>
+<li>Familiarity with concepts of remote procedure calls</li>
 </ul>
 </li>
 <li>Mentors: Mark Burton, Lukas Jünger</li>
