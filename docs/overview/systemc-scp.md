@@ -9,20 +9,22 @@ Each component in the SCP project can be used individually, or they may be used 
 The Accellera SCP working group meets regularly and the SCP project is updated frequently with new contributions. If you have some code you think others would find useful, please be in touch!
 
 Current components include:
+
  * TLM Extensions 
-    - A growing list of extensions from which to build specfic bus features, or debug and tracing features
+    * A growing list of extensions from which to build specfic bus features, or debug and tracing features
  * Report and logging
-    - Enables logging using the SPDLOG library (see https://github.com/gabime/spdlog)
-    - Flexible colouring and formatting options
-    - Thread safe
-    - captures SC_REPORT as well as providing a convenient streaming interface.
-    - Streaming interface is extremely efficient
+    * Enables logging using the [SPDLOG library](https://github.com/gabime/spdlog)
+    * Flexible colouring and formatting options
+    * Thread safe
+    * captures SC_REPORT as well as providing a convenient streaming interface.
+    * Streaming interface is extremely efficient
 
 We have plans to extend the extension interface and also
- - [ ] Extend list of extensions to cover more bus types (including cache coherency and self-discovery type busses)
- - [ ] Register implementation
- - [ ] Synchronisation library that supports multi-threading
- - [ ] RPC transport for both TLM and Signal interfaces to connect multi-process simulation.
+
+ * Extend list of extensions to cover more bus types (including cache coherency and self-discovery type busses)
+ * Register implementation
+ * Synchronisation library that supports multi-threading
+ * RPC transport for both TLM and Signal interfaces to connect multi-process simulation.
  
 <img style="width:90%" src="/images/systemc-scp-layers.svg">
 
