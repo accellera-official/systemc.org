@@ -193,20 +193,28 @@
 <p>The emphasis is to show how the other SystemC standards can best be used, and provide a common set of basic components.</p>
 <p>Each component in the SCP project can be used individually, or they may be used together. The intention is that all components are interoperable and work on standard SystemC simulators.</p>
 <p>The Accellera SCP working group meets regularly and the SCP project is updated frequently with new contributions. If you have some code you think others would find useful, please be in touch!</p>
-<p>Current components include:
- * TLM Extensions 
-    - A growing list of extensions from which to build specfic bus features, or debug and tracing features
- * Report and logging
-    - Enables logging using the SPDLOG library (see https://github.com/gabime/spdlog)
-    - Flexible colouring and formatting options
-    - Thread safe
-    - captures SC_REPORT as well as providing a convenient streaming interface.
-    - Streaming interface is extremely efficient</p>
-<p>We have plans to extend the extension interface and also
- - [ ] Extend list of extensions to cover more bus types (including cache coherency and self-discovery type busses)
- - [ ] Register implementation
- - [ ] Synchronisation library that supports multi-threading
- - [ ] RPC transport for both TLM and Signal interfaces to connect multi-process simulation.</p>
+<p>Current components include:</p>
+<ul>
+<li>TLM Extensions <ul>
+<li>A growing list of extensions from which to build specfic bus features, or debug and tracing features</li>
+</ul>
+</li>
+<li>Report and logging<ul>
+<li>Enables logging using the <a href="https://github.com/gabime/spdlog">SPDLOG library</a></li>
+<li>Flexible colouring and formatting options</li>
+<li>Thread safe</li>
+<li>captures SC_REPORT as well as providing a convenient streaming interface.</li>
+<li>Streaming interface is extremely efficient</li>
+</ul>
+</li>
+</ul>
+<p>We have plans to extend the extension interface and also</p>
+<ul>
+<li>Extend list of extensions to cover more bus types (including cache coherency and self-discovery type busses)</li>
+<li>Register implementation</li>
+<li>Synchronisation library that supports multi-threading</li>
+<li>RPC transport for both TLM and Signal interfaces to connect multi-process simulation.</li>
+</ul>
 <p><img style="width:90%" src="/images/systemc-scp-layers.svg"></p>
 <h2 id="resources">Resources</h2>
 <ul>
