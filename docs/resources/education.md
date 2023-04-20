@@ -7,7 +7,8 @@ This page gives an overview of the available education and university programs t
 Please [let us know][issues] if a universiry or institute is missing or needs update.
 
 | University    | Country     | Department     | Lectures                                       |
-| :------------ | :---------- | :--------------| :---------------------------------------------------- |
+| :------------ | :---------- | :--------------| :--------------------------------------------- |
+| [Carinthia University of Applied Sciences][14] | Austria | Integrated Systems and Circuit Design (ISCD) | System Modelling and Verification - Analog,<br>System Modelling and Verification - Digital, System-on-Chip Architectures |
 | [Grenoble Alpes University][14] | France | Grenoble INP Ensimag | Transaction Level Modeling in SystemC |
 | [Johannes Kepler University Linz][6] | Austria | Institute for Complex Systems (ICS) | Virtual Prototyping/SystemC |
 | [RWTH Aachen University][11] | Germany | Faculty of Electrical Engineering and Information Technology | Computer Science 3 |
@@ -22,7 +23,6 @@ Please [let us know][issues] if a universiry or institute is missing or needs up
 | [University of California, Irvine][7] | USA | Center for Embedded and Cyber-physical Systems (CECS) | Embedded Systems Modeling and Design |
 | [University of Texas, Austin][4] | USA | System-Level Architecture and Modeling Group | Embedded System Design and Modeling |
 | [University of Southampton][5] | UK | Electronics and Computer Science | Digital Systems Synthesis |
-
 
 [issues]: https://github.com/accellera-official/systemc.org/issues 
 
@@ -40,3 +40,4 @@ Please [let us know][issues] if a universiry or institute is missing or needs up
 [12]: https://cesg.tamu.edu/
 [13]: https://cas.tudelft.nl/
 [14]: https://ensimag.grenoble-inp.fr/en
+[15]: https://www.fh-kaernten.at/iscd

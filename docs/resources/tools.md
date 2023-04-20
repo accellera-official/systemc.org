@@ -17,6 +17,7 @@ Please [let us know][issues] if an EDA tool or technology is missing or needs up
 | [Helium][4] | [Cadence][cnds] | Integrated design environment to enable early pre-silicon software bring-up and concurrent hardware/software co-verification |
 | [Platform Architect][2] | [Synopsys][snps] | SystemC TLM 2.0 based graphical environment for early analysis and optimization of multicore SoC architectures for performance and power |
 | [Questa][6] | [Siemens EDA][siemens] | Multi-language simulation environment supporting Verilog, SystemVerilog, VHDL, and SystemC |
+| [Riviera-PRO][20] | [Aldec][aldec] | Multi-language simulation environment supporting Verilog, SystemVerilog, VHDL, and SystemC |
 | [Simulink Coder][16] | [Mathworks][mathworks] | SystemC/TLM component generator using the Simulink Coder |
 | [SIM-V][19] | [MachineWare][machineware] | RISC-V full system simulator with SystemC TLM-2.0 interfaces |
 | [Stratus HLS][12] | [Cadence][cnds] | High-level synthesis of C/C++ or SystemC descriptions to RTL |
@@ -49,20 +50,21 @@ Please [let us know][issues] if an EDA tool or technology is missing or needs up
 [17]: https://www.onespin.com/solutions/functional-correctness
 [18]: https://www.intel.com/content/www/us/en/cofluent/overview.html
 [19]: https://www.machineware.de/#simvcompute
+[20]: https://www.aldec.com/en/products/functional_verification/riviera-pro
 
-[coseda]: https://www.coseda-tech.com
-[snps]: https://www.synopsys.com/
-[cnds]: https://www.cadence.com/
-[siemens]: https://eda.sw.siemens.com/
-[xlx]: https://www.xilinx.com/
-[vlab]: https://vlabworks.com/
 [accellera]: https://accellera.org/
-[tina]: https://www.tina.com/
 [aldec]: https://www.aldec.com/
-[nec]: https://www.nec.com/
-[mathworks]: https://www.mathworks.com/
-[machineware]: https://www.machineware.de/
-[onespin]: https://www.onespin.com/
+[cnds]: https://www.cadence.com/
+[coseda]: https://www.coseda-tech.com
 [intel]: https://www.intel.com/
+[siemens]: https://eda.sw.siemens.com/
+[snps]: https://www.synopsys.com/
+[tina]: https://www.tina.com/
+[vlab]: https://vlabworks.com/
+[xlx]: https://www.xilinx.com/
+[machineware]: https://www.machineware.de/
+[mathworks]: https://www.mathworks.com/
+[nec]: https://www.nec.com/
+[onespin]: https://www.onespin.com/
 
 [issues]: https://github.com/accellera-official/systemc.org/issues 
