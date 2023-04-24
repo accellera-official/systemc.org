@@ -8,7 +8,7 @@ Please [let us know][issues] if a universiry or institute is missing or needs up
 
 | University    | Country     | Department     | Lectures                                       |
 | :------------ | :---------- | :--------------| :--------------------------------------------- |
-| [Carinthia University of Applied Sciences][14] | Austria | Integrated Systems and Circuit Design (ISCD) | System Modelling and Verification - Analog,<br>System Modelling and Verification - Digital, System-on-Chip Architectures |
+| [Carinthia University of Applied Sciences][15] | Austria | Integrated Systems and Circuit Design (ISCD) | System Modelling and Verification - Analog,<br>System Modelling and Verification - Digital, System-on-Chip Architectures |
 | [Grenoble Alpes University][14] | France | Grenoble INP Ensimag | Transaction Level Modeling in SystemC |
 | [Johannes Kepler University Linz][6] | Austria | Institute for Complex Systems (ICS) | Virtual Prototyping/SystemC |
 | [RWTH Aachen University][11] | Germany | Faculty of Electrical Engineering and Information Technology | Computer Science 3 |
