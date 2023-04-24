@@ -11,7 +11,7 @@ The Accellera SCP working group meets regularly and the SCP project is updated f
 Current components include:
 
  * TLM Extensions 
-    * A growing list of extensions from which to build specfic bus features, or debug and tracing features
+    * A growing list of extensions from which to build specific bus features, or debug and tracing features
  * Report and logging
     * Enables logging using the [SPDLOG library](https://github.com/gabime/spdlog)
     * Flexible colouring and formatting options
