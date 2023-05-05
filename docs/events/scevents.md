@@ -3,6 +3,26 @@ toc: false
 # SystemC Evolution Events
 <!--**The next SystemC Evolution Day take place at 8 December 2022 as in-person event co-located with [DVCon Europe](https://dvcon-europe.org). Visit [this page](../sced2022) for more information!**
 -->
+
+SystemC Evolution Day events are an opportunity for the whole SystemC community to come together.
+The days are intended as a lean, user-centric, hands-on forum bringing together experts from the SystemC user community, tool providers and the Accellera Working Groups to advance SystemC standards.
+
+SystemC Evolution Day events are full-day, in person events, divided into several in-depth sessions. Selected current and future standardization topics around SystemC are discussed in order to accelerate their progress for inclusion in Accellera/IEEE standards.
+
+SystemC Evolution Day events are co-located with [DVCon EU](https://dvcon-europe.org), on the day after the main proceedings. 
+
+## Registration
+
+Registration fee is €50. [Register here](https://dvcon-europe.org/registration/).
+
+## Propose topics NOW
+
+Proposals for SystemC evolution day events are open all year round, however slots for the upcoming SystemC Days fill fast, so you should contact the organizing team as soon as you can
+[systemc-evolution-day@lists.accellera.org](mailto:systemc-evolution-day@lists.accellera.org).
+
+
+# FIKA
+
 In addition to our SystemC Evolution Day events, we are also continuing the SystemC Evolution with smaller, regular, online workshops. We refer to these workshops as *fikas*, to honor the fika tradition of sharing a coffee, slowing down a bit, and talking about things that we care about. These virtual events are free of charge.
 
 If you have topics that you think should be included in upcoming fikas, please let us know at [systemc-evolution-fika@lists.accellera.org](mailto:systemc-evolution-fika@lists.accellera.org).
