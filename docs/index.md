@@ -22,23 +22,22 @@ toc: false
         </div>
       </div>
     </div>
-    <!--
     <div class="carousel-item hero">
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
-            <a href="/events/scef202209/"><img src="/images/scef-400.png" class="d-block mx-lg-auto img-fluid" loading="lazy"></a>
+            <a href="/events/scef202309/"><img src="/images/scef-400.png" class="d-block mx-lg-auto img-fluid" loading="lazy"></a>
           </div>
           <div class="col-lg-6">
             <h1 class="display-5 fw-bold lh-1 mb-3">SystemC Evolution Fika</h1>
-            <p class="lead">The SystemC Evolution Fika is a virtual event at 15 september. Registration is now open!</p>
-            <a href="/events/scef202209/" class="btn btn-primary btn-lg">Event information</a>
-            <a href="https://form.jotform.com/222345926752965" class="btn btn-secondary btn-lg">Register now</a>
+            <p class="lead">The SystemC Evolution Fika is a virtual event at 12 september. Registration is now open!</p>
+            <a href="/events/scef202309/" class="btn btn-primary btn-lg">Event information</a>
+            <a href="https://form.jotform.com/232145897122962" class="btn btn-secondary btn-lg">Register now</a>
           </div>
         </div>
       </div>
     </div>
-    -->
+    <!--
     <div class="carousel-item hero">
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
@@ -49,11 +48,12 @@ toc: false
             <h1 class="display-5 fw-bold lh-1 mb-3">SystemC Evolution Day</h1>
             <p class="lead">The SystemC Evolution Day took place at 8 December. The presentations are now available.</p>
             <a href="/events/sced2022/" class="btn btn-primary btn-lg">Program and Presentations</a>
-            <!--<a href="https://form.jotform.com/220664698202963" class="btn btn-secondary btn-lg">Free registration</a>
-            <a href="https://dvcon-europe.org/registration/" class="btn btn-secondary btn-lg">Registration</a>-->
+            <a href="https://form.jotform.com/220664698202963" class="btn btn-secondary btn-lg">Free registration</a>
+            <a href="https://dvcon-europe.org/registration/" class="btn btn-secondary btn-lg">Registration</a>
           </div>
         </div>
       </div>
     </div>
+    -->
   </div>
 </div>
