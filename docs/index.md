@@ -47,7 +47,7 @@ toc: false
             <h1 class="display-5 fw-bold lh-1 mb-3">SystemC Evolution Day</h1>
             <p class="lead">The SystemC Evolution Day will take place at 16 November 2023. Call for contributions is now open!</p>
             <!--<a href="/events/sced2022/" class="btn btn-primary btn-lg">Program and Presentations</a>-->
-            <a href="/events/sced2023/" class="btn btn-primary btn-lg">More information</a>
+            <a href="/events/sced2023/" class="btn btn-primary btn-lg">Event information</a>
             <a href="https://dvcon-europe.org/registration/" class="btn btn-secondary btn-lg">Registration</a>
           </div>
         </div>
