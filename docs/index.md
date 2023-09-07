@@ -4,7 +4,7 @@ toc: false
   <ol class="carousel-indicators">
     <li data-target="#carousel_homepage" data-slide-to="0" class="active"></li>
     <li data-target="#carousel_homepage" data-slide-to="1"></li>
-<!--    <li data-target="#carousel_homepage" data-slide-to="2"></li> -->
+    <li data-target="#carousel_homepage" data-slide-to="2"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -30,30 +30,28 @@ toc: false
           </div>
           <div class="col-lg-6">
             <h1 class="display-5 fw-bold lh-1 mb-3">SystemC Evolution Fika</h1>
-            <p class="lead">The SystemC Evolution Fika is a virtual event at 12 september. Registration is now open!</p>
+            <p class="lead">The SystemC Evolution Fika is a virtual event at 12 september 2023. Registration is now open!</p>
             <a href="/events/scef202309/" class="btn btn-primary btn-lg">Event information</a>
             <a href="https://form.jotform.com/232145897122962" class="btn btn-secondary btn-lg">Register now</a>
           </div>
         </div>
       </div>
     </div>
-    <!--
     <div class="carousel-item hero">
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
-            <a href="/events/sced2022/"><img src="/images/SCED-2022-Logo-400x500px.png" class="d-block mx-lg-auto img-fluid" loading="lazy"></a>
+            <a href="/events/sced2022/"><img src="/images/SCED-2023-Logo-400x500px.png" class="d-block mx-lg-auto img-fluid" loading="lazy"></a>
           </div>
           <div class="col-lg-6">
             <h1 class="display-5 fw-bold lh-1 mb-3">SystemC Evolution Day</h1>
-            <p class="lead">The SystemC Evolution Day took place at 8 December. The presentations are now available.</p>
-            <a href="/events/sced2022/" class="btn btn-primary btn-lg">Program and Presentations</a>
-            <a href="https://form.jotform.com/220664698202963" class="btn btn-secondary btn-lg">Free registration</a>
+            <p class="lead">The SystemC Evolution Day will take place at 16 November 2023. Call for contributions is now open!</p>
+            <!--<a href="/events/sced2022/" class="btn btn-primary btn-lg">Program and Presentations</a>-->
+            <a href="/events/sced2023/" class="btn btn-primary btn-lg">More information</a>
             <a href="https://dvcon-europe.org/registration/" class="btn btn-secondary btn-lg">Registration</a>
           </div>
         </div>
       </div>
     </div>
-    -->
   </div>
 </div>

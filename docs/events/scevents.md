@@ -10,9 +10,12 @@ Proposals for SystemC Evolution Events are open all year round, however slots fo
 [systemc-evolution-day@lists.accellera.org](mailto:systemc-evolution-day@lists.accellera.org).
 <br><br>
 
-## Next event
+## Next events
 
-SystemC Evolution Fika, 12 September 2023. Visit [this page](/events/scef202309/) for more information.
+SystemC Evolution Fika (Online event), 12 September 2023. Visit [this page](/events/scef202309/) for more information.
+<br>
+
+SystemC Evolution Day (In-person event), 16 November 2023. Visit [this page](/events/sced2023/) for more information.
 <br><br>
 
 ## SystemC Evolution Day <img style="float:right; width:300px;" src="/images/sced.png">
