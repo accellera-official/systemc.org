@@ -30,7 +30,7 @@ toc: false
             <a href="https://ieeexplore.ieee.org/document/10246125"><img width="400" src="/images/1666-2023-frontpage.png" class="d-block mx-lg-auto img-fluid" loading="lazy"></a>
           </div>
           <div class="col-lg-6">
-            <h1 class="display-5 fw-bold lh-1 mb-3">SystemC IEEE 1666-2023</h1>
+            <h1 class="display-5 fw-bold lh-1 mb-3">SystemC IEEE Std 1666-2023</h1>
             <p class="lead">The new SystemC Language Reference Manual has been released as IEEE Std 1666-2023. This standard is provided at no cost under the <a href="https://ieeexplore.ieee.org/browse/standards/get-program/page/series?id=80">Get IEEE Program</a> thanks to <a href="https://accellera.org">Accellera</a> sponsorship.</p>
             <a href="https://ieeexplore.ieee.org/document/10246125" class="btn btn-primary btn-lg">Download</a>
             <a href="https://standards.ieee.org/ieee/1666/7293/" class="btn btn-secondary btn-lg">More information on </a>
