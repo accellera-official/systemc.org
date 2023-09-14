@@ -184,7 +184,7 @@
    x="55.853298"
    y="22"
    id="tspan49"
-   style="font-size:15px">IEEE Std. 1666-2011</tspan>
+   style="font-size:15px">IEEE Std 1666-2023</tspan>
 </text>
     <rect
        x="323.5"
@@ -390,7 +390,7 @@
    x="10"
    y="0"
    id="tspan127"
-   style="font-size:21px">IEEE Std. 1666.1-2016</tspan>
+   style="font-size:21px">IEEE Std 1666.1-2016</tspan>
 </text>
     <rect
        x="110.5"
@@ -405,12 +405,12 @@
        font-size="21"
        transform="translate(323.471,620)"
        id="text141"
-       style="font-weight:400;font-size:21px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff">Programming Language C++<tspan
+       style="font-weight:400;font-size:21px;font-family:'DejaVu Sans', 'DejaVu Sans_MSFontService', sans-serif;fill:#ffffff">Programming Language C++17<tspan
    font-size="15"
    x="65.580002"
    y="22"
    id="tspan135"
-   style="font-size:15px">ISO/IEC Std. 14882-2003</tspan>
+   style="font-size:15px">ISO/IEC Std. 14882-2017</tspan>
 </text>
   </g>
 </svg>
