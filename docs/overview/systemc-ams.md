@@ -1,12 +1,12 @@
 # SystemC Analog/Mixed-Signal Extensions
 
-The SystemC AMS standard ([IEEE Std. 1666.1-2016][1]) introduces system-level design and modeling of embedded Analog/Mixed-Signal (AMS) systems. The SystemC AMS extensions define a uniform and standardized modeling approach at higher levels of abstraction, that can be used in combination with digital and SystemC-centric design methods, supporting a design refinement methodology for functional modeling, architecture exploration, and virtual prototyping of embedded analog/mixed-signal systems and applications.
+The SystemC AMS standard ([IEEE Std 1666.1-2016][1]) introduces system-level design and modeling of embedded Analog/Mixed-Signal (AMS) systems. The SystemC AMS extensions define a uniform and standardized modeling approach at higher levels of abstraction, that can be used in combination with digital and SystemC-centric design methods, supporting a design refinement methodology for functional modeling, architecture exploration, and virtual prototyping of embedded analog/mixed-signal systems and applications.
 
 ![image](/images/systemc-ams-architecture.svg)
 
 ## Why SystemC AMS?
 
-The SystemC AMS standard, ratified as [IEEE Std. 1666.1-2016][1], fulfills the need of the electronics industry to have a standardized system-level modeling language for mixed-signal applications based on SystemC and C++. The SystemC AMS standard defines the execution semantics and language constructs for system-level design and modeling of embedded analog/mixed-signal systems at higher levels of abstraction, focusing on modeling accuracy, fidelity and simulation speed.
+The SystemC AMS standard, ratified as [IEEE Std 1666.1-2016][1], fulfills the need of the electronics industry to have a standardized system-level modeling language for mixed-signal applications based on SystemC and C++. The SystemC AMS standard defines the execution semantics and language constructs for system-level design and modeling of embedded analog/mixed-signal systems at higher levels of abstraction, focusing on modeling accuracy, fidelity and simulation speed.
 
 ## What is the difference between SystemC AMS and other HDL languages?
 
@@ -16,7 +16,7 @@ For abstract mixed-signal modeling, SystemC AMS offers the efficient Timed Data 
 
 ## Is there a reference implementation available for SystemC AMS?
 
-A [SystemC AMS proof-of-concept implementation][3] is available under Apache 2.0 license, offered by COSEDA Technologies GmbH. It contains a class library in C++, and therefore can be compiled against a SystemC IEEE Std. 1666-2011 compatible simulator. 
+A [SystemC AMS proof-of-concept implementation][3] is available under Apache 2.0 license, offered by COSEDA Technologies GmbH. It contains a class library in C++, and therefore can be compiled against a SystemC IEEE Std 1666 compatible simulator. 
 
 In addition, commercial simulation environments are available supporting SystemC and SystemC AMS, offering much more capabilities compared to the reference implementations. For example, commercial tooling support enhanced design automation for system-level design, offer modeling libraries and enhanced tracing and debug capabilities. Please contact your local EDA vendor representative whether SystemC AMS is supported.
 

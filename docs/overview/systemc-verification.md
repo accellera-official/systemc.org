@@ -8,7 +8,7 @@ While the verification needs in SystemC evolve and integration with other langua
 
 The  SystemC Verification (SCV) library provides a common set of APIs that are used as a basis to verification activities with SystemC, such as generation of values under constraints, transaction recording, etc. These APIs are implemented in all major SystemC simulators available on the market. 
 
-The SystemC Verification Library 2.0.1 was released in December 2017. This release contains an implementation of the verification extensions for Accellera SystemC 2.3.2 and is compatible with IEEE 1666-2011. Examples and support for recent compilers is also included. [The document can be accessed here][1]. NOTE: There is no active development of the SCV library, the implementation is in maintenance mode. 
+The SystemC Verification Library 2.0.1 was released in December 2017. This release contains an implementation of the verification extensions for Accellera SystemC 2.3.2 and is compatible with IEEE 1666. Examples and support for recent compilers is also included. [The document can be accessed here][1]. NOTE: There is no active development of the SCV library, the implementation is in maintenance mode. 
 
 <img style="width:90%" src="/images/uvm-systemc-architecture.svg">
 

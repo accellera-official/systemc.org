@@ -5,6 +5,7 @@ toc: false
     <li data-target="#carousel_homepage" data-slide-to="0" class="active"></li>
     <li data-target="#carousel_homepage" data-slide-to="1"></li>
     <li data-target="#carousel_homepage" data-slide-to="2"></li>
+    <li data-target="#carousel_homepage" data-slide-to="3"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -26,13 +27,13 @@ toc: false
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
-            <a href="/events/scef202309/"><img src="/images/scef-400.png" class="d-block mx-lg-auto img-fluid" loading="lazy"></a>
+            <a href="https://ieeexplore.ieee.org/document/10246125"><img width="400" src="/images/1666-2023-frontpage.png" class="d-block mx-lg-auto img-fluid" loading="lazy"></a>
           </div>
           <div class="col-lg-6">
-            <h1 class="display-5 fw-bold lh-1 mb-3">SystemC Evolution Fika</h1>
-            <p class="lead">The SystemC Evolution Fika is a virtual event at 12 september 2023. Registration is now open!</p>
-            <a href="/events/scef202309/" class="btn btn-primary btn-lg">Event information</a>
-            <a href="https://form.jotform.com/232145897122962" class="btn btn-secondary btn-lg">Register now</a>
+            <h1 class="display-5 fw-bold lh-1 mb-3">SystemC IEEE 1666-2023</h1>
+            <p class="lead">The new SystemC Language Reference Manual has been released as IEEE Std 1666-2023. This standard is provided at no cost under the <a href="https://ieeexplore.ieee.org/browse/standards/get-program/page/series?id=80">Get IEEE Program</a> thanks to <a href="https://accellera.org">Accellera</a> sponsorship.</p>
+            <a href="https://ieeexplore.ieee.org/document/10246125" class="btn btn-primary btn-lg">Download</a>
+            <a href="https://standards.ieee.org/ieee/1666/7293/" class="btn btn-secondary btn-lg">More information on </a>
           </div>
         </div>
       </div>
@@ -49,6 +50,21 @@ toc: false
             <!--<a href="/events/sced2022/" class="btn btn-primary btn-lg">Program and Presentations</a>-->
             <a href="/events/sced2023/" class="btn btn-primary btn-lg">Event information</a>
             <a href="https://dvcon-europe.org/registration/" class="btn btn-secondary btn-lg">Registration</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item hero">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <a href="/events/scef202309/"><img src="/images/scef-400.png" class="d-block mx-lg-auto img-fluid" loading="lazy"></a>
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">SystemC Evolution Fika</h1>
+            <p class="lead">The SystemC Evolution Fika took place at 12 september 2023. Presentation material will be made available soon.</p>
+            <a href="/events/scef202309/" class="btn btn-primary btn-lg">Event information</a>
+            <!--<a href="https://form.jotform.com/232145897122962" class="btn btn-secondary btn-lg">Register now</a>-->
           </div>
         </div>
       </div>

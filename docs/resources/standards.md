@@ -4,9 +4,9 @@ This page lists the most recent versions of the SystemC standards and implementa
 
 ## Language Reference Manuals
 
-[IEEE Std. 1666-2011 - IEEE Standard for Standard SystemC Language Reference Manual][2]
+[IEEE Std 1666-2023 - IEEE Standard for Standard SystemC Language Reference Manual][2]
 
-[IEEE Std. 1666.1-2016 - IEEE Standard for Standard SystemC(R) Analog/Mixed-Signal Extensions Language Reference Manual][3]
+[IEEE Std 1666.1-2016 - IEEE Standard for Standard SystemC(R) Analog/Mixed-Signal Extensions Language Reference Manual][3]
 
 [SystemC Configuration, Control & Inspection (CCI) 1.0 Language Reference Manual][4]
 
@@ -34,7 +34,7 @@ This page lists the most recent versions of the SystemC standards and implementa
 
 
 [1]: https://www.accellera.org/downloads/standards/systemc
-[2]: https://standards.ieee.org/standard/1666-2011.html
+[2]: https://ieeexplore.ieee.org/document/10246125
 [3]: https://standards.ieee.org/standard/1666_1-2016.html
 [4]: https://www.accellera.org/images/downloads/standards/systemc/SystemC_CCI_1_0_LRM.pdf
 [5]: https://www.accellera.org/images/downloads/standards/systemc/SystemC_Synthesis_Subset_1_4_7.pdf
