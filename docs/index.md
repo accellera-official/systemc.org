@@ -62,7 +62,7 @@ toc: false
           </div>
           <div class="col-lg-6">
             <h1 class="display-5 fw-bold lh-1 mb-3">SystemC Evolution Fika</h1>
-            <p class="lead">The SystemC Evolution Fika took place at 12 september 2023. Presentation material will be made available soon.</p>
+            <p class="lead">The SystemC Evolution Fika took place at 12 september 2023. Presentations are now available.</p>
             <a href="/events/scef202309/" class="btn btn-primary btn-lg">Event information</a>
             <!--<a href="https://form.jotform.com/232145897122962" class="btn btn-secondary btn-lg">Register now</a>-->
           </div>
