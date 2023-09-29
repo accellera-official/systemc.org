@@ -1,8 +1,7 @@
 toc: false
 
 # SystemC Evolution Events
-<!--**The next SystemC Evolution Day take place at 8 December 2022 as in-person event co-located with [DVCon Europe](https://dvcon-europe.org). Visit [this page](../sced2022) for more information!**
--->
+
 <br>
 ## Call for Contributions is Open!
 
@@ -11,9 +10,6 @@ Proposals for SystemC Evolution Events are open all year round, however slots fo
 <br><br>
 
 ## Next events
-
-SystemC Evolution Fika (Online event), 12 September 2023. Visit [this page](/events/scef202309/) for more information.
-<br>
 
 SystemC Evolution Day (In-person event), 16 November 2023. Visit [this page](/events/sced2023/) for more information.
 <br><br>
@@ -27,7 +23,7 @@ SystemC Evolution Day events are full-day, in person events, divided into severa
 
 SystemC Evolution Day events are co-located with [DVCon Europe](https://dvcon-europe.org), on the day after the main conference. 
 
-Past SystemC Evolution Day Events:
+### Past SystemC Evolution Day Events:
 
 * [SystemC Evolution Day 2022](../sced2022/)
 * [SystemC Evolution Day 2021](../sced2021/)
@@ -46,8 +42,9 @@ If you have topics that you think should be included in upcoming fikas, please l
 
 <img style="width:300px;" src="/images/fika.jpg">
 
-Past SystemC Evolution Fikas:
+### Past SystemC Evolution Fikas:
 
+* [September 2023](../scef202309/)
 * [September 2022](../scef202209/)
 * [April 2022](../scef202204/)
 * [June 2021](../scef202106/)
