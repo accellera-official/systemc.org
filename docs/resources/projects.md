@@ -24,9 +24,9 @@ The Productivity and utility libraries contain common resources, building blocks
 | Name                         | Description                                                                            | License                      |
 |:---------------------------- | :------------------------------------------------------------------------------------- | :--------------------------- |
 | [High-Level Synthesis Libs (HLSLibs)][13] | Repository for the unlimited length integer and fixed-point AC types usable with SystemC, plus math, DSP and ML building blocks, as well as SystemC MatchLib | Apache-2.0 |
+| [sc-during][26] | Parallel programming on top of SystemC/TLM | LGPLv2.1 |
 | [SystemC-Components (SCC)][5] | A light weight productivity library for SystemC and TLM 2.0 based modeling tasks using C++11 provides common functions, components and modules often needed in SystemC based models | Apache-2.0 |
 | [Virtual Components Modeling Library (VCML)][6]  | Sockets, Tracing, Registers, GDB server, Logging, Session Protocol, Component Models, Network backends, TLM2.0 protocols | Apache-2.0 |
-| [sc-during][26] | Parallel programming on top of SystemC/TLM | LGPLv2.1 |
 
 <br>
 ## Virtual Platforms and Virtual Prototypes
@@ -35,13 +35,13 @@ This is a list of open-source Virtual Platforms and Virtual Prototypes (VPs):
 
 | Name            | Description                              | OS / Workloads                             | License      |
 | :-------------- | :--------------------------------------- | :----------------------------------------- | :----------- |
-| [SymEx-VP][25]      | A concolic testing framework for RISC-V embedded software with support for SystemC peripherals.       | RIOT, Zephyr, NuttX, Zig | GPLv3          |
 | [ARMv8 Virtual Platform (AVP64)][7]      | OCX QEMU-based ARMv8 multi-core VP       | CoreMark, Dhrystone, Linux, Xen hypervisor | MIT          |
 | [GreenSocs A53 VP][17] | ARM Cortex A53 multi-core VP (registration required) | Linux | GPLv2 |
 | [GreenSocs N1 VP][18] | ARM Neoverse N1 multi-core VP (registration required) | Linux | GPLv2 |
 | [GreenSocs RISC-V64 VP][19] | 64-bit RISC-V multi-core VP (registration required) | Linux | GPLv2 |
 | [HIFIVE1-VP][8] | DBT-RISE-based RISC-V VP                 | FreeRTOS                                   | BSD-3-Clause |
 | [OpenRISC 1000 Multicore VP (OR1KMVP)][9]    | OR1KISS-based multi-core OpenRISC1000 VP | Linux                                      | Apache-2.0   |
+| [SymEx-VP][25]      | A concolic testing framework for RISC-V embedded software with support for SystemC peripherals.       | RIOT, Zephyr, NuttX, Zig | GPLv3          |
 | [TGC-VP][10]    | The Scale4Edge ecosystem RISC-V VP | FreeRTOS | Apache-2.0 |
 | [TLMBoy][30] | Game Boy VP | | Apache-2.0 |
 | [Xilinx Zynq-7000][16] | QEMU based Xilinx Zynq-7000 SoC connected SystemC TLM 2.0  |  | MIT |
@@ -53,8 +53,8 @@ This is a list of open-source Virtual Platforms and Virtual Prototypes (VPs):
 | :--------- | :----------------------------------------------------------------------------------------------------------------------- | :--------- |
 | [Recoding Infrastructure for SystemC (RISC)][20] | Framework for analysis and agressive parallel simulation of embedded system models described in SystemC | BSD-3-Clause |
 | [SystemC compiler][14] | Compiler which translates synthesizable SystemC design to synthesizable SystemVerilog design | Apache-2.0 |
-| [Verilator][15] | Compiler and simulator which translates Verilog/SystemVerilog to SystemC | LGPLv3  |
 | [systemc-clang][29] | Static analysis framework for RTL and TLM SystemC models including a HDL synthesis plugin that generates Verilog | systemc-clang |
+| [Verilator][15] | Compiler and simulator which translates Verilog/SystemVerilog to SystemC | LGPLv3  |
 
 <br>
 ## Simulators
@@ -76,12 +76,11 @@ This is a list of open-source Virtual Platforms and Virtual Prototypes (VPs):
 
 | Name       | Description                                                                                                              | License    |
 | :--------- | :----------------------------------------------------------------------------------------------------------------------- | :--------- |
+| [CRAVE][27] | Constrained RAndom Verification Environment | Apache-2.0 |
+| [FC4SC][28] | Functional Coverage for SystemC | Apache-2.0 |
 | [UVM-Connect][23] | UVM-based library that provides TLM1 and TLM2 connectivity and object passing between SystemC and SystemVerilog UVM models and components | Apache-2.0 |
 | [UVM-ML][22] | Universal Verification Methodology Multi-Language (UVM-ML) Open Architecture supporting UVM-SV, UVM-e, and UVM-SC | Apache-2.0 |
 | [UVM-SystemC][21] | Accellera implementation and standard of the Universal Verification Methodology (UVM) in SystemC | Apache-2.0 |
-| [CRAVE][27] | Constrained RAndom Verification Environment<br>*NOTE: Join Accellera to get access to the latest version of this library* | MIT |
-| [FC4SC][28] | Functional Coverage for SystemC<br>*NOTE: Join Accellera to get access to the latest version of this library* | Apache-2.0 |
-
 
 [1]: https://github.com/accellera-official/systemc.org/issues
 [2]: https://github.com/nvdla/vp
@@ -109,8 +108,8 @@ This is a list of open-source Virtual Platforms and Virtual Prototypes (VPs):
 [24]: https://github.com/hsa-ees/paranut
 [25]: https://github.com/agra-uni-bremen/symex-vp
 [26]: https://gitlab.com/moy/sc-during
-[27]: https://github.com/agra-uni-bremen/crave
-[28]: https://github.com/amiq-consulting/fc4sc
+[27]: https://github.com/accellera-official/crave
+[28]: https://github.com/accellera-official/fc4sc
 [29]: https://github.com/anikau31/systemc-clang
 [30]: https://github.com/not-chciken/TLMBoy
 
