@@ -43,6 +43,7 @@ This is a list of open-source Virtual Platforms and Virtual Prototypes (VPs):
 | [HIFIVE1-VP][8] | DBT-RISE-based RISC-V VP                 | FreeRTOS                                   | BSD-3-Clause |
 | [OpenRISC 1000 Multicore VP (OR1KMVP)][9]    | OR1KISS-based multi-core OpenRISC1000 VP | Linux                                      | Apache-2.0   |
 | [TGC-VP][10]    | The Scale4Edge ecosystem RISC-V VP | FreeRTOS | Apache-2.0 |
+| [TLMBoy][30] | Game Boy VP | | Apache-2.0 |
 | [Xilinx Zynq-7000][16] | QEMU based Xilinx Zynq-7000 SoC connected SystemC TLM 2.0  |  | MIT |
 
 <br>
@@ -111,6 +112,7 @@ This is a list of open-source Virtual Platforms and Virtual Prototypes (VPs):
 [27]: https://github.com/agra-uni-bremen/crave
 [28]: https://github.com/amiq-consulting/fc4sc
 [29]: https://github.com/anikau31/systemc-clang
+[30]: https://github.com/not-chciken/TLMBoy
 
 [50]: https://github.com/accellera-official/systemc
 [51]: https://www.coseda-tech.com/systemc-ams-proof-of-concept
