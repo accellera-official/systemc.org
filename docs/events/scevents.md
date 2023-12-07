@@ -7,12 +7,14 @@ toc: false
 
 Proposals for SystemC Evolution Events are open all year round, however slots for the upcoming SystemC Days fill fast, so you should contact the organizing team as soon as you can:
 [systemc-evolution-day@lists.accellera.org](mailto:systemc-evolution-day@lists.accellera.org).
-<br><br>
 
+<!--
+<br><br>
 ## Next events
 
 SystemC Evolution Day (In-person event), 16 November 2023. Visit [this page](/events/sced2023/) for more information.
 <br><br>
+-->
 
 ## SystemC Evolution Day <img style="float:right; width:300px;" src="/images/sced.png">
 
@@ -25,6 +27,7 @@ SystemC Evolution Day events are co-located with [DVCon Europe](https://dvcon-eu
 
 ### Past SystemC Evolution Day Events:
 
+* [SystemC Evolution Day 2023](../sced2023/)
 * [SystemC Evolution Day 2022](../sced2022/)
 * [SystemC Evolution Day 2021](../sced2021/)
 * [SystemC Evolution Day 2020](../sced2020/)
