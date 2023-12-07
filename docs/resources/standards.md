@@ -14,7 +14,9 @@ This page lists the most recent versions of the SystemC standards and implementa
 
 ## Reference Implementations and Proof-of-concept implementations 
 
-[SystemC 2.3.3 - Core SystemC Language (incl TLM and examples)][6]
+[SystemC 2.3.4 (latest production) - Core SystemC Language (incl TLM and examples)][6a]
+
+[SystemC 3.0.0 (public review) - Core SystemC Language (incl TLM and examples)][6b]
 
 [SystemC AMS 2.3 Proof-of-Concept implementation][7]
 
@@ -38,7 +40,8 @@ This page lists the most recent versions of the SystemC standards and implementa
 [3]: https://standards.ieee.org/standard/1666_1-2016.html
 [4]: https://www.accellera.org/images/downloads/standards/systemc/SystemC_CCI_1_0_LRM.pdf
 [5]: https://www.accellera.org/images/downloads/standards/systemc/SystemC_Synthesis_Subset_1_4_7.pdf
-[6]: https://www.accellera.org/images/downloads/standards/systemc/systemc-2.3.3.tar.gz
+[6a]: https://github.com/accellera-official/systemc/releases/tag/2.3.4
+[6b]: https://github.com/accellera-official/systemc/releases/tag/3.0.0_pub_rev_20231129
 [7]: https://www.coseda-tech.com/systemc-ams-proof-of-concept
 [8]: https://www.accellera.org/images/downloads/standards/systemc/cci-1.0.0.zip
 [9]: https://www.accellera.org/images/downloads/standards/systemc/scv-2.0.1.tar.gz

@@ -20,7 +20,7 @@ The UVM-SystemC release contains some basic examples showing the capabilities of
 
 ## What do I need to run UVM-SystemC?
 
-UVM-SystemC requires a C++ compiler and a SystemC library compatible with IEEE Std 1666, for example the Accellera SystemC 2.3.3 reference implementation, which can be found [here](https://www.accellera.org/downloads/standards/systemc).
+UVM-SystemC requires a C++ compiler and a SystemC library compatible with IEEE Std 1666, for example the Accellera SystemC 2.3.4 reference implementation, which can be found [here](https://github.com/accellera-official/systemc/releases/tag/2.3.4).
 
 ## Is UVM in SystemC compatible with UVM in SystemVerilog?
 
