@@ -30,9 +30,15 @@ The SystemC AMS standard defined in [IEEE Std 1666.1-2016][3] introduces system-
 
 ## SystemC Configuration, Control and Inspection (CCI)
 
-The goal of Configuration, Control and Inspection (CCI) is to improve efficiency and ROI for model creators and tool providers. They CCI standards will allow suppliers to instrument models so that a rich user experience is enabled, and they will allow industry tools to leverage this instrumentation to provide powerful debug and analysis capabilities. The CCI working group is currently defining standards for the exchange of information between SystemC models and tools.
+The goal of Configuration, Control and Inspection (CCI) is to improve efficiency and return-on-investment for model creators and tool providers. The CCI standards will allow suppliers to instrument models so that a rich user experience is enabled, and they will allow industry tools to leverage this instrumentation to provide powerful debug and analysis capabilities. The CCI working group has released the [CCI 1.0 reference implementation][7] to enable model configuration between SystemC models and tools.
 
 [More information about SystemC CCI](/overview/systemc-cci/)
+
+## SystemC Synthesis Subset Standard
+
+The SystemC Synthesis Subset Standard defines the syntactic elements in C++ and SystemC that are appropriate for use in SystemC models intended as input for High Level Synthesis (HLS) tools. The current version of the synthesizable subset is based on ISO/IEC 14882:2003 and IEEE Std 1666-2011, and the SystemC Synthesis Working Group is now looking to incorporate changes and enhancements that result from the evolution towards C++17 and IEEE Std 1666-2023.
+
+[More information about the SystemC Synthesis Subset Language Reference Manual][6]
 
 ## SystemC Verification (UVM-SystemC, SCV)
 
@@ -45,13 +51,16 @@ The SystemC Verification (SCV) library provides a common set of APIs that are us
 ## Resources
 
 * [Download SystemC/TLM standard, IEEE 1666-2023][2] 
+* [Download SystemC AMS extensions standard, IEEE 1666.1-2016][3]
+* [SystemC Synthesis Subset Language Reference Manual, version 1.4.7][6]
 * [SystemC/TLM reference implementation on GitHub][4]
 * [SystemC Standards Update, December 2023][5]
+  
 
 [1]: https://accellera.org
-<!--[2]: https://standards.ieee.org/standard/1666-2011.html-->
 [2]: https://ieeexplore.ieee.org/document/10246125
 [3]: https://standards.ieee.org/standard/1666_1-2016.html
 [4]: https://github.com/accellera-official/systemc
 [5]: https://workspace.accellera.org/document/dl/12212
-
+[6]: https://www.accellera.org/images/downloads/standards/systemc/SystemC_Synthesis_Subset_1_4_7.pdf
+[7]: https://github.com/accellera-official/cci
