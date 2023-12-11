@@ -16,10 +16,12 @@ support for user-defined parameter value types
 
 ## Resources
 
+ * [Download SystemC CCI 1.0 Language Reference Manual][1]
  * [SystemC CCI reference implementation on GitHub][4]
  * Video tutorial: [SystemC Design and Verification - Solidifying the Abstraction Above RTL][2] delivered at DVCon U.S. 2017. Part 2 of this video tutorial delves into the CCI configuration standard.
  * [CCI Working Group Update][3] delivered as part of the "Deploying SystemC for Complex System Prototyping and Validation" tutorial at DVCon 2013
   
+[1]: https://www.accellera.org/images/downloads/standards/systemc/SystemC_CCI_1_0_LRM.pdf
 [2]: https://vimeo.com/479408883
 [3]: https://www.accellera.org/images/community/systemc/about-systemc-cci/CCI_WG_Update_2-25-2013.pdf
 [4]: https://github.com/accellera-official/cci
