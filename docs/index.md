@@ -57,13 +57,13 @@ toc: false
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
-            <a href="/events/sced2022/" target="_blank"><img src="/images/SCED-2023-Logo-400x500px.png" class="d-block mx-lg-auto img-fluid" loading="lazy"></a>
+            <a href="/events/scef202402/" target="_blank"><img src="/images/scef-400.png" class="d-block mx-lg-auto img-fluid" loading="lazy"></a>
           </div>
           <div class="col-lg-6">
-            <h1 class="display-5 fw-bold lh-1 mb-3">SystemC Evolution Day</h1>
-            <p class="lead">The SystemC Evolution Day took place at 16 November 2023. Presentations are now available.</p>
-            <a href="/events/sced2023/" target="_blank" class="btn btn-primary btn-lg">Event information</a>
-            <!--<a href="https://dvcon-europe.org/registration/" class="btn btn-secondary btn-lg">Registration</a>-->
+            <h1 class="display-5 fw-bold lh-1 mb-3">SystemC Evolution Fika</h1>
+            <p class="lead">The next SystemC Evolution Fika is scheduled for 29 February 2024. Register now!</p>
+            <a href="/events/scef202402/" target="_blank" class="btn btn-primary btn-lg">Event information</a>
+            <a href="https://form.jotform.com/240365367853968" target="_blank" class="btn btn-secondary btn-lg">Registration</a>
           </div>
         </div>
       </div>

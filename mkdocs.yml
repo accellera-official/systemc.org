@@ -24,6 +24,7 @@ nav:
 #    - SystemC: docs/systemc/documentation.md
 - Events:
     - SystemC Evolution Events: events/scevents.md
+    - SystemC Evolution Fika - February 2024: events/scef202402.md
     - SystemC Evolution Fika - September 2023: events/scef202309.md
     - SystemC Evolution Fika - September 2022: events/scef202209.md
     - SystemC Evolution Fika - April 2022: events/scef202204.md
