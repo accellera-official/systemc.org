@@ -25,6 +25,7 @@ The Productivity and utility libraries contain common resources, building blocks
 |:---------------------------- | :------------------------------------------------------------------------------------- | :--------------------------- |
 | [High-Level Synthesis Libs (HLSLibs)][13] | Repository for the unlimited length integer and fixed-point AC types usable with SystemC, plus math, DSP and ML building blocks, as well as SystemC MatchLib | Apache-2.0 |
 | [sc-during][26] | Parallel programming on top of SystemC/TLM | LGPLv2.1 |
+| [SingleSource library][31] | The SingleSource library consists of [communication channels][32] which implements functional interfaces similar to TLM 1.0. The channels support cycle accurate mode for simulation and synthesis (the implementation complies with SystemC synthesizable standard). The channels also have a fast simulation mode to be used in architecture exploration, performance evaluation and virtual prototyping. There are multiple examples of channels usage given [here](https://github.com/intel/systemc-compiler/tree/main/designs/single_source) | Apache-2.0 |
 | [SystemC-Components (SCC)][5] | A light weight productivity library for SystemC and TLM 2.0 based modeling tasks using C++11 provides common functions, components and modules often needed in SystemC based models | Apache-2.0 |
 | [Virtual Components Modeling Library (VCML)][6]  | Sockets, Tracing, Registers, GDB server, Logging, Session Protocol, Component Models, Network backends, TLM2.0 protocols | Apache-2.0 |
 
@@ -76,6 +77,7 @@ This is a list of open-source Virtual Platforms and Virtual Prototypes (VPs):
 
 | Name       | Description                                                                                                              | License    |
 | :--------- | :----------------------------------------------------------------------------------------------------------------------- | :--------- |
+| [Assertions][33] | These SystemC assertions are intended to be used in simulation to check design correctness. These assertions are translated into equivalent SystemVerilog assertions (SVA) using the [SystemC compiler][31] | Apache-2.0 |
 | [CRAVE][27] | Constrained RAndom Verification Environment | Apache-2.0 |
 | [FC4SC][28] | Functional Coverage for SystemC | Apache-2.0 |
 | [UVM-Connect][23] | UVM-based library that provides TLM1 and TLM2 connectivity and object passing between SystemC and SystemVerilog UVM models and components | Apache-2.0 |
@@ -112,6 +114,9 @@ This is a list of open-source Virtual Platforms and Virtual Prototypes (VPs):
 [28]: https://github.com/accellera-official/fc4sc
 [29]: https://github.com/anikau31/systemc-clang
 [30]: https://github.com/not-chciken/TLMBoy
+[31]: https://github.com/intel/systemc-compiler/wiki/SingleSource-library
+[32]: https://github.com/intel/systemc-compiler/tree/main/components/common/sctcommon
+[33]: https://github.com/intel/systemc-compiler/wiki/Immediate-and-temporal-assertions-in-SystemC
 
 [50]: https://github.com/accellera-official/systemc
 [51]: https://www.coseda-tech.com/systemc-ams-proof-of-concept

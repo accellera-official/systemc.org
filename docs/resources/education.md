@@ -9,6 +9,7 @@ Please [let us know][issues] if a universiry or institute is missing or needs up
 | University    | Country     | Department     | Lectures                                       |
 | :------------ | :---------- | :--------------| :--------------------------------------------- |
 | [Carinthia University of Applied Sciences][15] | Austria | Integrated Systems and Circuit Design (ISCD) | System Modelling and Verification - Analog,<br>System Modelling and Verification - Digital, System-on-Chip Architectures |
+| [Colorado State University][16] | USA | Embedded, High Performance, and Intelligent Computing (EPIC) | Hardware/Software Design of Embedded Systems |
 | [Grenoble Alpes University][14] | France | Grenoble INP Ensimag | Transaction Level Modeling in SystemC |
 | [Johannes Kepler University Linz][6] | Austria | Institute for Complex Systems (ICS) | Virtual Prototyping/SystemC |
 | [RWTH Aachen University][11] | Germany | Faculty of Electrical Engineering and Information Technology | Computer Science 3 |
@@ -41,3 +42,4 @@ Please [let us know][issues] if a universiry or institute is missing or needs up
 [13]: https://cas.tudelft.nl/
 [14]: https://ensimag.grenoble-inp.fr/en
 [15]: https://www.fh-kaernten.at/iscd
+[16]: https://www.engr.colostate.edu/~sudeep/teaching/hardwaresoftware-design-of-embedded-systems
