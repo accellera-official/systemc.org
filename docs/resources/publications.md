@@ -2,7 +2,7 @@ toc: false
 
 # Open Access Publications
 
-This page gives an overview of SystemC articles and papers published under Open Access, Public Domain or Creative Commons license. 
+This page gives an overview of SystemC articles and papers published under Open Access, Public Domain or Creative Commons license.
 
 **NOTE: Papers with controlled or restricted access can be found on the publisher's website and are not referenced here.**
 
@@ -11,6 +11,9 @@ Please [let us know][issues] if a publication is missing or needs update.
 
 | Title          | Author(s)   | Conference or Journal   | Publisher    |
 | :------------- | :---------- | :---------------------- | :----------- |
+| **2023** |
+| A performance-centric ML-based multi-application mapping technique for regular Network-on-Chip | Jitesh Choudhary, Chitrapu Sai Sudarsan, Soumya J. | Memories - Materials, Devices, Circuits and Systems, Volume 4 | [Elsevier / ScienceDirect][2023_2] |
+| SystemC-based Co-Simulation/Analysis for System-Level Hardware/Software Co-Design | Vittoriano Muttillo, Luigi Pomante, Marco Santic, Giacomo Valente | Computers and Electrical Engineering, Volume 110 | [Elsevier / ScienceDirect][2023_1] |
 | **2022** |
 | Equivalence Checking of System-Level and SPICE-Level Models of Linear Circuits | Kemal Çağlar Coşkun; Muhammad Hassan; Rolf Drechsler | Chips Open Access Journal | [MDPI][2022_5] |
 | DRAMSys4.0: An Open-Source Simulation Framework for In-depth DRAM Analyses | Lukas Steiner; Matthias Jung; Felipe S. Prado; Kirill Bykov; Norbert Wehn  | International Journal of Parallel Programming  | [Springer Link][2022_1] |
@@ -38,6 +41,9 @@ Please [let us know][issues] if a publication is missing or needs update.
 | Modeling of a new 2D Acceleration Sensor Array using SystemC-AMS | Erik Markert; Marco Dienel; Goeran Herrmann; Dietmar Mueller; Ulrich Heinkel | Journal of Physics, Volume 34 | [IOP Science][2006_1] |
 -->
 
+[2023_1]: https://www.sciencedirect.com/science/article/pii/S0045790623002276
+[2023_2]: https://www.sciencedirect.com/science/article/pii/S2773064623000361
+
 [2022_1]: https://link.springer.com/article/10.1007/s10766-022-00727-4
 [2022_2]: https://link.springer.com/article/10.1007/s10766-022-00728-3
 [2022_3]: https://www.hindawi.com/journals/wcmc/2022/7500195/
@@ -63,4 +69,4 @@ Please [let us know][issues] if a publication is missing or needs update.
 
 [2006_1]: https://iopscience.iop.org/article/10.1088/1742-6596/34/1/042
 -->
-[issues]: https://github.com/accellera-official/systemc.org/issues 
+[issues]: https://github.com/accellera-official/systemc.org/issues
