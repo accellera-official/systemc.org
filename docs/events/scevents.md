@@ -8,11 +8,11 @@ toc: false
 Proposals for SystemC Evolution Events are open all year round, however slots for the upcoming SystemC Days fill fast, so you should contact the organizing team as soon as you can:
 [systemc-evolution-day@lists.accellera.org](mailto:systemc-evolution-day@lists.accellera.org).
 <br><br>
+<!--
 ## Next event
-
-SystemC Evolution Fika: 29 February 2024. Visit [this page](/events/scef202402/) for more information.
+SystemC Evolution Fika: 29 February 2024. Visit this page for more information.
 <br><br>
-
+-->
 
 ## SystemC Evolution Day <img style="float:right; width:300px;" src="/images/sced.png">
 
@@ -21,7 +21,7 @@ The days are intended as a lean, user-centric, hands-on forum bringing together 
 
 SystemC Evolution Day events are full-day, in person events, divided into several in-depth sessions. Selected current and future standardization topics around SystemC are discussed in order to accelerate their progress for inclusion in Accellera/IEEE standards.
 
-SystemC Evolution Day events are co-located with [DVCon Europe](https://dvcon-europe.org), on the day after the main conference. 
+SystemC Evolution Day events are co-located with [DVCon Europe](https://dvcon-europe.org), on the day after the main conference.
 
 ### Past SystemC Evolution Day Events:
 
@@ -45,6 +45,7 @@ If you have topics that you think should be included in upcoming fikas, please l
 
 ### Past SystemC Evolution Fikas:
 
+* [February 2024](../scef202402/)
 * [September 2023](../scef202309/)
 * [September 2022](../scef202209/)
 * [April 2022](../scef202204/)

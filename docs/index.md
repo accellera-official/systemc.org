@@ -61,9 +61,9 @@ toc: false
           </div>
           <div class="col-lg-6">
             <h1 class="display-5 fw-bold lh-1 mb-3">SystemC Evolution Fika</h1>
-            <p class="lead">The next SystemC Evolution Fika is scheduled for 29 February 2024. Register now!</p>
-            <a href="/events/scef202402/" target="_blank" class="btn btn-primary btn-lg">Event information</a>
-            <a href="https://form.jotform.com/240365367853968" target="_blank" class="btn btn-secondary btn-lg">Registration</a>
+            <p class="lead">The SystemC Evolution Fika took place at 29 February 2024. Presentations are now available.</p>
+            <a href="/events/scef202402/" target="_blank" class="btn btn-primary btn-lg">View presentations</a>
+            <!--<a href="https://form.jotform.com/240365367853968" target="_blank" class="btn btn-secondary btn-lg">Registration</a>-->
           </div>
         </div>
       </div>
