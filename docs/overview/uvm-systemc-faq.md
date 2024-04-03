@@ -32,7 +32,7 @@ Please check the UVM-SystemC language reference manual (LRM) for the exact defin
 
 ## Can I mix Verification IP developed in UVM-SystemC with VIP created in UVM-SystemVerilog?
 
-The UVM-SystemC release does not address multi-language concepts. Additional libraries are required to interface between the SystemC and SystemVerilog verification components. Please contact your local EDA solution provider whether they can offer a multi-language interface. Accellera is also addressing the need to standardize the multi-language concept, as part of the [Multi-language Verification Working Group](https://www.accellera.org/activities/working-groups/multi-language). 
+The UVM-SystemC release does not address multi-language concepts. Additional libraries are required to interface between the SystemC and SystemVerilog verification components. Please contact your local EDA solution provider whether they can offer a multi-language interface. Accellera is also addressing the need to standardize the multi-language concept, as part of the [Multi-language Verification Working Group](https://www.accellera.org/activities/working-groups/multi-language).
 
 ## Can I create register models in UVM-SystemC?
 
@@ -65,7 +65,7 @@ Yes, the UVM-SystemC language reference manual as well as the proof-of-concept l
 ## Where can I find more information on UVM-SystemC?
 
 The latest UVM-SystemC proof-of-concept implementation can be downloaded [here](https://www.accellera.org/downloads/drafts-review).
-Please visit the [SystemC Verification Working Group](https://www.accellera.org/activities/working-groups/systemc-verification) page for more information or post your questions and findings in the Accellera [forums](http://forums.accellera.org). 
+Please visit the [SystemC Verification Working Group](https://www.accellera.org/activities/working-groups/systemc-verification) page for more information or post your questions and findings in the Accellera [forums](http://forums.accellera.org).
 
 ## How can I contribute to this initiative?
 
