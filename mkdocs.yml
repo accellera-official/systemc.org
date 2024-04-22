@@ -24,6 +24,7 @@ nav:
 #    - SystemC: docs/systemc/documentation.md
 - Events:
     - SystemC Evolution Events: events/scevents.md
+    - SystemC Evolution Fika - May 2024: events/scef202405.md
     - SystemC Evolution Fika - February 2024: events/scef202402.md
     - SystemC Evolution Fika - September 2023: events/scef202309.md
     - SystemC Evolution Fika - September 2022: events/scef202209.md
@@ -44,9 +45,9 @@ nav:
     - Education: resources/education.md
     - Libraries & Projects: resources/projects.md
     - Open Access Publications: resources/publications.md
-    - Standards & Implementations: resources/standards.md 
+    - Standards & Implementations: resources/standards.md
     - Tools: resources/tools.md
     - Training: resources/training.md
-    - Videos: resources/videos.md 
-- Playground: https://www.edaplayground.com/x/56Q4 
+    - Videos: resources/videos.md
+- Playground: https://www.edaplayground.com/x/56Q4
 - Get Involved: get-involved.md

@@ -57,12 +57,12 @@ toc: false
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
-            <a href="/events/scef202402/" target="_blank"><img src="/images/scef-400.png" class="d-block mx-lg-auto img-fluid" loading="lazy"></a>
+            <a href="/events/scef202405/" target="_blank"><img src="/images/scef-400.png" class="d-block mx-lg-auto img-fluid" loading="lazy"></a>
           </div>
           <div class="col-lg-6">
             <h1 class="display-5 fw-bold lh-1 mb-3">SystemC Evolution Fika</h1>
-            <p class="lead">The SystemC Evolution Fika took place at 29 February 2024. Presentations are now available.</p>
-            <a href="/events/scef202402/" target="_blank" class="btn btn-primary btn-lg">View presentations</a>
+            <p class="lead">The next SystemC Evolution Fika takes place at 30 May 2024. Registration will open soon.</p>
+            <a href="/events/scef202405/" target="_blank" class="btn btn-primary btn-lg">Show program</a>
             <!--<a href="https://form.jotform.com/240365367853968" target="_blank" class="btn btn-secondary btn-lg">Registration</a>-->
           </div>
         </div>
