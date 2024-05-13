@@ -1,19 +1,18 @@
 toc: false
 
-# SystemC Evolution Events
+# SystemC Events
 
 <br>
+## Upcoming Events
+* [SystemC Evolution Fika, 30 May 2024](../scef202405/)
+* [SystemC Evolution Day, 17 October 2024](../sced2024/)
+
 ## Call for Contributions is Open!
 
 Proposals for SystemC Evolution Events are open all year round, however slots for the upcoming SystemC Days fill fast, so you should contact the organizing team as soon as you can:
 [systemc-evolution-day@lists.accellera.org](mailto:systemc-evolution-day@lists.accellera.org).
-<br><br>
-<!--
-## Next event
-SystemC Evolution Fika: 29 February 2024. Visit this page for more information.
-<br><br>
--->
 
+<br>
 ## SystemC Evolution Day <img style="float:right; width:300px;" src="/images/sced.png">
 
 SystemC Evolution Day events are an opportunity for the whole SystemC community to come together.

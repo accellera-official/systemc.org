@@ -6,6 +6,7 @@ toc: false
     <li data-target="#carousel_homepage" data-slide-to="1"></li>
     <li data-target="#carousel_homepage" data-slide-to="2"></li>
     <li data-target="#carousel_homepage" data-slide-to="3"></li>
+    <li data-target="#carousel_homepage" data-slide-to="4"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -61,9 +62,24 @@ toc: false
           </div>
           <div class="col-lg-6">
             <h1 class="display-5 fw-bold lh-1 mb-3">SystemC Evolution Fika</h1>
-            <p class="lead">The next SystemC Evolution Fika takes place at 30 May 2024. Registration will open soon.</p>
+            <p class="lead">The next SystemC Evolution Fika takes place at 30 May 2024. Registration is now open!</p>
             <a href="/events/scef202405/" target="_blank" class="btn btn-primary btn-lg">Show program</a>
             <a href="https://form.jotform.com/241125224227950" target="_blank" class="btn btn-secondary btn-lg">Registration</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item hero">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <a href="/events/sced2024/" target="_blank"><img src="/images/systemC-evolution-day-2024-logo-400x500px.png" class="d-block mx-lg-auto img-fluid" loading="lazy"></a>
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">SystemC Evolution Day</h1>
+            <p class="lead">The ninth SystemC Evolution Day is co-located with DVCon Europe 2024 and takes place at 17 October 2024. The Call for Contributions is now open!</p>
+            <a href="/events/sced2024/" target="_blank" class="btn btn-primary btn-lg">Call for Contributions</a>
+            <a href="https://dvcon-europe.org/registration" target="_blank" class="btn btn-secondary btn-lg">Registration</a>
           </div>
         </div>
       </div>
