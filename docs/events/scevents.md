@@ -4,7 +4,7 @@ toc: false
 
 <br>
 ## Upcoming Events
-* [SystemC Evolution Fika, 30 May 2024](../scef202405/)
+<!--* [SystemC Evolution Fika, 30 May 2024](../scef202405/)-->
 * [SystemC Evolution Day, 17 October 2024](../sced2024/)
 
 ## Call for Contributions is Open!
@@ -44,6 +44,7 @@ If you have topics that you think should be included in upcoming fikas, please l
 
 ### Past SystemC Evolution Fikas:
 
+* [May 2024](../scef202405/)
 * [February 2024](../scef202402/)
 * [September 2023](../scef202309/)
 * [September 2022](../scef202209/)

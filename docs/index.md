@@ -6,7 +6,6 @@ toc: false
     <li data-target="#carousel_homepage" data-slide-to="1"></li>
     <li data-target="#carousel_homepage" data-slide-to="2"></li>
     <li data-target="#carousel_homepage" data-slide-to="3"></li>
-    <li data-target="#carousel_homepage" data-slide-to="4"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -54,7 +53,7 @@ toc: false
         </div>
       </div>
     </div>
-    <div class="carousel-item hero">
+    <!--<div class="carousel-item hero">
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
@@ -68,7 +67,7 @@ toc: false
           </div>
         </div>
       </div>
-    </div>
+    </div>-->
     <div class="carousel-item hero">
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
