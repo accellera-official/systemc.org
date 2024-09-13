@@ -78,6 +78,8 @@ a.dropdown-item:hover {
 
 .hero {
   height: 680px;
+  align-items: center;
+  display: flex;
 }
 
 .hero h1 {
@@ -97,5 +99,5 @@ a.dropdown-item:hover {
 
 .carousel-indicators li
 {
-  background-color: #e2e0e0;
+  background-color: #bbbbbb;
 }
