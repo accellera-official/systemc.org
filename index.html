@@ -209,16 +209,16 @@
 
 <div class="col-md-12" role="main">
 
-<div id="carousel_homepage" class="carousel slide" data-ride="carousel" data-interval="10000" >
-  <ol class="carousel-indicators">
-    <li data-target="#carousel_homepage" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel_homepage" data-slide-to="1"></li>
-    <li data-target="#carousel_homepage" data-slide-to="2"></li>
-    <li data-target="#carousel_homepage" data-slide-to="3"></li>
-  </ol>
-  <div class="carousel-inner">
+<div  id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-interval="10000" >
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <div class="carousel-inner hero">
     <div class="carousel-item active">
-      <div class="hero container col-xxl-8 px-4 py-5">
+      <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-3">
           <div class="col-10 col-sm-8 col-lg-6">
             <a href="/overview/systemc"><img style="box-shadow: 0px 0px 10px 10px #1e1e1e;" src="/images/sc_example.png" class="d-block mx-lg-auto img-fluid" loading="lazy"></a>
@@ -232,7 +232,7 @@
         </div>
       </div>
     </div>
-    <div class="carousel-item hero">
+    <div class="carousel-item">
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
@@ -247,36 +247,22 @@
         </div>
       </div>
     </div>
-    <div class="carousel-item hero">
+    <div class="carousel-item">
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-10 col-sm-8 col-lg-6" style="margin-top:100px">
+          <div class="col-10 col-sm-8 col-lg-6">
             <a href="/events/scef202309/" target="_blank"><img  src="/images/systemc.png" class="d-block mx-lg-auto img-fluid" loading="lazy"></a>
           </div>
-          <div class="col-lg-6" style="margin-top:100px">
+          <div class="col-lg-6">
             <h1 class="display-5 fw-bold lh-1 mb-3">SystemC 3.0.0 Released</h1>
-            <p class="lead">The SystemC reference implementation version 3.0.0 is now available! You can download SystemC at <a href="https://github.com/accellera-official/systemc/releases/tag/3.0.0" target="_blank">GitHub</a> and use the <a href="https://github.com/accellera-official/systemc/issues" target="_blank">issue tracker</a> or <a href="https://forums.accellera.org/forum/10-systemc-language/" target="_blank"> SystemC forum</a> to provide feedback.</p>
+            <p class="lead">
+            The SystemC reference implementation version 3.0.0 is now available! You can download SystemC at <a href="https://github.com/accellera-official/systemc/releases/tag/3.0.0" target="_blank">GitHub</a> and use the <a href="https://github.com/accellera-official/systemc/issues" target="_blank">issue tracker</a> or <a href="https://forums.accellera.org/forum/10-systemc-language/" target="_blank"> SystemC forum</a> to provide feedback.</p>
             <a href="https://github.com/accellera-official/systemc/releases/tag/3.0.0" target="_blank" class="btn btn-primary btn-lg">Download SystemC</a>
-            <a href="https://github.com/accellera-official/systemc/issues" target="_blank" class="btn btn-secondary btn-lg">Provide feedback</a>
           </div>
         </div>
       </div>
     </div>
-    <!--<div class="carousel-item hero">
-      <div class="container col-xxl-8 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-10 col-sm-8 col-lg-6">
-            <a href="/events/scef202405/" target="_blank"><img src="/images/scef-400.png" class="d-block mx-lg-auto img-fluid" loading="lazy"></a>
-          </div>
-          <div class="col-lg-6">
-            <h1 class="display-5 fw-bold lh-1 mb-3">SystemC Evolution Fika</h1>
-            <p class="lead">The SystemC Evolution Fika took place 30 May 2024. The presentations and recording of the event are now available!</p>
-            <a href="/events/scef202405/" target="_blank" class="btn btn-primary btn-lg">Presentations and recording</a>
-          </div>
-        </div>
-      </div>
-    </div>-->
-    <div class="carousel-item hero">
+    <div class="carousel-item">
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
@@ -291,7 +277,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> <!-- end inner-->
 </div></div>
 
             </div>
@@ -383,5 +369,5 @@
 
 <!--
 MkDocs version : 1.6.1
-Build Date UTC : 2024-09-13 16:18:29.913242+00:00
+Build Date UTC : 2024-09-13 18:56:22.981423+00:00
 -->
