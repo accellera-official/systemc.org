@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="light">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,15 +11,16 @@
 <title>systemc.org</title>
 
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
         <link href="../../stylesheets/extra.css" rel="stylesheet">
-
-        <script src="../../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../../js/bootstrap.min.js" defer></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
-        <script>hljs.initHighlightingOnLoad();</script> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
     </head>
 
     <body>
@@ -27,7 +28,7 @@
             <div class="container">
 <a class="navbar-brand" href="/"><img src="/images/systemc.png" alt="Logo" style="width:140px;"></a>
                 <!-- Expander button -->
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -35,11 +36,11 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../.." class="nav-link">Home</a>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Overview <b class="caret"></b></a>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Overview</a>
                                 <ul class="dropdown-menu">
                                     
 <li>
@@ -67,8 +68,8 @@
 </li>
                                 </ul>
                             </li>
-                            <li class="dropdown active">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Events <b class="caret"></b></a>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Events</a>
                                 <ul class="dropdown-menu">
                                     
 <li>
@@ -104,7 +105,7 @@
 </li>
                                     
 <li>
-    <a href="./" class="dropdown-item active">SystemC Evolution Day 2024</a>
+    <a href="./" class="dropdown-item active" aria-current="page">SystemC Evolution Day 2024</a>
 </li>
                                     
 <li>
@@ -140,8 +141,8 @@
 </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Resources</a>
                                 <ul class="dropdown-menu">
                                     
 <li>
@@ -181,17 +182,17 @@
 </li>
                                 </ul>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="https://www.edaplayground.com/x/56Q4" class="nav-link">Playground</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../../get-involved/" class="nav-link">Get Involved</a>
                             </li>
                         </ul>
 
-                    <ul class="nav navbar-nav ml-auto">
+                    <ul class="nav navbar-nav ms-md-auto">
                         <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
@@ -216,10 +217,15 @@
 <p>Date: <strong>17 October 2024</strong> (day after DVCon Europe 2024)<br>
 Time: <strong>09:30 - 17:00 CEST</strong><br>
 Location: Holiday Inn Munich City Centre, Hochstrasse 3, 81669 Munich, Germany</p>
-<h2 id="call-for-contributions-is-now-open">Call for Contributions is now Open!</h2>
-<p>We welcome your contributions on ideas for additions and improvements to SystemC and its further standardization. Current activities in Accellera cover topics such as SystemC language, Transaction-level Modeling (TLM), Configuration, Control &amp; Inspection (CCI), Analog/Mixed Signal (AMS), High-level Synthesis (HLS), and Verification.</p>
-<p>You can contribute with sharing insights from your own projects and studies, as well as with follow-up topics from previous SystemC Evolution Days. Topics related to specific application domains, such as automotive, communications, and industrial automation, are also welcome.</p>
-<p>Please submit your proposal before <strong>1 August</strong> to <a href="mailto:systemc-evolution-day@lists.accellera.org">systemc-evolution-day@lists.accellera.org</a>.</p>
+<!--
+## Call for Contributions is now Open!
+
+We welcome your contributions on ideas for additions and improvements to SystemC and its further standardization. Current activities in Accellera cover topics such as SystemC language, Transaction-level Modeling (TLM), Configuration, Control & Inspection (CCI), Analog/Mixed Signal (AMS), High-level Synthesis (HLS), and Verification.
+
+You can contribute with sharing insights from your own projects and studies, as well as with follow-up topics from previous SystemC Evolution Days. Topics related to specific application domains, such as automotive, communications, and industrial automation, are also welcome.
+
+Please submit your proposal before **1 August** to [systemc-evolution-day@lists.accellera.org](mailto:systemc-evolution-day@lists.accellera.org).
+-->
 <h2 id="registration">Registration</h2>
 <ul>
 <li>Early bird registration fee €35 (till 13 September), €55 (after 13 September)</li>
@@ -233,6 +239,73 @@ Location: Holiday Inn Munich City Centre, Hochstrasse 3, 81669 Munich, Germany</
 <li>Peter de Jager, Intel</li>
 <li>Nils Luetke-Steinhorst, Cadence</li>
 </ul>
+<h2 id="agenda">Agenda</h2>
+<table>
+<thead>
+<tr>
+<th>Time (CEST)</th>
+<th>Title</th>
+<th>Presenter(s), Organization</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>9:30</td>
+<td>Welcome &amp; Introduction</td>
+<td>Mark Burton, SystemC Evolution Day Chair</td>
+</tr>
+<tr>
+<td>9:40</td>
+<td>Keynote: QEMU And Simulation environments outside SystemC</td>
+<td>Alex Bennée, Linaro)</td>
+</tr>
+<tr>
+<td>10:20</td>
+<td>Coffee Break</td>
+<td></td>
+</tr>
+<tr>
+<td>10:40</td>
+<td>Panel: Thinking big on SystemC 4.0</td>
+<td><em>Panelists to be announed soon</em></td>
+</tr>
+<tr>
+<td>12:00</td>
+<td>Lunch</td>
+<td></td>
+</tr>
+<tr>
+<td>13:30</td>
+<td>Working Group and Community Update</td>
+<td>Martin Barnasconi, Technical Committee Chair</td>
+</tr>
+<tr>
+<td>14:00</td>
+<td>CCI Update and Demo</td>
+<td>Peter De Jager, Intel<br>Lukas Jünger, Machine Ware</td>
+</tr>
+<tr>
+<td>14:30</td>
+<td>SystemC TLM-2.0 Loosely-Timed Contention-Aware Modeling</td>
+<td>Emad Arasteh, Assistant Professor Chapman University, Orange, CA</td>
+</tr>
+<tr>
+<td>15:00</td>
+<td>Coffee break</td>
+<td></td>
+</tr>
+<tr>
+<td>15:20</td>
+<td>Open room discussion: SystemC Multi-kernel support and thread safety</td>
+<td>Moderator: Jerome Cornet, ST</td>
+</tr>
+<tr>
+<td>16:45</td>
+<td>Closure</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="contact-us">Contact us</h2>
 <p><a href="mailto:systemc-evolution-day@lists.accellera.org">systemc-evolution-day@lists.accellera.org</a>
 <br><br><br><br><br></p>
@@ -255,19 +328,20 @@ Location: Holiday Inn Munich City Centre, Hochstrasse 3, 81669 Munich, Germany</
     </div>
 </div>
         </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
         <script>
             var base_url = "../..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="../../js/base.js" defer></script>
-        <script src="../../search/main.js" defer></script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title" id="searchModalLabel">Search</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <p>From here you can search these documents. Enter your search terms below.</p>
@@ -287,7 +361,7 @@ Location: Holiday Inn Munich City Centre, Hochstrasse 3, 81669 Munich, Germany</
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
               <table class="table">

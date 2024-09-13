@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="light">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,15 +11,16 @@
 <title>systemc.org</title>
 
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
         <link href="../../stylesheets/extra.css" rel="stylesheet">
-
-        <script src="../../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../../js/bootstrap.min.js" defer></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
-        <script>hljs.initHighlightingOnLoad();</script> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
     </head>
 
     <body>
@@ -27,7 +28,7 @@
             <div class="container">
 <a class="navbar-brand" href="/"><img src="/images/systemc.png" alt="Logo" style="width:140px;"></a>
                 <!-- Expander button -->
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -35,11 +36,11 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../.." class="nav-link">Home</a>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Overview <b class="caret"></b></a>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Overview</a>
                                 <ul class="dropdown-menu">
                                     
 <li>
@@ -67,8 +68,8 @@
 </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Events <b class="caret"></b></a>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Events</a>
                                 <ul class="dropdown-menu">
                                     
 <li>
@@ -140,8 +141,8 @@
 </li>
                                 </ul>
                             </li>
-                            <li class="dropdown active">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Resources</a>
                                 <ul class="dropdown-menu">
                                     
 <li>
@@ -161,7 +162,7 @@
 </li>
                                     
 <li>
-    <a href="./" class="dropdown-item active">Open Access Publications</a>
+    <a href="./" class="dropdown-item active" aria-current="page">Open Access Publications</a>
 </li>
                                     
 <li>
@@ -181,17 +182,17 @@
 </li>
                                 </ul>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="https://www.edaplayground.com/x/56Q4" class="nav-link">Playground</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../../get-involved/" class="nav-link">Get Involved</a>
                             </li>
                         </ul>
 
-                    <ul class="nav navbar-nav ml-auto">
+                    <ul class="nav navbar-nav ms-md-auto">
                         <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
@@ -215,138 +216,138 @@
 <table>
 <thead>
 <tr>
-<th align="left">Title</th>
-<th align="left">Author(s)</th>
-<th align="left">Conference or Journal</th>
-<th align="left">Publisher</th>
+<th style="text-align: left;">Title</th>
+<th style="text-align: left;">Author(s)</th>
+<th style="text-align: left;">Conference or Journal</th>
+<th style="text-align: left;">Publisher</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="left"><strong>2023</strong></td>
-<td align="left"></td>
-<td align="left"></td>
-<td align="left"></td>
+<td style="text-align: left;"><strong>2023</strong></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
-<td align="left">A performance-centric ML-based multi-application mapping technique for regular Network-on-Chip</td>
-<td align="left">Jitesh Choudhary, Chitrapu Sai Sudarsan, Soumya J.</td>
-<td align="left">Memories - Materials, Devices, Circuits and Systems, Volume 4</td>
-<td align="left"><a href="https://www.sciencedirect.com/science/article/pii/S2773064623000361">Elsevier / ScienceDirect</a></td>
+<td style="text-align: left;">A performance-centric ML-based multi-application mapping technique for regular Network-on-Chip</td>
+<td style="text-align: left;">Jitesh Choudhary, Chitrapu Sai Sudarsan, Soumya J.</td>
+<td style="text-align: left;">Memories - Materials, Devices, Circuits and Systems, Volume 4</td>
+<td style="text-align: left;"><a href="https://www.sciencedirect.com/science/article/pii/S2773064623000361">Elsevier / ScienceDirect</a></td>
 </tr>
 <tr>
-<td align="left">SystemC-based Co-Simulation/Analysis for System-Level Hardware/Software Co-Design</td>
-<td align="left">Vittoriano Muttillo, Luigi Pomante, Marco Santic, Giacomo Valente</td>
-<td align="left">Computers and Electrical Engineering, Volume 110</td>
-<td align="left"><a href="https://www.sciencedirect.com/science/article/pii/S0045790623002276">Elsevier / ScienceDirect</a></td>
+<td style="text-align: left;">SystemC-based Co-Simulation/Analysis for System-Level Hardware/Software Co-Design</td>
+<td style="text-align: left;">Vittoriano Muttillo, Luigi Pomante, Marco Santic, Giacomo Valente</td>
+<td style="text-align: left;">Computers and Electrical Engineering, Volume 110</td>
+<td style="text-align: left;"><a href="https://www.sciencedirect.com/science/article/pii/S0045790623002276">Elsevier / ScienceDirect</a></td>
 </tr>
 <tr>
-<td align="left"><strong>2022</strong></td>
-<td align="left"></td>
-<td align="left"></td>
-<td align="left"></td>
+<td style="text-align: left;"><strong>2022</strong></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
-<td align="left">Equivalence Checking of System-Level and SPICE-Level Models of Linear Circuits</td>
-<td align="left">Kemal Çağlar Coşkun; Muhammad Hassan; Rolf Drechsler</td>
-<td align="left">Chips Open Access Journal</td>
-<td align="left"><a href="https://www.mdpi.com/2674-0729/1/1/6">MDPI</a></td>
+<td style="text-align: left;">Equivalence Checking of System-Level and SPICE-Level Models of Linear Circuits</td>
+<td style="text-align: left;">Kemal Çağlar Coşkun; Muhammad Hassan; Rolf Drechsler</td>
+<td style="text-align: left;">Chips Open Access Journal</td>
+<td style="text-align: left;"><a href="https://www.mdpi.com/2674-0729/1/1/6">MDPI</a></td>
 </tr>
 <tr>
-<td align="left">DRAMSys4.0: An Open-Source Simulation Framework for In-depth DRAM Analyses</td>
-<td align="left">Lukas Steiner; Matthias Jung; Felipe S. Prado; Kirill Bykov; Norbert Wehn</td>
-<td align="left">International Journal of Parallel Programming</td>
-<td align="left"><a href="https://link.springer.com/article/10.1007/s10766-022-00727-4">Springer Link</a></td>
+<td style="text-align: left;">DRAMSys4.0: An Open-Source Simulation Framework for In-depth DRAM Analyses</td>
+<td style="text-align: left;">Lukas Steiner; Matthias Jung; Felipe S. Prado; Kirill Bykov; Norbert Wehn</td>
+<td style="text-align: left;">International Journal of Parallel Programming</td>
+<td style="text-align: left;"><a href="https://link.springer.com/article/10.1007/s10766-022-00727-4">Springer Link</a></td>
 </tr>
 <tr>
-<td align="left">AMAIX In-Depth: A Generic Analytical Model for Deep Learning Accelerators</td>
-<td align="left">Niko ZurStassen; Lukas Jünger; Tim Kogel; Holger Keding; Rainer Leupers</td>
-<td align="left">International Journal of Parallel Programming</td>
-<td align="left"><a href="https://link.springer.com/article/10.1007/s10766-022-00728-3">Springer Link</a></td>
+<td style="text-align: left;">AMAIX In-Depth: A Generic Analytical Model for Deep Learning Accelerators</td>
+<td style="text-align: left;">Niko ZurStassen; Lukas Jünger; Tim Kogel; Holger Keding; Rainer Leupers</td>
+<td style="text-align: left;">International Journal of Parallel Programming</td>
+<td style="text-align: left;"><a href="https://link.springer.com/article/10.1007/s10766-022-00728-3">Springer Link</a></td>
 </tr>
 <tr>
-<td align="left">Simulating Neural Network Processors</td>
-<td align="left">Jian Hu; Xianlong Zhang; Xiaohua Shi</td>
-<td align="left">Wireless Communications and Mobile Computing</td>
-<td align="left"><a href="https://www.hindawi.com/journals/wcmc/2022/7500195/">Hindawi</a></td>
+<td style="text-align: left;">Simulating Neural Network Processors</td>
+<td style="text-align: left;">Jian Hu; Xianlong Zhang; Xiaohua Shi</td>
+<td style="text-align: left;">Wireless Communications and Mobile Computing</td>
+<td style="text-align: left;"><a href="https://www.hindawi.com/journals/wcmc/2022/7500195/">Hindawi</a></td>
 </tr>
 <tr>
-<td align="left">SymEx-VP: An open source virtual prototype for OS-agnostic concolic testing of IoT firmware</td>
-<td align="left">Sören Tempel; Vladimir Herdt; Rolf Drechsler</td>
-<td align="left">Journal of Systems Architecture</td>
-<td align="left"><a href="https://www.sciencedirect.com/science/article/pii/S1383762122000480">Elsevier / ScienceDirect</a></td>
+<td style="text-align: left;">SymEx-VP: An open source virtual prototype for OS-agnostic concolic testing of IoT firmware</td>
+<td style="text-align: left;">Sören Tempel; Vladimir Herdt; Rolf Drechsler</td>
+<td style="text-align: left;">Journal of Systems Architecture</td>
+<td style="text-align: left;"><a href="https://www.sciencedirect.com/science/article/pii/S1383762122000480">Elsevier / ScienceDirect</a></td>
 </tr>
 <tr>
-<td align="left"><strong>2021</strong></td>
-<td align="left"></td>
-<td align="left"></td>
-<td align="left"></td>
+<td style="text-align: left;"><strong>2021</strong></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
-<td align="left">Advanced virtual prototyping for cyber-physical systems using RISC-V: implementation, verification and challenges</td>
-<td align="left">Vladimir Herdt; Rolf Drechsler</td>
-<td align="left">Science China Information Sciences</td>
-<td align="left"><a href="https://link.springer.com/article/10.1007/s11432-020-3308-4">Springer Link</a></td>
+<td style="text-align: left;">Advanced virtual prototyping for cyber-physical systems using RISC-V: implementation, verification and challenges</td>
+<td style="text-align: left;">Vladimir Herdt; Rolf Drechsler</td>
+<td style="text-align: left;">Science China Information Sciences</td>
+<td style="text-align: left;"><a href="https://link.springer.com/article/10.1007/s11432-020-3308-4">Springer Link</a></td>
 </tr>
 <tr>
-<td align="left">A Service-Oriented Component-Based Framework for Dynamic Reconfiguration Modeling Targeting SystemC/TLM</td>
-<td align="left">Khaled Allem; El-Bay Bourennane; Youcef Khelfaoui</td>
-<td align="left">International Journal of Reconfigurable Computing</td>
-<td align="left"><a href="https://www.hindawi.com/journals/ijrc/2021/5584391/">Hindawi</a></td>
+<td style="text-align: left;">A Service-Oriented Component-Based Framework for Dynamic Reconfiguration Modeling Targeting SystemC/TLM</td>
+<td style="text-align: left;">Khaled Allem; El-Bay Bourennane; Youcef Khelfaoui</td>
+<td style="text-align: left;">International Journal of Reconfigurable Computing</td>
+<td style="text-align: left;"><a href="https://www.hindawi.com/journals/ijrc/2021/5584391/">Hindawi</a></td>
 </tr>
 <tr>
-<td align="left">RISC-V Virtual Platform-Based Convolutional Neural Network Accelerator Implemented in SystemC</td>
-<td align="left">Seung-Ho Lim; WoonSik William Suh; Jin-Young Kim; Sang-Young Cho</td>
-<td align="left">Artificial Intelligence Circuits and Systems (AICAS)</td>
-<td align="left"><a href="https://www.mdpi.com/2079-9292/10/13/1514">MDPI</a></td>
+<td style="text-align: left;">RISC-V Virtual Platform-Based Convolutional Neural Network Accelerator Implemented in SystemC</td>
+<td style="text-align: left;">Seung-Ho Lim; WoonSik William Suh; Jin-Young Kim; Sang-Young Cho</td>
+<td style="text-align: left;">Artificial Intelligence Circuits and Systems (AICAS)</td>
+<td style="text-align: left;"><a href="https://www.mdpi.com/2079-9292/10/13/1514">MDPI</a></td>
 </tr>
 <tr>
-<td align="left"><strong>2020</strong></td>
-<td align="left"></td>
-<td align="left"></td>
-<td align="left"></td>
+<td style="text-align: left;"><strong>2020</strong></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
-<td align="left">Cosimulation of Power and Temperature Models at the SystemC/TLM for a Soft-Core Processor</td>
-<td align="left">Abdelhakim Alali; Mohamed Sadik; Kaoutar Aamali</td>
-<td align="left">Advances in Materials Science and Engineering</td>
-<td align="left"><a href="https://www.hindawi.com/journals/amse/2020/2567915/">Hindawi</a></td>
+<td style="text-align: left;">Cosimulation of Power and Temperature Models at the SystemC/TLM for a Soft-Core Processor</td>
+<td style="text-align: left;">Abdelhakim Alali; Mohamed Sadik; Kaoutar Aamali</td>
+<td style="text-align: left;">Advances in Materials Science and Engineering</td>
+<td style="text-align: left;"><a href="https://www.hindawi.com/journals/amse/2020/2567915/">Hindawi</a></td>
 </tr>
 <tr>
-<td align="left">Pushing the Limits of Parallel Discrete Event Simulation for SystemC</td>
-<td align="left">Rainer Dömer; Zhongqi Cheng; Daniel Mendoza; Emad Arasteh</td>
-<td align="left">A Journey of Embedded and Cyber-Physical Systems</td>
-<td align="left"><a href="https://link.springer.com/chapter/10.1007/978-3-030-47487-4_7">Springer Link</a></td>
+<td style="text-align: left;">Pushing the Limits of Parallel Discrete Event Simulation for SystemC</td>
+<td style="text-align: left;">Rainer Dömer; Zhongqi Cheng; Daniel Mendoza; Emad Arasteh</td>
+<td style="text-align: left;">A Journey of Embedded and Cyber-Physical Systems</td>
+<td style="text-align: left;"><a href="https://link.springer.com/chapter/10.1007/978-3-030-47487-4_7">Springer Link</a></td>
 </tr>
 <tr>
-<td align="left">Standard-compliant Parallel SystemC simulation of Loosely-Timed Transaction Level Models</td>
-<td align="left">Gabriel Busnot; Tanguy Sassolas; Nicolas Ventroux; Matthieu Moy</td>
-<td align="left">Asia and South Pacific Design Automation Conference</td>
-<td align="left"><a href="https://hal.archives-ouvertes.fr/hal-02416253/">HAL</a></td>
+<td style="text-align: left;">Standard-compliant Parallel SystemC simulation of Loosely-Timed Transaction Level Models</td>
+<td style="text-align: left;">Gabriel Busnot; Tanguy Sassolas; Nicolas Ventroux; Matthieu Moy</td>
+<td style="text-align: left;">Asia and South Pacific Design Automation Conference</td>
+<td style="text-align: left;"><a href="https://hal.archives-ouvertes.fr/hal-02416253/">HAL</a></td>
 </tr>
 <tr>
-<td align="left">Automation of Dynamic Power Management in FPGA-Based Energy-Constrained Systems</td>
-<td align="left">Michal Škuta; Dominik Macko; Katarína Jelemenská</td>
-<td align="left">IEEE Journal Article Volume 8</td>
-<td align="left"><a href="https://ieeexplore.ieee.org/document/9189856">IEEE</a></td>
+<td style="text-align: left;">Automation of Dynamic Power Management in FPGA-Based Energy-Constrained Systems</td>
+<td style="text-align: left;">Michal Škuta; Dominik Macko; Katarína Jelemenská</td>
+<td style="text-align: left;">IEEE Journal Article Volume 8</td>
+<td style="text-align: left;"><a href="https://ieeexplore.ieee.org/document/9189856">IEEE</a></td>
 </tr>
 <tr>
-<td align="left">SystemC hardware in the loop simulation scheme</td>
-<td align="left">Hongyun Zheng; Xianghu Wu; Yongchao Tao</td>
-<td align="left">IOP Conference Series: Materials Science and Engineering, Volume 768</td>
-<td align="left"><a href="https://iopscience.iop.org/article/10.1088/1757-899X/768/7/072029">IOP Science</a></td>
+<td style="text-align: left;">SystemC hardware in the loop simulation scheme</td>
+<td style="text-align: left;">Hongyun Zheng; Xianghu Wu; Yongchao Tao</td>
+<td style="text-align: left;">IOP Conference Series: Materials Science and Engineering, Volume 768</td>
+<td style="text-align: left;"><a href="https://iopscience.iop.org/article/10.1088/1757-899X/768/7/072029">IOP Science</a></td>
 </tr>
 <tr>
-<td align="left"><strong>2019</strong></td>
-<td align="left"></td>
-<td align="left"></td>
-<td align="left"></td>
+<td style="text-align: left;"><strong>2019</strong></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
-<td align="left">A SystemC-AMS Framework for the Design and Simulation of Energy Management in Electric Vehicles</td>
-<td align="left">Yukai Chen; Donkyu Baek; Jaemin Kim; Santa Di Cataldo;Naehyuck Chang; Enrico Macii; Sara Vinco; Massimo Poncino</td>
-<td align="left">IEEE Journal Article, Volume 7</td>
-<td align="left"><a href="https://ieeexplore.ieee.org/document/8648435">IEEE</a></td>
+<td style="text-align: left;">A SystemC-AMS Framework for the Design and Simulation of Energy Management in Electric Vehicles</td>
+<td style="text-align: left;">Yukai Chen; Donkyu Baek; Jaemin Kim; Santa Di Cataldo;Naehyuck Chang; Enrico Macii; Sara Vinco; Massimo Poncino</td>
+<td style="text-align: left;">IEEE Journal Article, Volume 7</td>
+<td style="text-align: left;"><a href="https://ieeexplore.ieee.org/document/8648435">IEEE</a></td>
 </tr>
 </tbody>
 </table>
@@ -382,19 +383,20 @@
     </div>
 </div>
         </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
         <script>
             var base_url = "../..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="../../js/base.js" defer></script>
-        <script src="../../search/main.js" defer></script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title" id="searchModalLabel">Search</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <p>From here you can search these documents. Enter your search terms below.</p>
@@ -414,7 +416,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
               <table class="table">

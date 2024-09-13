@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="light">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,15 +11,16 @@
 <title>systemc.org</title>
 
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
         <link href="../../stylesheets/extra.css" rel="stylesheet">
-
-        <script src="../../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../../js/bootstrap.min.js" defer></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
-        <script>hljs.initHighlightingOnLoad();</script> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
     </head>
 
     <body>
@@ -27,7 +28,7 @@
             <div class="container">
 <a class="navbar-brand" href="/"><img src="/images/systemc.png" alt="Logo" style="width:140px;"></a>
                 <!-- Expander button -->
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -35,11 +36,11 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../.." class="nav-link">Home</a>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Overview <b class="caret"></b></a>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Overview</a>
                                 <ul class="dropdown-menu">
                                     
 <li>
@@ -67,8 +68,8 @@
 </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Events <b class="caret"></b></a>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Events</a>
                                 <ul class="dropdown-menu">
                                     
 <li>
@@ -140,8 +141,8 @@
 </li>
                                 </ul>
                             </li>
-                            <li class="dropdown active">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Resources</a>
                                 <ul class="dropdown-menu">
                                     
 <li>
@@ -153,7 +154,7 @@
 </li>
                                     
 <li>
-    <a href="./" class="dropdown-item active">Education</a>
+    <a href="./" class="dropdown-item active" aria-current="page">Education</a>
 </li>
                                     
 <li>
@@ -181,17 +182,17 @@
 </li>
                                 </ul>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="https://www.edaplayground.com/x/56Q4" class="nav-link">Playground</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../../get-involved/" class="nav-link">Get Involved</a>
                             </li>
                         </ul>
 
-                    <ul class="nav navbar-nav ml-auto">
+                    <ul class="nav navbar-nav ms-md-auto">
                         <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
@@ -214,108 +215,108 @@
 <table>
 <thead>
 <tr>
-<th align="left">University</th>
-<th align="left">Country</th>
-<th align="left">Department</th>
-<th align="left">Lectures</th>
+<th style="text-align: left;">University</th>
+<th style="text-align: left;">Country</th>
+<th style="text-align: left;">Department</th>
+<th style="text-align: left;">Lectures</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="left"><a href="https://www.fh-kaernten.at/iscd">Carinthia University of Applied Sciences</a></td>
-<td align="left">Austria</td>
-<td align="left">Integrated Systems and Circuit Design (ISCD)</td>
-<td align="left">System Modelling and Verification - Analog,<br>System Modelling and Verification - Digital, System-on-Chip Architectures</td>
+<td style="text-align: left;"><a href="https://www.fh-kaernten.at/iscd">Carinthia University of Applied Sciences</a></td>
+<td style="text-align: left;">Austria</td>
+<td style="text-align: left;">Integrated Systems and Circuit Design (ISCD)</td>
+<td style="text-align: left;">System Modelling and Verification - Analog,<br>System Modelling and Verification - Digital, System-on-Chip Architectures</td>
 </tr>
 <tr>
-<td align="left"><a href="https://www.engr.colostate.edu/~sudeep/teaching/hardwaresoftware-design-of-embedded-systems">Colorado State University</a></td>
-<td align="left">USA</td>
-<td align="left">Embedded, High Performance, and Intelligent Computing (EPIC)</td>
-<td align="left">Hardware/Software Design of Embedded Systems</td>
+<td style="text-align: left;"><a href="https://www.engr.colostate.edu/~sudeep/teaching/hardwaresoftware-design-of-embedded-systems">Colorado State University</a></td>
+<td style="text-align: left;">USA</td>
+<td style="text-align: left;">Embedded, High Performance, and Intelligent Computing (EPIC)</td>
+<td style="text-align: left;">Hardware/Software Design of Embedded Systems</td>
 </tr>
 <tr>
-<td align="left"><a href="https://ensimag.grenoble-inp.fr/en">Grenoble Alpes University</a></td>
-<td align="left">France</td>
-<td align="left">Grenoble INP Ensimag</td>
-<td align="left">Transaction Level Modeling in SystemC</td>
+<td style="text-align: left;"><a href="https://ensimag.grenoble-inp.fr/en">Grenoble Alpes University</a></td>
+<td style="text-align: left;">France</td>
+<td style="text-align: left;">Grenoble INP Ensimag</td>
+<td style="text-align: left;">Transaction Level Modeling in SystemC</td>
 </tr>
 <tr>
-<td align="left"><a href="https://www.ics.jku.at/">Johannes Kepler University Linz</a></td>
-<td align="left">Austria</td>
-<td align="left">Institute for Complex Systems (ICS)</td>
-<td align="left">Virtual Prototyping/SystemC</td>
+<td style="text-align: left;"><a href="https://www.ics.jku.at/">Johannes Kepler University Linz</a></td>
+<td style="text-align: left;">Austria</td>
+<td style="text-align: left;">Institute for Complex Systems (ICS)</td>
+<td style="text-align: left;">Virtual Prototyping/SystemC</td>
 </tr>
 <tr>
-<td align="left"><a href="https://www.elektrotechnik.rwth-aachen.de/">RWTH Aachen University</a></td>
-<td align="left">Germany</td>
-<td align="left">Faculty of Electrical Engineering and Information Technology</td>
-<td align="left">Computer Science 3</td>
+<td style="text-align: left;"><a href="https://www.elektrotechnik.rwth-aachen.de/">RWTH Aachen University</a></td>
+<td style="text-align: left;">Germany</td>
+<td style="text-align: left;">Faculty of Electrical Engineering and Information Technology</td>
+<td style="text-align: left;">Computer Science 3</td>
 </tr>
 <tr>
-<td align="left"><a href="https://www-soc.lip6.fr/en/">Sorbonne University</a></td>
-<td align="left">France</td>
-<td align="left">LIP6 / CIAN - Analog and Digital Integrated Circuit</td>
-<td align="left"></td>
+<td style="text-align: left;"><a href="https://www-soc.lip6.fr/en/">Sorbonne University</a></td>
+<td style="text-align: left;">France</td>
+<td style="text-align: left;">LIP6 / CIAN - Analog and Digital Integrated Circuit</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
-<td align="left"><a href="https://cesg.tamu.edu/">Texas A&amp;M University</a></td>
-<td align="left">USA</td>
-<td align="left">Electrical &amp; Computer Engineering</td>
-<td align="left">Advanced Digital System Design</td>
+<td style="text-align: left;"><a href="https://cesg.tamu.edu/">Texas A&amp;M University</a></td>
+<td style="text-align: left;">USA</td>
+<td style="text-align: left;">Electrical &amp; Computer Engineering</td>
+<td style="text-align: left;">Advanced Digital System Design</td>
 </tr>
 <tr>
-<td align="left"><a href="https://www.tu-chemnitz.de/">Technical University Chemnitz</a></td>
-<td align="left">Germany</td>
-<td align="left">Faculty Electrical Engineering and Information Technology / Circuit and System Design</td>
-<td align="left">Design of Digital Systems</td>
+<td style="text-align: left;"><a href="https://www.tu-chemnitz.de/">Technical University Chemnitz</a></td>
+<td style="text-align: left;">Germany</td>
+<td style="text-align: left;">Faculty Electrical Engineering and Information Technology / Circuit and System Design</td>
+<td style="text-align: left;">Design of Digital Systems</td>
 </tr>
 <tr>
-<td align="left"><a href="https://cas.tudelft.nl/">Technical University Delft </a></td>
-<td align="left">Netherlands</td>
-<td align="left">Microelectronics / Circuits and Systems Group</td>
-<td align="left">VLSI Systems on Chip</td>
+<td style="text-align: left;"><a href="https://cas.tudelft.nl/">Technical University Delft </a></td>
+<td style="text-align: left;">Netherlands</td>
+<td style="text-align: left;">Microelectronics / Circuits and Systems Group</td>
+<td style="text-align: left;">VLSI Systems on Chip</td>
 </tr>
 <tr>
-<td align="left"><a href="https://tu-dresden.de/">Technical University Dresden</a></td>
-<td align="left">Germany</td>
-<td align="left">Institute of Computer Engineering</td>
-<td align="left">Hardware Modeling and Simulation</td>
+<td style="text-align: left;"><a href="https://tu-dresden.de/">Technical University Dresden</a></td>
+<td style="text-align: left;">Germany</td>
+<td style="text-align: left;">Institute of Computer Engineering</td>
+<td style="text-align: left;">Hardware Modeling and Simulation</td>
 </tr>
 <tr>
-<td align="left"><a href="https://cps.cs.uni-kl.de/en/teaching/">Technical University Kaiserslautern</a></td>
-<td align="left">Germany</td>
-<td align="left">Computer Science / Cyber-Physical Systems</td>
-<td align="left">Virtual Prototyping and HW/SW Co-Design</td>
+<td style="text-align: left;"><a href="https://cps.cs.uni-kl.de/en/teaching/">Technical University Kaiserslautern</a></td>
+<td style="text-align: left;">Germany</td>
+<td style="text-align: left;">Computer Science / Cyber-Physical Systems</td>
+<td style="text-align: left;">Virtual Prototyping and HW/SW Co-Design</td>
 </tr>
 <tr>
-<td align="left"><a href="https://www.ei.tum.de/msce/academic-program/msce-curriculum/">Technical University Munich</a></td>
-<td align="left">Germany</td>
-<td align="left">Department of Electrical and Computer Engineering</td>
-<td align="left">SystemC Lab</td>
+<td style="text-align: left;"><a href="https://www.ei.tum.de/msce/academic-program/msce-curriculum/">Technical University Munich</a></td>
+<td style="text-align: left;">Germany</td>
+<td style="text-align: left;">Department of Electrical and Computer Engineering</td>
+<td style="text-align: left;">SystemC Lab</td>
 </tr>
 <tr>
-<td align="left"><a href="https://www.uni-ulm.de/in/mikro/">Ulm University</a></td>
-<td align="left">Germany</td>
-<td align="left">Institute of Microelectronics</td>
-<td align="left">Electronic System Design using C and SystemC</td>
+<td style="text-align: left;"><a href="https://www.uni-ulm.de/in/mikro/">Ulm University</a></td>
+<td style="text-align: left;">Germany</td>
+<td style="text-align: left;">Institute of Microelectronics</td>
+<td style="text-align: left;">Electronic System Design using C and SystemC</td>
 </tr>
 <tr>
-<td align="left"><a href="http://www.cecs.uci.edu/">University of California, Irvine</a></td>
-<td align="left">USA</td>
-<td align="left">Center for Embedded and Cyber-physical Systems (CECS)</td>
-<td align="left">Embedded Systems Modeling and Design</td>
+<td style="text-align: left;"><a href="http://www.cecs.uci.edu/">University of California, Irvine</a></td>
+<td style="text-align: left;">USA</td>
+<td style="text-align: left;">Center for Embedded and Cyber-physical Systems (CECS)</td>
+<td style="text-align: left;">Embedded Systems Modeling and Design</td>
 </tr>
 <tr>
-<td align="left"><a href="http://slam.ece.utexas.edu/">University of Texas, Austin</a></td>
-<td align="left">USA</td>
-<td align="left">System-Level Architecture and Modeling Group</td>
-<td align="left">Embedded System Design and Modeling</td>
+<td style="text-align: left;"><a href="http://slam.ece.utexas.edu/">University of Texas, Austin</a></td>
+<td style="text-align: left;">USA</td>
+<td style="text-align: left;">System-Level Architecture and Modeling Group</td>
+<td style="text-align: left;">Embedded System Design and Modeling</td>
 </tr>
 <tr>
-<td align="left"><a href="https://www.ecs.soton.ac.uk/">University of Southampton</a></td>
-<td align="left">UK</td>
-<td align="left">Electronics and Computer Science</td>
-<td align="left">Digital Systems Synthesis</td>
+<td style="text-align: left;"><a href="https://www.ecs.soton.ac.uk/">University of Southampton</a></td>
+<td style="text-align: left;">UK</td>
+<td style="text-align: left;">Electronics and Computer Science</td>
+<td style="text-align: left;">Digital Systems Synthesis</td>
 </tr>
 </tbody>
 </table></div>
@@ -335,19 +336,20 @@
     </div>
 </div>
         </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
         <script>
             var base_url = "../..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="../../js/base.js" defer></script>
-        <script src="../../search/main.js" defer></script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title" id="searchModalLabel">Search</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <p>From here you can search these documents. Enter your search terms below.</p>
@@ -367,7 +369,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
               <table class="table">

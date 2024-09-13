@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="light">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,15 +11,16 @@
 <title>systemc.org</title>
 
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
         <link href="../../stylesheets/extra.css" rel="stylesheet">
-
-        <script src="../../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../../js/bootstrap.min.js" defer></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
-        <script>hljs.initHighlightingOnLoad();</script> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
     </head>
 
     <body>
@@ -27,7 +28,7 @@
             <div class="container">
 <a class="navbar-brand" href="/"><img src="/images/systemc.png" alt="Logo" style="width:140px;"></a>
                 <!-- Expander button -->
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -35,11 +36,11 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../.." class="nav-link">Home</a>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Overview <b class="caret"></b></a>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Overview</a>
                                 <ul class="dropdown-menu">
                                     
 <li>
@@ -67,8 +68,8 @@
 </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Events <b class="caret"></b></a>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Events</a>
                                 <ul class="dropdown-menu">
                                     
 <li>
@@ -140,8 +141,8 @@
 </li>
                                 </ul>
                             </li>
-                            <li class="dropdown active">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Resources</a>
                                 <ul class="dropdown-menu">
                                     
 <li>
@@ -169,7 +170,7 @@
 </li>
                                     
 <li>
-    <a href="./" class="dropdown-item active">Tools</a>
+    <a href="./" class="dropdown-item active" aria-current="page">Tools</a>
 </li>
                                     
 <li>
@@ -181,17 +182,17 @@
 </li>
                                 </ul>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="https://www.edaplayground.com/x/56Q4" class="nav-link">Playground</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../../get-involved/" class="nav-link">Get Involved</a>
                             </li>
                         </ul>
 
-                    <ul class="nav navbar-nav ml-auto">
+                    <ul class="nav navbar-nav ms-md-auto">
                         <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
@@ -215,124 +216,124 @@
 <table>
 <thead>
 <tr>
-<th align="left">Name</th>
-<th align="left">Company</th>
-<th align="left">Description</th>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Company</th>
+<th style="text-align: left;">Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="left"><a href="https://www.onespin.com/solutions/functional-correctness">360 DV-SC</a></td>
-<td align="left"><a href="https://www.onespin.com/">Onespin</a></td>
-<td align="left">Formal verification of algorithmic and HLS models</td>
+<td style="text-align: left;"><a href="https://www.onespin.com/solutions/functional-correctness">360 DV-SC</a></td>
+<td style="text-align: left;"><a href="https://www.onespin.com/">Onespin</a></td>
+<td style="text-align: left;">Formal verification of algorithmic and HLS models</td>
 </tr>
 <tr>
-<td align="left"><a href="https://www.aldec.com/en/products/fpga_simulation/active-hdl">Active HDL</a></td>
-<td align="left"><a href="https://www.aldec.com/">Aldec</a></td>
-<td align="left">Windows based integrated FPGA Design Creation and Simulation solution</td>
+<td style="text-align: left;"><a href="https://www.aldec.com/en/products/fpga_simulation/active-hdl">Active HDL</a></td>
+<td style="text-align: left;"><a href="https://www.aldec.com/">Aldec</a></td>
+<td style="text-align: left;">Windows based integrated FPGA Design Creation and Simulation solution</td>
 </tr>
 <tr>
-<td align="left"><a href="https://eda.sw.siemens.com/en-US/ic/ic-design/high-level-synthesis-and-verification-platform/">Catapult HLS</a></td>
-<td align="left"><a href="https://eda.sw.siemens.com/">Siemens EDA</a></td>
-<td align="left">High-level synthesis of C/C++ or SystemC descriptions to RTL</td>
+<td style="text-align: left;"><a href="https://eda.sw.siemens.com/en-US/ic/ic-design/high-level-synthesis-and-verification-platform/">Catapult HLS</a></td>
+<td style="text-align: left;"><a href="https://eda.sw.siemens.com/">Siemens EDA</a></td>
+<td style="text-align: left;">High-level synthesis of C/C++ or SystemC descriptions to RTL</td>
 </tr>
 <tr>
-<td align="left"><a href="https://www.intel.com/content/www/us/en/cofluent/overview.html">CoFluent</a></td>
-<td align="left"><a href="https://www.intel.com/">Intel</a></td>
-<td align="left">System modeling and simulation solution to analyze performance properties</td>
+<td style="text-align: left;"><a href="https://www.intel.com/content/www/us/en/cofluent/overview.html">CoFluent</a></td>
+<td style="text-align: left;"><a href="https://www.intel.com/">Intel</a></td>
+<td style="text-align: left;">System modeling and simulation solution to analyze performance properties</td>
 </tr>
 <tr>
-<td align="left"><a href="https://www.nec.com/en/global/prod/cwb/index.html?">CyberWorkBench</a></td>
-<td align="left"><a href="https://www.nec.com/">NEC</a></td>
-<td align="left">High-level synthesis of C/C++ or SystemC descriptions to RTL</td>
+<td style="text-align: left;"><a href="https://www.nec.com/en/global/prod/cwb/index.html?">CyberWorkBench</a></td>
+<td style="text-align: left;"><a href="https://www.nec.com/">NEC</a></td>
+<td style="text-align: left;">High-level synthesis of C/C++ or SystemC descriptions to RTL</td>
 </tr>
 <tr>
-<td align="left"><a href="https://www.coseda-tech.com/coside-overview">COSIDE</a></td>
-<td align="left"><a href="https://www.coseda-tech.com">COSEDA</a></td>
-<td align="left">Integrated design environment for heterogeneous system modeling using SystemC and SystemC-AMS</td>
+<td style="text-align: left;"><a href="https://www.coseda-tech.com/coside-overview">COSIDE</a></td>
+<td style="text-align: left;"><a href="https://www.coseda-tech.com">COSEDA</a></td>
+<td style="text-align: left;">Integrated design environment for heterogeneous system modeling using SystemC and SystemC-AMS</td>
 </tr>
 <tr>
-<td align="left"><a href="https://www.cadence.com/en_US/home/tools/system-design-and-verification/helium-virtual-and-hybrid-studio.html">Helium</a></td>
-<td align="left"><a href="https://www.cadence.com/">Cadence</a></td>
-<td align="left">Integrated design environment to enable early pre-silicon software bring-up and concurrent hardware/software co-verification</td>
+<td style="text-align: left;"><a href="https://www.cadence.com/en_US/home/tools/system-design-and-verification/helium-virtual-and-hybrid-studio.html">Helium</a></td>
+<td style="text-align: left;"><a href="https://www.cadence.com/">Cadence</a></td>
+<td style="text-align: left;">Integrated design environment to enable early pre-silicon software bring-up and concurrent hardware/software co-verification</td>
 </tr>
 <tr>
-<td align="left"><a href="https://www.synopsys.com/verification/virtual-prototyping/platform-architect.html">Platform Architect</a></td>
-<td align="left"><a href="https://www.synopsys.com/">Synopsys</a></td>
-<td align="left">SystemC TLM 2.0 based graphical environment for early analysis and optimization of multicore SoC architectures for performance and power</td>
+<td style="text-align: left;"><a href="https://www.synopsys.com/verification/virtual-prototyping/platform-architect.html">Platform Architect</a></td>
+<td style="text-align: left;"><a href="https://www.synopsys.com/">Synopsys</a></td>
+<td style="text-align: left;">SystemC TLM 2.0 based graphical environment for early analysis and optimization of multicore SoC architectures for performance and power</td>
 </tr>
 <tr>
-<td align="left"><a href="https://eda.sw.siemens.com/en-US/ic/questa/simulation/advanced-simulator/">Questa</a></td>
-<td align="left"><a href="https://eda.sw.siemens.com/">Siemens EDA</a></td>
-<td align="left">Multi-language simulation environment supporting Verilog, SystemVerilog, VHDL, and SystemC</td>
+<td style="text-align: left;"><a href="https://eda.sw.siemens.com/en-US/ic/questa/simulation/advanced-simulator/">Questa</a></td>
+<td style="text-align: left;"><a href="https://eda.sw.siemens.com/">Siemens EDA</a></td>
+<td style="text-align: left;">Multi-language simulation environment supporting Verilog, SystemVerilog, VHDL, and SystemC</td>
 </tr>
 <tr>
-<td align="left"><a href="https://www.aldec.com/en/products/functional_verification/riviera-pro">Riviera-PRO</a></td>
-<td align="left"><a href="https://www.aldec.com/">Aldec</a></td>
-<td align="left">Multi-language simulation environment supporting Verilog, SystemVerilog, VHDL, and SystemC</td>
+<td style="text-align: left;"><a href="https://www.aldec.com/en/products/functional_verification/riviera-pro">Riviera-PRO</a></td>
+<td style="text-align: left;"><a href="https://www.aldec.com/">Aldec</a></td>
+<td style="text-align: left;">Multi-language simulation environment supporting Verilog, SystemVerilog, VHDL, and SystemC</td>
 </tr>
 <tr>
-<td align="left"><a href="https://www.mathworks.com/help/hdlverifier/ug/getting-started-with-tlm-generator.html">Simulink Coder</a></td>
-<td align="left"><a href="https://www.mathworks.com/">Mathworks</a></td>
-<td align="left">SystemC/TLM component generator using the Simulink Coder</td>
+<td style="text-align: left;"><a href="https://www.mathworks.com/help/hdlverifier/ug/getting-started-with-tlm-generator.html">Simulink Coder</a></td>
+<td style="text-align: left;"><a href="https://www.mathworks.com/">Mathworks</a></td>
+<td style="text-align: left;">SystemC/TLM component generator using the Simulink Coder</td>
 </tr>
 <tr>
-<td align="left"><a href="https://www.machineware.de/#simvcompute">SIM-V</a></td>
-<td align="left"><a href="https://www.machineware.de/">MachineWare</a></td>
-<td align="left">RISC-V full system simulator with SystemC TLM-2.0 interfaces</td>
+<td style="text-align: left;"><a href="https://www.machineware.de/#simvcompute">SIM-V</a></td>
+<td style="text-align: left;"><a href="https://www.machineware.de/">MachineWare</a></td>
+<td style="text-align: left;">RISC-V full system simulator with SystemC TLM-2.0 interfaces</td>
 </tr>
 <tr>
-<td align="left"><a href="https://www.cadence.com/ko_KR/home/tools/digital-design-and-signoff/synthesis/stratus-high-level-synthesis.html">Stratus HLS</a></td>
-<td align="left"><a href="https://www.cadence.com/">Cadence</a></td>
-<td align="left">High-level synthesis of C/C++ or SystemC descriptions to RTL</td>
+<td style="text-align: left;"><a href="https://www.cadence.com/ko_KR/home/tools/digital-design-and-signoff/synthesis/stratus-high-level-synthesis.html">Stratus HLS</a></td>
+<td style="text-align: left;"><a href="https://www.cadence.com/">Cadence</a></td>
+<td style="text-align: left;">High-level synthesis of C/C++ or SystemC descriptions to RTL</td>
 </tr>
 <tr>
-<td align="left"><a href="https://www.tina.com/systemc/">Tina</a></td>
-<td align="left"><a href="https://www.tina.com/">DesignSoft</a></td>
-<td align="left">Circuit Simulator for Analog, Digital, MCU and RF Circuits</td>
+<td style="text-align: left;"><a href="https://www.tina.com/systemc/">Tina</a></td>
+<td style="text-align: left;"><a href="https://www.tina.com/">DesignSoft</a></td>
+<td style="text-align: left;">Circuit Simulator for Analog, Digital, MCU and RF Circuits</td>
 </tr>
 <tr>
-<td align="left"><a href="https://www.synopsys.com/verification/simulation/vcs.html">VCS</a></td>
-<td align="left"><a href="https://www.synopsys.com/">Synopsys</a></td>
-<td align="left">Multi-language simulation environment supporting Verilog, SystemVerilog, VHDL, and SystemC</td>
+<td style="text-align: left;"><a href="https://www.synopsys.com/verification/simulation/vcs.html">VCS</a></td>
+<td style="text-align: left;"><a href="https://www.synopsys.com/">Synopsys</a></td>
+<td style="text-align: left;">Multi-language simulation environment supporting Verilog, SystemVerilog, VHDL, and SystemC</td>
 </tr>
 <tr>
-<td align="left"><a href="https://www.synopsys.com/verification/virtual-prototyping/virtualizer.html">Virtualizer</a></td>
-<td align="left"><a href="https://www.synopsys.com/">Synopsys</a></td>
-<td align="left">Integrated design environment for the development and deployment of virtual prototypes</td>
+<td style="text-align: left;"><a href="https://www.synopsys.com/verification/virtual-prototyping/virtualizer.html">Virtualizer</a></td>
+<td style="text-align: left;"><a href="https://www.synopsys.com/">Synopsys</a></td>
+<td style="text-align: left;">Integrated design environment for the development and deployment of virtual prototypes</td>
 </tr>
 <tr>
-<td align="left"><a href="https://eda.sw.siemens.com/en-US/ic/vista-virtual-prototyping/">Vista</a></td>
-<td align="left"><a href="https://eda.sw.siemens.com/">Siemens EDA</a></td>
-<td align="left">Integrated design environment for virtual prototyping, debugging, and analyzing of complex systems</td>
+<td style="text-align: left;"><a href="https://eda.sw.siemens.com/en-US/ic/vista-virtual-prototyping/">Vista</a></td>
+<td style="text-align: left;"><a href="https://eda.sw.siemens.com/">Siemens EDA</a></td>
+<td style="text-align: left;">Integrated design environment for virtual prototyping, debugging, and analyzing of complex systems</td>
 </tr>
 <tr>
-<td align="left"><a href="https://vlabworks.com/">VLAB</a></td>
-<td align="left"><a href="https://vlabworks.com/">ASTC</a></td>
-<td align="left">Simulation environment to enable virtualization of embedded products, driving rapid design iterations across hardware and software</td>
+<td style="text-align: left;"><a href="https://vlabworks.com/">VLAB</a></td>
+<td style="text-align: left;"><a href="https://vlabworks.com/">ASTC</a></td>
+<td style="text-align: left;">Simulation environment to enable virtualization of embedded products, driving rapid design iterations across hardware and software</td>
 </tr>
 <tr>
-<td align="left"><a href="https://www.cadence.com/en_US/home/tools/system-design-and-verification/simulation-and-testbench-verification/xcelium-simulator.html">Xcelium</a></td>
-<td align="left"><a href="https://www.cadence.com/">Cadence</a></td>
-<td align="left">Multi-language simulation environment supporting Verilog, SystemVerilog, VHDL, and SystemC</td>
+<td style="text-align: left;"><a href="https://www.cadence.com/en_US/home/tools/system-design-and-verification/simulation-and-testbench-verification/xcelium-simulator.html">Xcelium</a></td>
+<td style="text-align: left;"><a href="https://www.cadence.com/">Cadence</a></td>
+<td style="text-align: left;">Multi-language simulation environment supporting Verilog, SystemVerilog, VHDL, and SystemC</td>
 </tr>
 </tbody>
 </table>
 <p><em>All trademarks and trade names are the property of their respective owners</em></p></div>
-<div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+<div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
     <div class="navbar-header">
-        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
             <span class="fa fa-angle-down"></span>
         </button>
     </div>
 
     
-    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#eda-tools-supporting-systemc" class="nav-link">EDA Tools supporting SystemC</a>
+            <li class="nav-item" data-bs-level="1"><a href="#eda-tools-supporting-systemc" class="nav-link">EDA Tools supporting SystemC</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#industry-supported-tools" class="nav-link">Industry Supported Tools</a>
+            <li class="nav-item" data-bs-level="2"><a href="#industry-supported-tools" class="nav-link">Industry Supported Tools</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -357,19 +358,20 @@
     </div>
 </div>
         </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
         <script>
             var base_url = "../..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="../../js/base.js" defer></script>
-        <script src="../../search/main.js" defer></script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title" id="searchModalLabel">Search</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <p>From here you can search these documents. Enter your search terms below.</p>
@@ -389,7 +391,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
               <table class="table">
