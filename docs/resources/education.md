@@ -24,6 +24,7 @@ Please [let us know][issues] if a universiry or institute is missing or needs up
 | [University of California, Irvine][7] | USA | Center for Embedded and Cyber-physical Systems (CECS) | Embedded Systems Modeling and Design |
 | [University of Texas, Austin][4] | USA | System-Level Architecture and Modeling Group | Embedded System Design and Modeling |
 | [University of Southampton][5] | UK | Electronics and Computer Science | Digital Systems Synthesis |
+| [University of Würzburg][17] | Germany | Computer Science | Virtual Prototyping of Embedded Systems |
 
 [issues]: https://github.com/accellera-official/systemc.org/issues 
 
@@ -43,3 +44,4 @@ Please [let us know][issues] if a universiry or institute is missing or needs up
 [14]: https://ensimag.grenoble-inp.fr/en
 [15]: https://www.fh-kaernten.at/iscd
 [16]: https://www.engr.colostate.edu/~sudeep/teaching/hardwaresoftware-design-of-embedded-systems
+[17]: https://www.informatik.uni-wuerzburg.de/ce/teaching/#c1070166
