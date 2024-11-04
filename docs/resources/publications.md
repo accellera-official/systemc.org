@@ -14,11 +14,11 @@ Please [let us know][issues] if a publication is missing or needs update.
 | **2024** |
 | RISC-V VP++: Next generation open-source virtual prototype | Manfred Schlägl; Christoph Hazott; Daniel Große | Workshop on Open-Source Design Automation, 2024| [University][2024_1] |
 | A RISC-V "V" VP: Unlocking vector processing for evaluation at the system level | Manfred Schlägl; Moritz Stockinger; Daniel Große | DATE 2024, pp 1-6 | [University][2024_2] |
-| Threshold Voltage based Dual Memristor Crossbar PUF | Aref Al-Tamimi; Shawkat Ali; Yuan Cao; Amine Bermak | AEU - International Journal of Electronics and Communications Volume 175, February 2024 | [Elsevier / ScienceDirect][2024_3] | 
+| Threshold Voltage based Dual Memristor Crossbar PUF | Aref Al-Tamimi; Shawkat Ali; Yuan Cao; Amine Bermak | AEU - International Journal of Electronics and Communications, Volume 175, February 2024 | [Elsevier / ScienceDirect][2024_3] | 
 | **2023** |
 | GUI-VP Kit: A RISC-V VP meets Linux graphics - enabling interactive graphical application development | Manfred Schlägl; Daniel Große | GLSVLSI 2023 pp. 599-605 | [University][2023_3] |
-| A performance-centric ML-based multi-application mapping technique for regular Network-on-Chip | Jitesh Choudhary, Chitrapu Sai Sudarsan, Soumya J. | Memories - Materials, Devices, Circuits and Systems, Volume 4 | [Elsevier / ScienceDirect][2023_2] |
-| SystemC-based Co-Simulation/Analysis for System-Level Hardware/Software Co-Design | Vittoriano Muttillo, Luigi Pomante, Marco Santic, Giacomo Valente | Computers and Electrical Engineering, Volume 110 | [Elsevier / ScienceDirect][2023_1] |
+| A performance-centric ML-based multi-application mapping technique for regular Network-on-Chip | Jitesh Choudhary; Chitrapu Sai Sudarsan; Soumya J. | Memories - Materials, Devices, Circuits and Systems, Volume 4 | [Elsevier / ScienceDirect][2023_2] |
+| SystemC-based Co-Simulation/Analysis for System-Level Hardware/Software Co-Design | Vittoriano Muttillo; Luigi Pomante; Marco Santic; Giacomo Valente | Computers and Electrical Engineering, Volume 110 | [Elsevier / ScienceDirect][2023_1] |
 | **2022** |
 | Equivalence Checking of System-Level and SPICE-Level Models of Linear Circuits | Kemal Çağlar Coşkun; Muhammad Hassan; Rolf Drechsler | Chips Open Access Journal | [MDPI][2022_5] |
 | DRAMSys4.0: An Open-Source Simulation Framework for In-depth DRAM Analyses | Lukas Steiner; Matthias Jung; Felipe S. Prado; Kirill Bykov; Norbert Wehn  | International Journal of Parallel Programming  | [Springer Link][2022_1] |
