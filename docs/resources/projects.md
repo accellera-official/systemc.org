@@ -28,6 +28,7 @@ The Productivity and utility libraries contain common resources, building blocks
 | [SingleSource library][31] | The SingleSource library consists of [communication channels][32] which implements functional interfaces similar to TLM 1.0. The channels support cycle accurate mode for simulation and synthesis (the implementation complies with SystemC synthesizable standard). The channels also have a fast simulation mode to be used in architecture exploration, performance evaluation and virtual prototyping. There are multiple examples of channels usage given [here](https://github.com/intel/systemc-compiler/tree/main/designs/single_source) | Apache-2.0 |
 | [SystemC-Components (SCC)][5] | A light weight productivity library for SystemC and TLM 2.0 based modeling tasks using C++11 provides common functions, components and modules often needed in SystemC based models | Apache-2.0 |
 | [Virtual Components Modeling Library (VCML)][6]  | Sockets, Tracing, Registers, GDB server, Logging, Session Protocol, Component Models, Network backends, TLM2.0 protocols | Apache-2.0 |
+| [GUI-VP Kit][35]  | Interactive Graphical Application Development Kit, providing a quick-to-create and easy-to-use platform for experimenting with Linux on the [RISC-V VP++][34] | *Not specified* |
 
 <br>
 ## Virtual Platforms and Virtual Prototypes
@@ -36,6 +37,7 @@ This is a list of open-source Virtual Platforms and Virtual Prototypes (VPs):
 
 | Name            | Description                              | OS / Workloads                             | License      |
 | :-------------- | :--------------------------------------- | :----------------------------------------- | :----------- |
+| [RISC-V VP++][34] | RISC-V VP++ is an open-source, RISC-V virtual prototype based on SystemC TLM | Bare-metal, RTOS, or Linux with interactive graphical applications that are network-capable | MIT |   
 | [ARMv8 Virtual Platform (AVP64)][7]      | OCX QEMU-based ARMv8 multi-core VP       | CoreMark, Dhrystone, Linux, Xen hypervisor | MIT          |
 | [GreenSocs A53 VP][17] | ARM Cortex A53 multi-core VP (registration required) | Linux | GPLv2 |
 | [GreenSocs N1 VP][18] | ARM Neoverse N1 multi-core VP (registration required) | Linux | GPLv2 |
@@ -117,6 +119,8 @@ This is a list of open-source Virtual Platforms and Virtual Prototypes (VPs):
 [31]: https://github.com/intel/systemc-compiler/wiki/SingleSource-library
 [32]: https://github.com/intel/systemc-compiler/tree/main/components/common/sctcommon
 [33]: https://github.com/intel/systemc-compiler/wiki/Immediate-and-temporal-assertions-in-SystemC
+[34]: https://github.com/ics-jku/riscv-vp-plusplus
+[35]: https://github.com/ics-jku/GUI-VP_Kit
 
 [50]: https://github.com/accellera-official/systemc
 [51]: https://www.coseda-tech.com/systemc-ams-proof-of-concept
