@@ -9,9 +9,14 @@ This page gives an overview of SystemC articles and papers published under Open 
 Please [let us know][issues] if a publication is missing or needs update.
 
 
-| Title          | Author(s)   | Conference or Journal   | Publisher    |
+| Title          | Author(s)   | Conference or Journal   | Source    |
 | :------------- | :---------- | :---------------------- | :----------- |
+| **2024** |
+| RISC-V VP++: Next generation open-source virtual prototype | Manfred Schlägl; Christoph Hazott; Daniel Große | Workshop on Open-Source Design Automation, 2024| [University][2024_1] |
+| A RISC-V "V" VP: Unlocking vector processing for evaluation at the system level | Manfred Schlägl; Moritz Stockinger; Daniel Große | DATE 2024, pp 1-6 | [University][2024_2] |
+| Threshold Voltage based Dual Memristor Crossbar PUF | Aref Al-Tamimi; Shawkat Ali; Yuan Cao; Amine Bermak | AEU - International Journal of Electronics and Communications Volume 175, February 2024 | [Elsevier / ScienceDirect][2024_3] | 
 | **2023** |
+| GUI-VP Kit: A RISC-V VP meets Linux graphics - enabling interactive graphical application development | Manfred Schlägl; Daniel Große | GLSVLSI 2023 pp. 599-605 | [University][2023_3] |
 | A performance-centric ML-based multi-application mapping technique for regular Network-on-Chip | Jitesh Choudhary, Chitrapu Sai Sudarsan, Soumya J. | Memories - Materials, Devices, Circuits and Systems, Volume 4 | [Elsevier / ScienceDirect][2023_2] |
 | SystemC-based Co-Simulation/Analysis for System-Level Hardware/Software Co-Design | Vittoriano Muttillo, Luigi Pomante, Marco Santic, Giacomo Valente | Computers and Electrical Engineering, Volume 110 | [Elsevier / ScienceDirect][2023_1] |
 | **2022** |
@@ -41,8 +46,13 @@ Please [let us know][issues] if a publication is missing or needs update.
 | Modeling of a new 2D Acceleration Sensor Array using SystemC-AMS | Erik Markert; Marco Dienel; Goeran Herrmann; Dietmar Mueller; Ulrich Heinkel | Journal of Physics, Volume 34 | [IOP Science][2006_1] |
 -->
 
+[2024_1]: https://ics.jku.at/files/2024OSDA_RISCV-VP-plusplus.pdf
+[2024_2]: https://ics.jku.at/files/2024DATE_RISCV-VP-plusplus_RVV.pdf
+[2024_3]: https://www.sciencedirect.com/science/article/pii/S1434841123004867
+
 [2023_1]: https://www.sciencedirect.com/science/article/pii/S0045790623002276
 [2023_2]: https://www.sciencedirect.com/science/article/pii/S2773064623000361
+[2023_3]: https://ics.jku.at/files/2023GLSVLSI_GUI-VP_Kit.pdf
 
 [2022_1]: https://link.springer.com/article/10.1007/s10766-022-00727-4
 [2022_2]: https://link.springer.com/article/10.1007/s10766-022-00728-3
