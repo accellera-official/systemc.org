@@ -15,6 +15,7 @@ This is a list of SystemC models for use in virtual platforms:
 | [Virtual Components Modeling Library (VCML) Models][3] | The VCML productivity library contains many component models (ARM, RISC-V, Virtio, ...) | Apache-2.0                                   |
 | [Virtual Components Modeling Library (VCML) NVDLA Model][4]  | VCML integration of the NVDLA model                                                     | Apache-2.0                                   |
 | [VPV-Peripherals][12]    | Library of example SystemC/TLM peripherals for various SoCs based on the SCC library    | Apache-2.0                                   |
+| [DRAMSys][36]    | SystemC TLM-AT Model of DRAM Subsystems (DDR, LPDDR, HBM, ...)   | BSD                                   |
 
 <br>
 ## Productivity and Utility Libraries
@@ -121,6 +122,7 @@ This is a list of open-source Virtual Platforms and Virtual Prototypes (VPs):
 [33]: https://github.com/intel/systemc-compiler/wiki/Immediate-and-temporal-assertions-in-SystemC
 [34]: https://github.com/ics-jku/riscv-vp-plusplus
 [35]: https://github.com/ics-jku/GUI-VP_Kit
+[36]: https://github.com/tukl-msd/DRAMSys
 
 [50]: https://github.com/accellera-official/systemc
 [51]: https://www.coseda-tech.com/systemc-ams-proof-of-concept
