@@ -45,9 +45,9 @@ toc: false
             <a href="/events/scef202309/" target="_blank"><img  src="/images/systemc.png" class="d-block mx-lg-auto img-fluid" loading="lazy"></a>
           </div>
           <div class="col-lg-6">
-            <h1 class="display-5 fw-bold lh-1 mb-3">SystemC 3.0.0 Released</h1>
+            <h1 class="display-5 fw-bold lh-1 mb-3">SystemC 3.0.1</h1>
             <p class="lead">
-            The SystemC reference implementation version 3.0.0 is now available! You can download SystemC at <a href="https://github.com/accellera-official/systemc/releases/tag/3.0.0" target="_blank">GitHub</a> and use the <a href="https://github.com/accellera-official/systemc/issues" target="_blank">issue tracker</a> or <a href="https://forums.accellera.org/forum/10-systemc-language/" target="_blank"> SystemC forum</a> to provide feedback.</p>
+            The SystemC reference implementation version 3.0.1 is now available! You can download SystemC at <a href="https://github.com/accellera-official/systemc/releases/tag/3.0.1" target="_blank">GitHub</a> and use the <a href="https://github.com/accellera-official/systemc/issues" target="_blank">issue tracker</a> or <a href="https://forums.accellera.org/forum/10-systemc-language/" target="_blank"> SystemC forum</a> to provide feedback.</p>
             <a href="https://github.com/accellera-official/systemc/releases/tag/3.0.0" target="_blank" class="btn btn-primary btn-lg">Download SystemC</a>
           </div>
         </div>
@@ -61,9 +61,8 @@ toc: false
           </div>
           <div class="col-lg-6">
             <h1 class="display-5 fw-bold lh-1 mb-3">SystemC Evolution Day</h1>
-            <p class="lead">The ninth SystemC Evolution Day is co-located with DVCon Europe 2024 and takes place at 17 October 2024. The program is now available!</p>
-            <a href="/events/sced2024/" target="_blank" class="btn btn-primary btn-lg">Show program</a>
-            <a href="https://dvcon-europe.org/registration" target="_blank" class="btn btn-secondary btn-lg">Registration</a>
+            <p class="lead">The ninth SystemC Evolution Day took place at 17 October 2024. The presentations are now available!</p>
+            <a href="/events/sced2024/" target="_blank" class="btn btn-primary btn-lg">Presentations</a>
           </div>
         </div>
       </div>
