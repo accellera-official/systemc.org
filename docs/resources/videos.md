@@ -36,6 +36,14 @@ toc: false
       </div>
       <a href="https://www.youtube.com/watch?v=pZDBrIL2Vec&t=395s" target="_blank">Build a VP with SystemC and PySysC - DVCon Europe 2021</a>
     </div>
-
+    <div class="col-md-6">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=tOCQz1SaubqKvkzk&amp;list=PL_JZo16Mzs5VhcqopCA3YRjfZLaGywstl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <a href="https://www.youtube.com/playlist?list=PL_JZo16Mzs5VhcqopCA3YRjfZLaGywstl" target="_blank">Lecture Virtual Prototyping of Embedded Systems - Computer Engineering University of Würzburg</a>
+    </div>
   </div>
 </div>
+
+
+
