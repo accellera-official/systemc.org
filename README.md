@@ -4,7 +4,7 @@ Website sources rendered using [MkDocs][1]
 
 See the published website at [https://systemc.org][2]
 
-Copyright &copy; 2024 [Accellera Systems Initiative][3]
+&copy; [Accellera Systems Initiative][3]
 
 # Contributing via pull requests
 
