@@ -42,13 +42,13 @@ toc: false
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
-            <a href="/ssoc2025/" target="_blank"><img  src="/images/systemc-summer-of-code-logo-2-1500.png" class="d-block mx-lg-auto img-fluid" loading="lazy"></a>
+            <a href="/events/ssoc2025/" target="_blank"><img  src="/images/systemc-summer-of-code-logo-2-1500.png" class="d-block mx-lg-auto img-fluid" loading="lazy"></a>
           </div>
           <div class="col-lg-6">
             <h1 class="display-5 fw-bold lh-1 mb-3">SystemC Summer of Code</h1>
             <p class="lead">
             The SystemC Summer of Code 2025 is about to happen! Applications will be accepted March 5 through April 4 by submitting a project proposal and resume.</p>
-            <a href="/ssoc2025/" target="_blank" class="btn btn-primary btn-lg">More information</a>
+            <a href="/events/ssoc2025/" target="_blank" class="btn btn-primary btn-lg">More information</a>
           </div>
         </div>
       </div>

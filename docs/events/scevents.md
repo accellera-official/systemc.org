@@ -4,9 +4,17 @@ toc: false
 
 <br>
 ## Upcoming Events
-<!--* [SystemC Evolution Fika, 30 May 2024](../scef202405/)-->
-* [SystemC Evolution Day, 17 October 2024](../sced2024/)
+<!--* [SystemC Evolution Fika, 30 May 2024](../scef202405/)
+* [SystemC Evolution Day, 17 October 2024](../sced2024/)-->
 
+SystemC Evolution Day, 16 October 2025
+
+<br>
+## SystemC Summer of Code will open soon!
+
+Accellera Systems Initiative (Accellera) announced its [SystemC Summer of Code 2025](/events/ssoc2025/) program, created for students interested in contributing to the evolution of the SystemC ecosystem.  Experience in object-oriented programming and C++ is required. Applications will be accepted March 5 through April 4 by submitting a project proposal and resume. Visit the [SystemC Summer of Code 2025](/events/ssoc2025/) page for more information!
+
+<br>
 ## Call for Contributions is Open!
 
 Proposals for SystemC Evolution Events are open all year round, however slots for the upcoming SystemC Days fill fast, so you should contact the organizing team as soon as you can:
