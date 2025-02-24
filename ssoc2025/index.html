@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://systemc.org/ssoc2025/">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+<title>systemc.org</title>
+
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="../stylesheets/extra.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+<a class="navbar-brand" href="/"><img src="/images/systemc.png" alt="Logo" style="width:140px;"></a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Overview</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../overview/systemc/" class="dropdown-item">SystemC</a>
+</li>
+                                    
+<li>
+    <a href="../overview/systemc-tlm/" class="dropdown-item">SystemC TLM</a>
+</li>
+                                    
+<li>
+    <a href="../overview/systemc-ams/" class="dropdown-item">SystemC AMS</a>
+</li>
+                                    
+<li>
+    <a href="../overview/systemc-cci/" class="dropdown-item">SystemC CCI</a>
+</li>
+                                    
+<li>
+    <a href="../overview/systemc-verification/" class="dropdown-item">SystemC Verification</a>
+</li>
+                                    
+<li>
+    <a href="../overview/systemc-scp/" class="dropdown-item">SystemC Common Practices (SCP)</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Events</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../events/scevents/" class="dropdown-item">SystemC Events</a>
+</li>
+                                    
+<li>
+    <a href="../events/scef202405/" class="dropdown-item">SystemC Evolution Fika - May 2024</a>
+</li>
+                                    
+<li>
+    <a href="../events/scef202402/" class="dropdown-item">SystemC Evolution Fika - February 2024</a>
+</li>
+                                    
+<li>
+    <a href="../events/scef202309/" class="dropdown-item">SystemC Evolution Fika - September 2023</a>
+</li>
+                                    
+<li>
+    <a href="../events/scef202209/" class="dropdown-item">SystemC Evolution Fika - September 2022</a>
+</li>
+                                    
+<li>
+    <a href="../events/scef202204/" class="dropdown-item">SystemC Evolution Fika - April 2022</a>
+</li>
+                                    
+<li>
+    <a href="../events/scef202106/" class="dropdown-item">SystemC Evolution Fika - June 2021</a>
+</li>
+                                    
+<li>
+    <a href="../events/scef202103/" class="dropdown-item">SystemC Evolution Fika - March 2021</a>
+</li>
+                                    
+<li>
+    <a href="../events/sced2024/" class="dropdown-item">SystemC Evolution Day 2024</a>
+</li>
+                                    
+<li>
+    <a href="../events/sced2023/" class="dropdown-item">SystemC Evolution Day 2023</a>
+</li>
+                                    
+<li>
+    <a href="../events/sced2022/" class="dropdown-item">SystemC Evolution Day 2022</a>
+</li>
+                                    
+<li>
+    <a href="../events/sced2021/" class="dropdown-item">SystemC Evolution Day 2021</a>
+</li>
+                                    
+<li>
+    <a href="../events/sced2020/" class="dropdown-item">SystemC Evolution Day 2020</a>
+</li>
+                                    
+<li>
+    <a href="../events/sced2019/" class="dropdown-item">SystemC Evolution Day 2019</a>
+</li>
+                                    
+<li>
+    <a href="../events/sced2018/" class="dropdown-item">SystemC Evolution Day 2018</a>
+</li>
+                                    
+<li>
+    <a href="../events/sced2017/" class="dropdown-item">SystemC Evolution Day 2017</a>
+</li>
+                                    
+<li>
+    <a href="../events/sced2016/" class="dropdown-item">SystemC Evolution Day 2016</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Resources</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../resources/books/" class="dropdown-item">Books</a>
+</li>
+                                    
+<li>
+    <a href="https://forums.accellera.org/forum/9-systemc/" class="dropdown-item">Discussion forum</a>
+</li>
+                                    
+<li>
+    <a href="../resources/education/" class="dropdown-item">Education</a>
+</li>
+                                    
+<li>
+    <a href="../resources/projects/" class="dropdown-item">Libraries & Projects</a>
+</li>
+                                    
+<li>
+    <a href="../resources/publications/" class="dropdown-item">Open Access Publications</a>
+</li>
+                                    
+<li>
+    <a href="../resources/standards/" class="dropdown-item">Standards & Implementations</a>
+</li>
+                                    
+<li>
+    <a href="../resources/tools/" class="dropdown-item">Tools</a>
+</li>
+                                    
+<li>
+    <a href="../resources/training/" class="dropdown-item">Training</a>
+</li>
+                                    
+<li>
+    <a href="../resources/videos/" class="dropdown-item">Videos</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://www.edaplayground.com/x/56Q4" class="nav-link">Playground</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../get-involved/" class="nav-link">Get Involved</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+    <li class="nav-item">
+        <a href="https://github.com/accellera-official/" class="nav-link"><i class="fa-brands fa-github"></i> GitHub</a>
+    </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+<div class="col-md-12" role="main">
+
+<h1 id="systemc-summer-of-code-2025">SystemC Summer of Code 2025</h1>
+<p>Accellera Systems Initiative will host the <strong>SystemC Summer of Code (SSoC)</strong> 2025 program and invites students to sign-up for a 12 week C++-based programming assignment during the summer period. This page lists some suggested projects by Accellera, and students are encouraged to improve and enrich these proposals!</p>
+<h2 id="application-process">Application process</h2>
+<p>If you are interest to contribute to the evolution of the SystemC ecosystem, please submit your project proposal along with your resume to <a href="mailto:ssoc@lists.accellera.org">ssoc@lists.accellera.org</a> starting March 5. The application deadline is April 4.</p>
+<p><strong>Students are encouraged to apply quickly, as there are limited seats available. Students are notified not later than April 7.</strong></p>
+<p>Submitted applications should be based on the use of Accellera’s <a href="https://github.com/accellera-official/systemc">SystemC reference implementation</a> or any of the SystemC extensions for <a href="https://systemc.org/overview/systemc-ams/">Analog/Mixed-Signal (AMS)</a>, <a href="https://systemc.org/overview/systemc-cci/">Control and Inspection (CCI)</a>, <a href="https://systemc.org/overview/systemc-scp/">Common Practices</a>, or <a href="https://systemc.org/overview/systemc-verification/">Verification</a>.</p>
+<h2 id="timeline">Timeline</h2>
+<ul>
+<li>February 24: <strong>SystemC Summer of Code (SSoC)</strong> 2025 program and project proposals announced</li>
+<li>March 5: Start submitting your application to <a href="mailto:ssoc@lists.accellera.org">ssoc@lists.accellera.org</a> </li>
+<li>April 4: Application deadline</li>
+<li>May – August: Coding period</li>
+<li>September – October: Wrap-up and hand-over project to the Accellera working groups</li>
+</ul>
+<h2 id="2025-project-proposals">2025 Project proposals</h2>
+<p>This section lists the suggested projects by Accellera, and students are encouraged to improve and enrich these proposals!</p>
+<ul>
+<li>Advancing the SystemC build and test flow using Continuous Integration (CI)</li>
+<li>Thread-safe SystemC reference implementation</li>
+<li>SystemC Control Interface</li>
+<li>Federated Simulation including SystemC</li>
+</ul>
+<h3 id="advancing-the-systemc-build-and-test-flow-using-continuous-integration-ci">Advancing the SystemC build and test flow using Continuous Integration (CI)</h3>
+<p>This project focuses on the improvement of the overall quality of Accellera’s <a href="https://github.com/accellera-official/systemc">SystemC reference implementation</a> and <a href="https://github.com/accellera-official/cci">Configuration, Control and Inspection (CCI) library</a> with the aim to lower the barriers to start using these libraries. As of now, a Continuous Integration (CI) build and test flow exists for the SystemC CCI library. For the SystemC reference implementation, a very basic CI/CD build flow is available. Furthermore, both the SystemC and SystemC CCI library need a upgrade of the CMake-based build system to ease integration into other CMake projects. Also the regression environment requires a major upgrade, replacing the old Perl runners by a more modern test infrastructure like GoogleTest.</p>
+<ul>
+<li>Skills required: C++, SystemC, CMake, Git, Github Actions, Perl, GoogleTest</li>
+<li>Mentors: <em>will be announced later</em></li>
+<li>Expected duration: 480h (12 weeks)</li>
+<li>Level of difficulty: Low</li>
+<li>Expected outcome: CI/CD build flow for SystemC and CCI including improved CMake build, test coverage, release automation and visualization </li>
+</ul>
+<h3 id="thread-safe-systemc-reference-implementation">Thread-safe SystemC reference implementation</h3>
+<p>This project proposal is to upgrade the existing <a href="https://github.com/accellera-official/systemc">SystemC reference implementation</a> and make it thread-safe. Thread-safety is important to be able to use SystemC in a multi-threading environment, and improvements are required in the underlying simulation engine as well as in the SystemC data types. The latest SystemC standard, IEEE Std. 1666-2023, defines C++17 as baseline language, which enables the use of C++17 language capabilties and features to upgrade the simulation engine. Note however that enhancements should not alter the public API, to maintain compatible with the existing SystemC standard.</p>
+<ul>
+<li>Skills required: C++, SystemC, Git, multi-thread applications</li>
+<li>Mentors: <em>will be announced later</em></li>
+<li>Expected duration: 480h (12 weeks)</li>
+<li>Level of difficulty: Medium</li>
+<li>Expected outcome: Thread-safe SystemC reference implementation leveraging C++17 language constructs and features. </li>
+</ul>
+<h3 id="systemc-control-interface">SystemC Control Interface</h3>
+<p>This project proposal is to develop a control interface as part of the <a href="https://github.com/accellera-official/cci">Configuration, Control and Inspection (CCI) library</a>. The control interface should offer an interactive API to control the simulator (e.g., start, stop, pause), offer means to access parameters (e.g., set, get, inspect) and offer a light-weight interactive API to enable inspection and debug. Implementation of such API could be implemented as command-line interface (CLI) or might use web-techologies such as a REST-API.</p>
+<ul>
+<li>Skills required: C++, SystemC, CCI, Git</li>
+<li>Mentors: <em>will be announced later</em></li>
+<li>Expected duration: 480h (12 weeks)</li>
+<li>Level of difficulty: Medium</li>
+<li>Expected outcome: SystemC CCI control API </li>
+</ul>
+<h3 id="federated-simulation-including-systemc">Federated simulation including SystemC</h3>
+<p>Federated simulation targets an efficient integration of multiple system-level models and/or simulation environments into a distributed and orchestrated simulation framework. It should enable multi-domain simulation where different models-of-computation are integrated and synchronized. Accellera has started the <a href="https://www.accellera.org/activities/working-groups/fss-working-group">Federated Simulation Working Group and User Group</a> to address the interoperability and standardization aspects to enable combining existing standards and technologies such as SystemC TLM, <a href="https://fmi-standard.org/">FMI</a>, <a href="https://www.qemu.org/">QEMU</a> and <a href="https://zenoh.io/">Zenoh</a>. This project aims at building a demonstrator where different simulation and modeling technologies like SystemC and FMI are combined and interconnected via an existing transport layer (e.g. DDS, SilKit or Zenoh). </p>
+<ul>
+<li>Skills required: C++, SystemC, FMI, QEMU, (DDS | Zenoh | Silkit)</li>
+<li>Mentors: <em>will be announced later</em></li>
+<li>Expected duration: 480h (12 weeks)</li>
+<li>Level of difficulty: Hard</li>
+<li>Expected outcome: Demonstrator showing intercommunication between two or more simulation engines containing models implemented in e.g. SystemC TLM, FMI, QEMU  </li>
+</ul></div>
+
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+<hr>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4" style="text-align: left;">&copy; 2024 <a href="https://accellera.org/" target="_blank">Accellera Systems Initiative</a></div>
+        <div class="col-md-4" style="text-align: center;"><a href="https://github.com/accellera-official/systemc.org" target="_blank">Contribute</a></div>
+        <div class="col-md-4" style="text-align: right;">
+            <a href="/privacy/">Privacy Policy</a>
+        </div>
+    </div>
+</div>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
