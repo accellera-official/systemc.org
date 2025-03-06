@@ -4,10 +4,9 @@ toc: false
 <br>
 
 ## Upcoming Events
-<!--* [SystemC Evolution Fika, 30 May 2024](../scef202405/)
-* [SystemC Evolution Day, 17 October 2024](../sced2024/)-->
 
-SystemC Evolution Day, 16 October 2025
+ * [SystemC Fika, 27 March 2025](../scef202503/) (online event)
+ * SystemC Evolution Day, 16 October 2025 - day after DVCon Europe 2025 (in-person event)
 
 <img style="float:right; width:300px;" src="/images/systemc-summer-of-code-logo-2-1500.png">
 
