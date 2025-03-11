@@ -31,8 +31,9 @@ toc: false
           </div>
           <div class="col-lg-6">
             <h1 class="display-5 fw-bold lh-1 mb-3">SystemC Fika</h1>
-            <p class="lead">The next SystemC Fika is planned for March 27. Mark your calendar now! The program will be announced soon.</p>
-            <a href="/events/scef202503/" target="_blank" class="btn btn-primary btn-lg">More information</a>
+            <p class="lead">The next SystemC Fika is planned for March 27. The program is now available and registration is open!</p>
+            <a href="/events/scef202503/" target="_blank" class="btn btn-primary btn-lg">Show program</a>
+            <a href="https://form.jotform.com/250645321767964/" target="_blank" class="btn btn-secondary btn-lg">Registration</a>
           </div>
         </div>
       </div>
