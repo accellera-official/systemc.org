@@ -13,6 +13,9 @@ Please [let us know][issues] if a publication is missing or needs update.
 
 | Title          | Author(s)   | Conference or Journal   | Source    |
 | :------------- | :---------- | :---------------------- | :----------- |
+| **2025** |
+| The art of temporal decoupling | Niko Zurstraßen; Ruben Brandhofer; José Cubero-Cascante; Nils Bosbach; Lukas Jünger; Rainer Leupers | VLSI Journal Integration, Volume 101, March 2025 | [Elsevier / ScienceDirect][2025_1] |
+| Using virtual prototypes and metamorphic testing to verify the hardware/software-stack of embedded graphics libraries | Christoph Hazott; Florian Stögmüller; Daniel Große | VLSI Journal Integration, Volume 101, March 2025 | [Elsevier / ScienceDirect][2025_2] |
 | **2024** |
 | RISC-V VP++: Next generation open-source virtual prototype | Manfred Schlägl; Christoph Hazott; Daniel Große | Workshop on Open-Source Design Automation, 2024| [University][2024_1] |
 | A RISC-V "V" VP: Unlocking vector processing for evaluation at the system level | Manfred Schlägl; Moritz Stockinger; Daniel Große | DATE 2024, pp 1-6 | [University][2024_2] |
@@ -53,6 +56,8 @@ Please [let us know][issues] if a publication is missing or needs update.
 | Modeling of a new 2D Acceleration Sensor Array using SystemC-AMS | Erik Markert; Marco Dienel; Goeran Herrmann; Dietmar Mueller; Ulrich Heinkel | Journal of Physics, Volume 34 | [IOP Science][2006_1] |
 -->
 
+[2025_1]: https://www.sciencedirect.com/science/article/pii/S0167926024001780
+[2025_2]: https://www.sciencedirect.com/science/article/pii/S0167926024001846
 [2024_1]: https://ics.jku.at/files/2024OSDA_RISCV-VP-plusplus.pdf
 [2024_2]: https://ics.jku.at/files/2024DATE_RISCV-VP-plusplus_RVV.pdf
 [2024_3]: https://www.sciencedirect.com/science/article/pii/S1434841123004867
