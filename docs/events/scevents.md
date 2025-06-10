@@ -5,7 +5,7 @@ toc: false
 
 ## Upcoming Events
 
- * [SystemC Fika, 27 March 2025](../scef202503/) (online event)
+ * [SystemC Fika, 26 June 2025](../scef202506/) (online event)
  * SystemC Evolution Day, 16 October 2025 - day after DVCon Europe 2025 (in-person event)
 
 <img style="float:right; width:300px;" src="/images/systemc-summer-of-code-logo-2-1500.png">
@@ -30,6 +30,7 @@ SystemC Evolution Day events are co-located with [DVCon Europe](https://dvcon-eu
 
 ### Past SystemC Evolution Day Events:
 
+* [SystemC Evolution Day 2024](../sced2024/)
 * [SystemC Evolution Day 2023](../sced2023/)
 * [SystemC Evolution Day 2022](../sced2022/)
 * [SystemC Evolution Day 2021](../sced2021/)
@@ -50,6 +51,7 @@ If you have topics that you think should be included in upcoming fikas, please l
 
 ### Past SystemC Evolution Fikas:
 
+* [March 2025](../scef202503/)
 * [May 2024](../scef202405/)
 * [February 2024](../scef202402/)
 * [September 2023](../scef202309/)

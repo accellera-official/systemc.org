@@ -5,10 +5,9 @@ toc: false
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
   </div>
   <div class="carousel-inner hero">
-      <div class="carousel-item active">
+    <!--<div class="carousel-item active">
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
@@ -22,8 +21,8 @@ toc: false
           </div>
         </div>
       </div>
-    </div>
-    <div class="carousel-item">
+    </div>-->
+    <div class="carousel-item active">
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
@@ -31,9 +30,9 @@ toc: false
           </div>
           <div class="col-lg-6">
             <h1 class="display-5 fw-bold lh-1 mb-3">SystemC Fika</h1>
-            <p class="lead">The SystemC Fika was held on March 27. The presentations and recordings are now available.</p>
-            <a href="/events/scef202503/" target="_blank" class="btn btn-primary btn-lg">Show presentations</a>
-            <!--<a href="https://form.jotform.com/250645321767964/" target="_blank" class="btn btn-secondary btn-lg">Registration</a>-->
+            <p class="lead">The next SystemC Fika will be held on June 26. Registration is now open!</p>
+            <a href="/events/scef202506/" target="_blank" class="btn btn-primary btn-lg">Show program</a>
+            <a href="https://form.jotform.com/251564999876987/" target="_blank" class="btn btn-secondary btn-lg">Registration</a>
           </div>
         </div>
       </div>
