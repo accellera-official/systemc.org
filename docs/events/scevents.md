@@ -10,6 +10,7 @@ toc: false
 
 <img style="float:right; width:300px;" src="/images/systemc-summer-of-code-logo-2-1500.png">
 
+<!--
 ## SystemC Summer of Code submission is open! 
 
 Accellera Systems Initiative (Accellera) announced its [SystemC Summer of Code 2025](/events/ssoc2025/) program, created for students interested in contributing to the evolution of the SystemC ecosystem. Experience in object-oriented programming and C++ is required. Applications will be accepted March 5 through April 4 by submitting a project proposal and resume. Visit the [SystemC Summer of Code 2025](/events/ssoc2025/) page for more information!
@@ -18,6 +19,7 @@ Accellera Systems Initiative (Accellera) announced its [SystemC Summer of Code 2
 
 Proposals for SystemC Evolution Events are open all year round, however slots for the upcoming SystemC Days fill fast, so you should contact the organizing team as soon as you can:
 [systemc-evolution-day@lists.accellera.org](mailto:systemc-evolution-day@lists.accellera.org).
+-->
 
 ## SystemC Evolution Day <img style="float:right; width:300px;" src="/images/sced.png">
 
