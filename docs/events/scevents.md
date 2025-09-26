@@ -5,7 +5,7 @@ toc: false
 
 ## Upcoming Events
 
- * SystemC Evolution Day, 16 October 2025 - day after DVCon Europe 2025 (in-person event)
+ * [SystemC Evolution Day, 16 October 2025 - day after DVCon Europe 2025 (in-person event)](../sced2025/)
 
 <!--
 <img style="float:right; width:300px;" src="/images/systemc-summer-of-code-logo-2-1500.png">
