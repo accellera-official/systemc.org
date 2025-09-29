@@ -12,7 +12,7 @@ toc: false
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
-            <a href="/events/scef202503/" target="_blank"><img src="/images/systemC-evolution-day-2025-logo-500px.png" class="d-block mx-lg-auto img-fluid" loading="lazy"></a>
+            <a href="/events/sced2025/" target="_blank"><img src="/images/systemC-evolution-day-2025-logo-500px.png" class="d-block mx-lg-auto img-fluid" loading="lazy"></a>
           </div>
           <div class="col-lg-6">
             <h1 class="display-5 fw-bold lh-1 mb-3">SystemC Evolution Day 2025</h1>
