@@ -5,24 +5,25 @@ toc: false
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
   </div>
   <div class="carousel-inner hero">
-<!--    <div class="carousel-item active">
+    <div class="carousel-item active">
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
-            <a href="/events/scef202503/" target="_blank"><img src="/images/scef-400.png" class="d-block mx-lg-auto img-fluid" loading="lazy"></a>
+            <a href="/events/scef202503/" target="_blank"><img src="/images/systemC-evolution-day-2025-logo-500px.png" class="d-block mx-lg-auto img-fluid" loading="lazy"></a>
           </div>
           <div class="col-lg-6">
-            <h1 class="display-5 fw-bold lh-1 mb-3">SystemC Fika</h1>
-            <p class="lead">The next SystemC Fika will be held on June 26. Registration is now open!</p>
-            <a href="/events/scef202506/" target="_blank" class="btn btn-primary btn-lg">Show program</a>
-            <a href="https://form.jotform.com/251564999876987/" target="_blank" class="btn btn-secondary btn-lg">Registration</a>
+            <h1 class="display-5 fw-bold lh-1 mb-3">SystemC Evolution Day 2025</h1>
+            <p class="lead">The 10<sup>th</sup> SystemC Evolution Day will be held on October 16, the day after DVCon Europe. Registration is now open!</p>
+            <a href="/events/sced2025/" target="_blank" class="btn btn-primary btn-lg">Show program</a>
+            <a href="https://dvcon-europe.org/registration" target="_blank" class="btn btn-secondary btn-lg">Registration</a>
           </div>
         </div>
       </div>
-    </div>-->
-    <div class="carousel-item active">
+    </div>
+    <div class="carousel-item">
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
@@ -60,10 +61,11 @@ toc: false
             <a href="https://ieeexplore.ieee.org/document/10246125" target="_blank"><img width="400" src="/images/1666-2023-frontpage.png" class="d-block mx-lg-auto img-fluid" loading="lazy"></a>
           </div>
           <div class="col-lg-6">
-            <h1 class="display-5 fw-bold lh-1 mb-3">SystemC IEEE Std 1666-2023</h1>
-            <p class="lead">The new SystemC Language Reference Manual has been released as IEEE Std 1666-2023. This standard is provided at no cost under the <a href="https://ieeexplore.ieee.org/browse/standards/get-program/page/series?id=80">IEEE Get Program</a> thanks to <a href="https://accellera.org">Accellera</a> sponsorship.</p>
-            <a href="https://ieeexplore.ieee.org/document/10246125" target="_blank" class="btn btn-primary btn-lg">Download</a>
-            <a href="https://standards.ieee.org/ieee/1666/7293/" target="_blank" class="btn btn-secondary btn-lg">More information</a>
+            <h1 class="display-5 fw-bold lh-1 mb-3">SystemC<br>IEEE Std 1666-2023</h1>
+            <p class="lead">The SystemC Language Reference Manual is available as IEEE standard and provided at no cost under the <a href="https://ieeexplore.ieee.org/browse/standards/get-program/page/series?id=80">IEEE Get Program</a> thanks to <a href="https://accellera.org">Accellera</a> sponsorship. Errors and inconsistencies are corrected in the 
+            <a href="https://standards.ieee.org/ieee/1666-2023_Cor_1/11585/">Corrigendum</a>.</p>
+            <a href="https://ieeexplore.ieee.org/document/10246125" target="_blank" class="btn btn-primary btn-lg">IEEE Std 1666-2023</a>
+            <a href="https://standards.ieee.org/ieee/1666-2023_Cor_1/11585/" target="_blank" class="btn btn-secondary btn-lg">Corrigendum</a>
           </div>
         </div>
       </div>
