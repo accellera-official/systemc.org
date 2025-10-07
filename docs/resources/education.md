@@ -25,6 +25,7 @@ Please [let us know][issues] if a universiry or institute is missing or needs up
 | [University of Texas, Austin][4] | USA | System-Level Architecture and Modeling Group | Embedded System Design and Modeling |
 | [University of Southampton][5] | UK | Electronics and Computer Science | Digital Systems Synthesis |
 | [University of Würzburg][17] | Germany | Computer Science | Virtual Prototyping of Embedded Systems |
+| [Chapman University][18] | USA | System Platform Exploration Lab (SPEL) | Embedded Systems Modeling and Simulation |
 
 [issues]: https://github.com/accellera-official/systemc.org/issues 
 
@@ -45,3 +46,4 @@ Please [let us know][issues] if a universiry or institute is missing or needs up
 [15]: https://www.fh-kaernten.at/iscd
 [16]: https://www.engr.colostate.edu/~sudeep/teaching/hardwaresoftware-design-of-embedded-systems
 [17]: https://www.informatik.uni-wuerzburg.de/ce/teaching/#c1070166
+[18]: https://www1.chapman.edu/~arasteh/courses.html
