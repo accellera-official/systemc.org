@@ -11,9 +11,15 @@ Another good resource for SystemC related publications is the [DVCon Proceedings
 Please [let us know][issues] if a publication is missing or needs update.
 
 
-| Title          | Author(s)   | Conference or Journal   | Source    |
+| Title          | Author(s)   | Conference or Journal   | Source       |
 | :------------- | :---------- | :---------------------- | :----------- |
+| **2026** |
+| A RISC-V CHERI VP: Enabling system-level evaluation of the capability-based CHERI architecture | Manfred Schlägl; Andreas Hinterdorfer; Daniel Große | Asia and South Pacific Design Automation Conference (ASP-DAC), 2026 | [University][2026_1] |
 | **2025** |
+| Comparing Methods for the Cross-Level Verification of SystemC Peripherals with Symbolic Execution | Karl Aaron Rudkowski; Sallar Ahmadi-Pour; Rolf Drechsler | IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, December 2025 | [IEEExplore][2025_4] |
+| Leveraging RISC-V for flexible and adaptive real-time radar sequencing | Michael Atzmüller; Rainer Findenig; Bernhard Greslehner-Nimmervoll; Wolfgang Ecker; Daniel Große | Design and Verification Conference Europe (DVCon Europe), October 2025 | [University][2025_6] |
+| SCiMA: A Systolic CiM-Based Accelerator With a New Weight Mapping for CNNs—A Virtual Framework Approach | Rezgar Sadeghi; Zainalabedin Navabi | IEEE Access Journal Volume 13, July 2025 | [IEEExplore][2025_5] |
+| Split’n’Cover: ISO 26262 Hardware Safety Analysis with SystemC | Lukas Steiner; Kira Kraft; Derek Christ; Denis Uecker; Christian Malek; Matthias Jung; Norbert Wehn |International Journal of Parallel Programming, April 2025 | [Springer Nature Link][2025_3] |
 | The art of temporal decoupling | Niko Zurstraßen; Ruben Brandhofer; José Cubero-Cascante; Nils Bosbach; Lukas Jünger; Rainer Leupers | VLSI Journal Integration, Volume 101, March 2025 | [Elsevier / ScienceDirect][2025_1] |
 | Using virtual prototypes and metamorphic testing to verify the hardware/software-stack of embedded graphics libraries | Christoph Hazott; Florian Stögmüller; Daniel Große | VLSI Journal Integration, Volume 101, March 2025 | [Elsevier / ScienceDirect][2025_2] |
 | **2024** |
@@ -56,8 +62,15 @@ Please [let us know][issues] if a publication is missing or needs update.
 | Modeling of a new 2D Acceleration Sensor Array using SystemC-AMS | Erik Markert; Marco Dienel; Goeran Herrmann; Dietmar Mueller; Ulrich Heinkel | Journal of Physics, Volume 34 | [IOP Science][2006_1] |
 -->
 
+[2026_1]: https://ics.jku.at/files/2026ASPDAC_RISC-V_CHERI-VP.pdf
+
 [2025_1]: https://www.sciencedirect.com/science/article/pii/S0167926024001780
 [2025_2]: https://www.sciencedirect.com/science/article/pii/S0167926024001846
+[2025_3]: https://link.springer.com/article/10.1007/s10766-025-00798-z
+[2025_4]: https://ieeexplore.ieee.org/document/11278741
+[2025_5]: https://ieeexplore.ieee.org/document/11068969
+[2025_6]: https://ics.jku.at/files/2025DVConEurope_Leveraging_RISC-V_for_Flexible_and_Adaptive_Real-Time_Radar_Sequencing.pdf
+
 [2024_1]: https://ics.jku.at/files/2024OSDA_RISCV-VP-plusplus.pdf
 [2024_2]: https://ics.jku.at/files/2024DATE_RISCV-VP-plusplus_RVV.pdf
 [2024_3]: https://www.sciencedirect.com/science/article/pii/S1434841123004867
