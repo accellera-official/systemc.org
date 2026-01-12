@@ -9,6 +9,7 @@ Please [let us know][issues] if a universiry or institute is missing or needs up
 | University    | Country     | Department     | Lectures                                       |
 | :------------ | :---------- | :--------------| :--------------------------------------------- |
 | [Carinthia University of Applied Sciences][15] | Austria | Integrated Systems and Circuit Design (ISCD) | System Modelling and Verification - Analog,<br>System Modelling and Verification - Digital, System-on-Chip Architectures |
+| [Chapman University][18] | USA | System Platform Exploration Lab (SPEL) | Embedded Systems Modeling and Simulation |
 | [Colorado State University][16] | USA | Embedded, High Performance, and Intelligent Computing (EPIC) | Hardware/Software Design of Embedded Systems |
 | [Grenoble Alpes University][14] | France | Grenoble INP Ensimag | Transaction Level Modeling in SystemC |
 | [Johannes Kepler University Linz][6] | Austria | Institute for Complex Systems (ICS) | Virtual Prototyping/SystemC |
@@ -25,7 +26,6 @@ Please [let us know][issues] if a universiry or institute is missing or needs up
 | [University of Texas, Austin][4] | USA | System-Level Architecture and Modeling Group | Embedded System Design and Modeling |
 | [University of Southampton][5] | UK | Electronics and Computer Science | Digital Systems Synthesis |
 | [University of Würzburg][17] | Germany | Computer Science | Virtual Prototyping of Embedded Systems |
-| [Chapman University][18] | USA | System Platform Exploration Lab (SPEL) | Embedded Systems Modeling and Simulation |
 
 [issues]: https://github.com/accellera-official/systemc.org/issues 
 
