@@ -24,6 +24,8 @@ nav:
 #    - SystemC: docs/systemc/documentation.md
 - Events:
     - SystemC Events: events/scevents.md
+    - SystemC Call for Presentations: events/cfp.md
+    - SystemC Evolution Fika - April 2026: events/scef202604.md
     - SystemC Evolution Fika - June 2025: events/scef202506.md
     - SystemC Evolution Fika - March 2025: events/scef202503.md
     - SystemC Evolution Fika - May 2024: events/scef202405.md

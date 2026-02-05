@@ -11,6 +11,7 @@ We’re looking for presentations (20–30 minutes) on topics such as:
 * Creating Virtual Prototypes and/or Digital Twins
 * Application of SystemC in industrial or research projects
 * Using SystemC beyond SoC (e.g., systems-of-systems modeling)
+* Heterogeneous modeling and simulation using SystemC and its extensions (e.g. AMS, TLM, CCI, etc)
 
 **Why present?**
 
@@ -20,9 +21,9 @@ We’re looking for presentations (20–30 minutes) on topics such as:
 
 **Submit your proposal now!**
 
-Send a brief abstract (2–3 paragraphs) before **16 March 2026** to [systemc-evolution-day@lists.accellera.org](mailto:systemc-evolution-day@lists.accellera.org).
+Send a brief abstract (2–3 paragraphs) before **2 April 2026** to [systemc-evolution-day@lists.accellera.org](mailto:systemc-evolution-day@lists.accellera.org).
 
-Abstracts will be reviewed by the SystemC Fika organization committee. Submitters will be notified 19 March 2026 latest whether their presentation is accepted.
+Abstracts will be reviewed by the SystemC Fika organization committee. Submitters will be notified 6 April 2026 latest whether their presentation is accepted.
 
 ## More information
 

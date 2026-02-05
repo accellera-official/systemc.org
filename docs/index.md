@@ -4,26 +4,26 @@ toc: false
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <!--<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>-->
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <!--<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>-->
   </div>
   <div class="carousel-inner hero">
-    <!--<div class="carousel-item active">
+    <div class="carousel-item active">
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
-            <a href="/events/sced2025/" target="_blank"><img src="/images/systemC-evolution-day-2025-logo-500px.png" class="d-block mx-lg-auto img-fluid" loading="lazy"></a>
+            <a href="/events/scef202604/" target="_blank"><img src="/images/scef.png" class="d-block mx-lg-auto img-fluid" loading="lazy"></a>
           </div>
           <div class="col-lg-6">
-            <h1 class="display-5 fw-bold lh-1 mb-3">SystemC Evolution Day 2025</h1>
-            <p class="lead">The 10<sup>th</sup> SystemC Evolution Day will be held on October 16, the day after DVCon Europe. Registration is now open!</p>
-            <a href="/events/sced2025/" target="_blank" class="btn btn-primary btn-lg">Show program</a>
-            <a href="https://dvcon-europe.org/registration" target="_blank" class="btn btn-secondary btn-lg">Registration</a>
+            <h1 class="display-5 fw-bold lh-1 mb-3">SystemC Evolution Fika - 23 April</h1>
+            <p class="lead">The next SystemC Evolution Fika will take place at April 23. The Call for Presentations is now open!</p>
+            <a href="/events/scef202604/" target="_blank" class="btn btn-primary btn-lg">Event page</a>
+            <a href="/events/cfp/" target="_blank" class="btn btn-secondary btn-lg">Call for Presentations</a>
           </div>
         </div>
       </div>
     </div>
-    <div class="carousel-item active">
+    <!--<div class="carousel-item active">
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
@@ -39,7 +39,7 @@ toc: false
         </div>
       </div>
     </div>-->
-    <div class="carousel-item active">
+    <div class="carousel-item">
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-3">
           <div class="col-10 col-sm-8 col-lg-6">

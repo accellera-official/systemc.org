@@ -3,12 +3,12 @@ toc: false
 # SystemC Events
 <br>
 
-<!--
 ## Upcoming Events
 
- * [SystemC Evolution Day, 16 October 2025 - day after DVCon Europe 2025 (in-person event)](../sced2025/)
+ * [SystemC Evolution Fika, 23 April 2026 (online event)](../scef202604/)
 
 
+<!--
 <img style="float:right; width:300px;" src="/images/systemc-summer-of-code-logo-2-1500.png">
 
 ## SystemC Summer of Code submission is open! 

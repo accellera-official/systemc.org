@@ -24,6 +24,7 @@ Please [let us know][issues] if a publication is missing or needs update.
 | Using virtual prototypes and metamorphic testing to verify the hardware/software-stack of embedded graphics libraries | Christoph Hazott; Florian Stögmüller; Daniel Große | VLSI Journal Integration, Volume 101, March 2025 | [Elsevier / ScienceDirect][2025_2] |
 | **2024** |
 | RISC-V VP++: Next generation open-source virtual prototype | Manfred Schlägl; Christoph Hazott; Daniel Große | Workshop on Open-Source Design Automation, 2024| [University][2024_1] |
+| Towards High-Performance Virtual Platforms: A Parallelization Strategy for SystemC TLM-2.0 CPU Models | Nils Bosbach; Niko Zurstraßen; Rebecca Pelke; Lukas Jünger; Jan Henrik Weinstock; Rainer Leupers | ACM/IEEE Design Automation Conference DAC, November 2024 | [ACM][2024_8] |
 | A RISC-V "V" VP: Unlocking vector processing for evaluation at the system level | Manfred Schlägl; Moritz Stockinger; Daniel Große | DATE 2024, pp 1-6 | [University][2024_2] |
 | Threshold Voltage based Dual Memristor Crossbar PUF | Aref Al-Tamimi; Shawkat Ali; Yuan Cao; Amine Bermak | AEU - International Journal of Electronics and Communications, Volume 175, February 2024 | [Elsevier / ScienceDirect][2024_3] | 
 | Integrating SystemC-AMS Power Modeling with a RISC-V ISS for Virtual Prototyping of Battery-operated Embedded Devices | Mohamed Amine Hamdi; Giovanni Pollo; Matteo Risso; Germain Haugou; Alessio Burrello; Enrico Macii; Massimo Poncino; Sara Vinco; Daniele Jahier Pagliari | Computing Frontiers Workshops and Special Sessions (CF '24 Companion), May 2024 | [arXiv][2024_4] | 
@@ -78,6 +79,7 @@ Please [let us know][issues] if a publication is missing or needs update.
 [2024_5]: https://arxiv.org/abs/2407.06217
 [2024_6]: https://arxiv.org/abs/2406.17785
 [2024_7]: https://www.mdpi.com/2073-8994/16/3/348
+[2024_8]: https://dl.acm.org/doi/abs/10.1145/3649329.3658257
 
 [2023_1]: https://www.sciencedirect.com/science/article/pii/S0045790623002276
 [2023_2]: https://www.sciencedirect.com/science/article/pii/S2773064623000361
