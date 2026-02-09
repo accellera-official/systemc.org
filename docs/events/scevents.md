@@ -5,6 +5,7 @@ toc: false
 
 ## Upcoming Events
 
+ * [SystemC Sprint, 22 April 2026 (in-person event)](../sprint202604/)
  * [SystemC Evolution Fika, 23 April 2026 (online event)](../scef202604/)
 
 
