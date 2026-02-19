@@ -31,6 +31,7 @@ Please [let us know][issues] if a publication is missing or needs update.
 | On Simulation of Power Systems and Microgrid Components with SystemC-AMS | Rahul Bhadani; Satyaki Banik; Hao Tu; Srdjan Lukic; Gabor Karsa | Electrical Engineering and Systems Science > Systems and Control | [arXiv][2024_5] |
 | Model-based Design Tool for Cyber-physical Power Systems using SystemC-AMS | Rahul Bhadani; Satyaki Banik; Hao Tu; Srdjan Lukic; Gabor Karsai | Electrical Engineering and Systems Science > Systems and Control | [arXiv][2024_6] |
 | An ASCON AOP-SystemC Environment for Security Fault Analysis |  Hassen Mestiri;  Imen Barraj;  Mouna Bedoui;  Mohsen Machhout | Design and Analysis of Symmetric Encryption Modes of Operation | [MDPI][2024_7] |
+| SystemC framework for architecture modelling of electronic systems in future particle detectors | Francesco Enrico Brambilla; Davide Ceresa; Jashandeep Dhaliwal; Stefano Esposito; Kostas Kloukinas; Xavier Llopart Cudie; Adithya Pulli | IOPscience Journal of Instrumentation, January 2024 | [IOP][2024_9] |
 | **2023** |
 | SystemC Model of Power Side-Channel Attacks Against AI Accelerators: Superstition or not? | Andrija Nešković; Saleh Mulhem; Alexander Treff; Rainer Buchty; Thomas Eisenbarth; Mladen Berekovic | Computer Science > Hardware Architecture | [arXiv][2023_4] |
 | GUI-VP Kit: A RISC-V VP meets Linux graphics - enabling interactive graphical application development | Manfred Schlägl; Daniel Große | GLSVLSI 2023 pp. 599-605 | [University][2023_3] |
@@ -80,6 +81,7 @@ Please [let us know][issues] if a publication is missing or needs update.
 [2024_6]: https://arxiv.org/abs/2406.17785
 [2024_7]: https://www.mdpi.com/2073-8994/16/3/348
 [2024_8]: https://dl.acm.org/doi/abs/10.1145/3649329.3658257
+[2024_9]: https://iopscience.iop.org/article/10.1088/1748-0221/19/01/C01039
 
 [2023_1]: https://www.sciencedirect.com/science/article/pii/S0045790623002276
 [2023_2]: https://www.sciencedirect.com/science/article/pii/S2773064623000361
