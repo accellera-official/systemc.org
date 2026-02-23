@@ -18,6 +18,7 @@ Please [let us know][issues] if a publication is missing or needs update.
 | **2025** |
 | Comparing Methods for the Cross-Level Verification of SystemC Peripherals with Symbolic Execution | Karl Aaron Rudkowski; Sallar Ahmadi-Pour; Rolf Drechsler | IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, December 2025 | [IEEExplore][2025_4] |
 | Leveraging RISC-V for flexible and adaptive real-time radar sequencing | Michael Atzmüller; Rainer Findenig; Bernhard Greslehner-Nimmervoll; Wolfgang Ecker; Daniel Große | Design and Verification Conference Europe (DVCon Europe), October 2025 | [University][2025_6] |
+| Automatic integration of SystemC in the FMI standard for Software-defined Vehicle design | Giovanni Pollo; Andrei Mihai Albu; Alessio Burrello; Daniele Jahier Pagliari; Cristian Tesconi; Loris Panaro; Dario Soldi; Fabio Autieri; Sara Vinco | Forum on specification & Design Language, August 2025 | [arXiv][2025_7] |
 | SCiMA: A Systolic CiM-Based Accelerator With a New Weight Mapping for CNNs—A Virtual Framework Approach | Rezgar Sadeghi; Zainalabedin Navabi | IEEE Access Journal Volume 13, July 2025 | [IEEExplore][2025_5] |
 | Split’n’Cover: ISO 26262 Hardware Safety Analysis with SystemC | Lukas Steiner; Kira Kraft; Derek Christ; Denis Uecker; Christian Malek; Matthias Jung; Norbert Wehn |International Journal of Parallel Programming, April 2025 | [Springer Nature Link][2025_3] |
 | The art of temporal decoupling | Niko Zurstraßen; Ruben Brandhofer; José Cubero-Cascante; Nils Bosbach; Lukas Jünger; Rainer Leupers | VLSI Journal Integration, Volume 101, March 2025 | [Elsevier / ScienceDirect][2025_1] |
@@ -72,6 +73,7 @@ Please [let us know][issues] if a publication is missing or needs update.
 [2025_4]: https://ieeexplore.ieee.org/document/11278741
 [2025_5]: https://ieeexplore.ieee.org/document/11068969
 [2025_6]: https://ics.jku.at/files/2025DVConEurope_Leveraging_RISC-V_for_Flexible_and_Adaptive_Real-Time_Radar_Sequencing.pdf
+[2025_7]: https://arxiv.org/pdf/2508.19665
 
 [2024_1]: https://ics.jku.at/files/2024OSDA_RISCV-VP-plusplus.pdf
 [2024_2]: https://ics.jku.at/files/2024DATE_RISCV-VP-plusplus_RVV.pdf

@@ -19,12 +19,13 @@ This is a list of SystemC models for use in virtual platforms:
 <br>
 ## Modeling / Design Space Exploration frameworks
 
-This is a list of SystemC modeling / DSE frameworks:
+This is a list of SystemC(-AMS) modeling / DSE frameworks:
 
 | Name             | Description                                                       | License    |
 | :--------------- | :---------------------------------------------------------------- | :--------- |
 | [DRAMSys][36]    | SystemC TLM-AT Model of DRAM Subsystems (DDR, LPDDR, HBM, ...)    | BSD        |
 | [MESSY][37]      | Multi-layer Extra-functional Simulator in SystemC and SystemC-AMS | Apache-2.0 |
+| [SerDes][38]     | SerDes SystemC-AMS Behavioral Modeling PlatformSerDes SystemC-AMS Behavioral Modeling Platform | Apache-2.0 |
 
 <br>
 ## Productivity and Utility Libraries
@@ -133,6 +134,7 @@ This is a list of open-source Virtual Platforms and Virtual Prototypes (VPs):
 [35]: https://github.com/ics-jku/GUI-VP_Kit
 [36]: https://github.com/tukl-msd/DRAMSys
 [37]: https://github.com/eml-eda/messy
+[38]: https://github.com/LewisLiuLiuLiu/SerDesSystemCProject
 
 [50]: https://github.com/accellera-official/systemc
 [51]: https://www.coseda-tech.com/systemc-ams-proof-of-concept
