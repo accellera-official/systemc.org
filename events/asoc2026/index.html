@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://systemc.org/events/ssoc2025/">
+        <link rel="canonical" href="https://systemc.org/events/asoc2026/">
         <link rel="shortcut icon" href="../../img/favicon.ico">
 <title>systemc.org</title>
 
@@ -233,82 +233,66 @@
 
 <div class="col-md-12" role="main">
 
-<h1 id="systemc-summer-of-code-2025">SystemC Summer of Code 2025</h1>
+<h1 id="accellera-summer-of-code-2026">Accellera Summer of Code 2026</h1>
 <p><br>
-Accellera Systems Initiative will host the <strong>SystemC Summer of Code (SSoC)</strong> 2025 program and invited students to sign-up for a 12 week C++-based programming assignment during the summer period.</p>
-<p>Submitted applications are based on the use of Accellera’s <a href="https://github.com/accellera-official/systemc">SystemC reference implementation</a> or any of the SystemC extensions for <a href="https://systemc.org/overview/systemc-ams/">Analog/Mixed-Signal (AMS)</a>, <a href="https://systemc.org/overview/systemc-cci/">Control and Inspection (CCI)</a>, <a href="https://systemc.org/overview/systemc-scp/">Common Practices</a>, or <a href="https://systemc.org/overview/systemc-verification/">Verification</a>.</p>
-<p>The SystemC Summer of Code 2025 Program will start soon! Applicants have been selected and the project proposals are currently being reviewed.</p>
+Accellera Systems Initiative will host the <strong>Accellera Summer of Code (SSoC)</strong> 2026 program and invites students to sign-up for a 12 week programming assignment during the summer period, in close collaboration with the Accellera working groups.</p>
 <!--
-## Application process
+Submitted applications are based on the use of Accellera’s standards and/or supple[SystemC reference implementation][1] or any of the SystemC extensions for [Analog/Mixed-Signal (AMS)][2], [Control and Inspection (CCI)][3], [Common Practices][4], or [Verification][5].
 
-If you are interest to contribute to the evolution of the SystemC ecosystem, please submit your application to [ssoc@lists.accellera.org](mailto:ssoc@lists.accellera.org). Applications can be submitted from March 5 onwards. The application deadline is April 4.
-
-**A submission should include the following documents:**
-
- 1. Your project proposal
- 2. Your resume/CV
- 3. Evidence that you are a student at an accredited college or university
- 4. A signed [Contributor Agreement](https://workspace.accellera.org/document/dl/13437)
-
-
-
-As recognition scheme, stipends will be paid per month, for a maximum of three (3) months, and based on successful evaluations of the (intermediate) deliverables. The maximum amount of stipends is 1,000 USD/month, depending on project difficulty and actual allocation. The exact amount of stipends will be communicated at the start of each project.
-
-*Students are encouraged to apply quickly, as there are limited seats available. Students are notified not later than April 7.*
+The SystemC Summer of Code 2025 Program will start soon! Applicants have been selected and the project proposals are currently being reviewed.
 -->
 
+<h2 id="application-process">Application process</h2>
+<p>If you are interest to contribute to the evolution of any of the Accellera standards or associated supplemental material hosted on <a href="https://github.com/accellera-official/">GitHub</a>, please submit your application to <a href="mailto:asoc@lists.accellera.org">asoc@lists.accellera.org</a>. Applications can be submitted from <strong>March 2</strong>. The application deadline is <strong>April 3</strong>.</p>
+<p><strong>A submission should include the following documents:</strong></p>
+<ol>
+<li>Your project proposal</li>
+<li>Your resume/CV</li>
+<li>Evidence that you are a student at an accredited college or university</li>
+<li>A signed <a href="https://workspace.accellera.org/document/dl/13437">Contributor Agreement</a></li>
+</ol>
+<p>As recognition scheme, stipends will be paid per month, for a maximum of three (3) months, and based on successful evaluations of the (intermediate) deliverables. The maximum amount of stipends is 1,000 USD/month, depending on project difficulty and actual allocation. The exact amount of stipends will be communicated at the start of each project.</p>
+<p><em>Students are encouraged to apply quickly, as there are limited seats available. Students are notified not later than April 7.</em></p>
 <h2 id="timeline">Timeline</h2>
 <ul>
-<li>February 24: SystemC Summer of Code (SSoC) 2025 program announced</li>
-<li>March 5: Application submission opened (CLOSED now)</li>
-<li>April 4: Application deadline</li>
+<li>March 2: Accellera Summer of Code 2026 program announced</li>
+<li>March 2: Application submission open</li>
+<li>April 3: Application deadline</li>
 <li>May – August: Coding period</li>
 <li>September – October: Wrap-up and hand-over project to the Accellera working groups</li>
 </ul>
-<h2 id="suggested-project-proposals-for-2025">Suggested project proposals for 2025</h2>
+<h2 id="suggested-project-proposals-for-2026">Suggested project proposals for 2026</h2>
 <p>This section lists the suggested projects by Accellera, and students were encouraged to improve and enrich these proposals.</p>
-<p><em>NOTE: We will announce the selected projects soon</em></p>
+<h3 id="simple-parameterization-api-for-systemc-cci">Simple Parameterization API for SystemC CCI</h3>
+<p>This project proposes the design and implementation of a Simple Parameterization API within the SystemC Configuration, Control, and Inspection (CCI) library.
+Although CCI already offers a powerful and highly flexible parameter framework, its richness can introduce unnecessary complexity for newcomers, small projects, or development teams seeking a lightweight configuration mechanism.
+The goal of this project is to create a modern, minimalistic, and easy to use parameter API that lowers the barrier to adopting SystemC CCI.
+The new interface should enable developers to declare, initialize, modify, and query parameters with significantly reduced boilerplate and simplified semantics, while retaining essential functionality for simulation configuration.
+It is intended to complement the existing CCI infrastructure by offering a streamlined alternative, making parameter handling more accessible without requiring the full generality of the CCI feature set.</p>
 <ul>
-<li>Advancing the SystemC build and test flow using Continuous Integration (CI)</li>
-<li>Thread-safe SystemC reference implementation</li>
-<li>SystemC Control Interface</li>
-<li>Federated Simulation including SystemC</li>
+<li>Skills required: C++, SystemC, CCI, API design, Git</li>
+<li>Mentors: <em>To be announced</em></li>
+<li>Expected duration: 480h (12 weeks)</li>
+<li>Level of difficulty: Medium</li>
+<li>Expected outcome: A lightweight Simple Parameterization API integrated into the SystemC CCI ecosystem, including documentation, examples, and tests.</li>
 </ul>
 <h3 id="advancing-the-systemc-build-and-test-flow-using-continuous-integration-ci">Advancing the SystemC build and test flow using Continuous Integration (CI)</h3>
-<p>This project focuses on the improvement of the overall quality of Accellera’s <a href="https://github.com/accellera-official/systemc">SystemC reference implementation</a> and <a href="https://github.com/accellera-official/cci">Configuration, Control and Inspection (CCI) library</a> with the aim to lower the barriers to start using these libraries. As of now, a Continuous Integration (CI) build and test flow exists for the SystemC CCI library. For the SystemC reference implementation, a very basic CI/CD build flow is available. Furthermore, both the SystemC and SystemC CCI library need a upgrade of the CMake-based build system to ease integration into other CMake projects. Also the regression environment requires a major upgrade, replacing the old Perl runners by a more modern test infrastructure like GoogleTest.</p>
+<p>This project focuses on the improvement of the overall quality of Accellera’s <a href="https://github.com/accellera-official/systemc">SystemC reference implementation</a> with the aim to lower the barriers to start using these libraries. As of now, a Continuous Integration (CI) build and test flow exists for the SystemC CCI library. For the SystemC reference implementation, a very basic CI/CD build flow is available. The SystemC library needs an upgrade of the CMake-based build system to ease integration into other CMake projects. Also the regression environment requires a major upgrade, replacing the old Perl runners by a more modern test infrastructure like GoogleTest.</p>
 <ul>
 <li>Skills required: C++, SystemC, CMake, Git, Github Actions, Perl, GoogleTest</li>
-<li>Mentors: <em>will be announced later</em></li>
+<li>Mentors: <em>To be announced</em></li>
 <li>Expected duration: 480h (12 weeks)</li>
 <li>Level of difficulty: Low</li>
-<li>Expected outcome: CI/CD build flow for SystemC and CCI including improved CMake build, test coverage, release automation and visualization </li>
+<li>Expected outcome: CI/CD build flow for SystemC including improved CMake build, test coverage, release automation and visualization </li>
 </ul>
-<h3 id="thread-safe-systemc-reference-implementation">Thread-safe SystemC reference implementation</h3>
-<p>This project proposal is to upgrade the existing <a href="https://github.com/accellera-official/systemc">SystemC reference implementation</a> and make it thread-safe. Thread-safety is important to be able to use SystemC in a multi-threading environment, and improvements are required in the underlying simulation engine as well as in the SystemC data types. The latest SystemC standard, IEEE Std. 1666-2023, defines C++17 as baseline language, which enables the use of C++17 language capabilties and features to upgrade the simulation engine. Note however that enhancements should not alter the public API, to maintain compatible with the existing SystemC standard.</p>
+<h3 id="thread-safe-systemc-data-types">Thread-safe SystemC data types</h3>
+<p>This project proposal is to improve the SystemC data types and make it thread-safe. Thread-safety is important to be able to use SystemC in a multi-threading environment, and improvements are required to the SystemC data types. To check the functional correctness of the data types, additional regression tests should be created to validate the behavior of the data types for various multi-thread scenario's.</p>
 <ul>
 <li>Skills required: C++, SystemC, Git, multi-thread applications</li>
-<li>Mentors: <em>will be announced later</em></li>
+<li>Mentors: <em>To be announced</em></li>
 <li>Expected duration: 480h (12 weeks)</li>
 <li>Level of difficulty: Medium</li>
-<li>Expected outcome: Thread-safe SystemC reference implementation leveraging C++17 language constructs and features. </li>
-</ul>
-<h3 id="systemc-control-interface">SystemC Control Interface</h3>
-<p>This project proposal is to develop a control interface as part of the <a href="https://github.com/accellera-official/cci">Configuration, Control and Inspection (CCI) library</a>. The control interface should offer an interactive API to control the simulator (e.g., start, stop, pause), offer means to access parameters (e.g., set, get, inspect) and offer a light-weight interactive API to enable inspection and debug. Implementation of such API could be implemented as command-line interface (CLI) or might use web-techologies such as a REST-API.</p>
-<ul>
-<li>Skills required: C++, SystemC, CCI, Git</li>
-<li>Mentors: <em>will be announced later</em></li>
-<li>Expected duration: 480h (12 weeks)</li>
-<li>Level of difficulty: Medium</li>
-<li>Expected outcome: SystemC CCI control API </li>
-</ul>
-<h3 id="federated-simulation-including-systemc">Federated simulation including SystemC</h3>
-<p>Federated simulation targets an efficient integration of multiple system-level models and/or simulation environments into a distributed and orchestrated simulation framework. It should enable multi-domain simulation where different models-of-computation are integrated and synchronized. Accellera has started the <a href="https://www.accellera.org/activities/working-groups/fss-working-group">Federated Simulation Working Group and User Group</a> to address the interoperability and standardization aspects to enable combining existing standards and technologies such as SystemC TLM, <a href="https://fmi-standard.org/">FMI</a>, <a href="https://www.qemu.org/">QEMU</a> and <a href="https://zenoh.io/">Zenoh</a>. This project aims at building a demonstrator where different simulation and modeling technologies like SystemC and FMI are combined and interconnected via an existing transport layer (e.g. DDS, SilKit or Zenoh). </p>
-<ul>
-<li>Skills required: C++, SystemC, FMI, QEMU, (DDS | Zenoh | Silkit)</li>
-<li>Mentors: <em>will be announced later</em></li>
-<li>Expected duration: 480h (12 weeks)</li>
-<li>Level of difficulty: Hard</li>
-<li>Expected outcome: Demonstrator showing intercommunication between two or more simulation engines containing models implemented in e.g. SystemC TLM, FMI, QEMU  </li>
+<li>Expected outcome: Thread-safe SystemC data types.</li>
 </ul>
 <h2 id="contact-us-for-more-information">Contact us for more information</h2>
 <p>Feel free to contact us if you have questions or if you need more information: <a href="mailto:ssoc@lists.accellera.org">ssoc@lists.accellera.org</a></p></div>
