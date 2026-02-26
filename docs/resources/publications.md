@@ -14,12 +14,17 @@ Please [let us know][issues] if a publication is missing or needs update.
 | Title          | Author(s)   | Conference or Journal   | Source       |
 | :------------- | :---------- | :---------------------- | :----------- |
 | **2026** |
+| Toward Automated Virtual Electronic Control Unit (ECU) Twins for Shift-Left Automotive Software Testing | Sebastian Dingler; Frederik Boenke | February 2026 | [arXiv][2026_2] |
 | A RISC-V CHERI VP: Enabling system-level evaluation of the capability-based CHERI architecture | Manfred Schlägl; Andreas Hinterdorfer; Daniel Große | Asia and South Pacific Design Automation Conference (ASP-DAC), 2026 | [University][2026_1] |
 | **2025** |
+| AutoFSM: A Multi-agent Framework for FSM Code Generation with IR and SystemC-Based Testing | Qiuming Luo; Yanming Lei; Kunzhong Wu; Yixuan Cao; Chengjian Liu | December 2025 | [arXiv][2025_9] |
 | Comparing Methods for the Cross-Level Verification of SystemC Peripherals with Symbolic Execution | Karl Aaron Rudkowski; Sallar Ahmadi-Pour; Rolf Drechsler | IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, December 2025 | [IEEExplore][2025_4] |
 | Leveraging RISC-V for flexible and adaptive real-time radar sequencing | Michael Atzmüller; Rainer Findenig; Bernhard Greslehner-Nimmervoll; Wolfgang Ecker; Daniel Große | Design and Verification Conference Europe (DVCon Europe), October 2025 | [University][2025_6] |
+| Integrating SystemC TLM into FMI 3.0 Co-Simulations with an Open-Source Approach | Andrei Mihai Albu; Giovanni Pollo; Alessio Burrello; Daniele Jahier Pagliari; Cristian Tesconi; Alessandra Neri; Dario Soldi; Fabio Autieri; Sara Vinco | Design and Verification Conference Europe (DVCon Europe), October 2025 | [arXiv][2025_10] |
+| FMI Meets SystemC: A Framework for Cross-Tool Virtual Prototyping | Nils Bosbach; Meik Schmidt; Lukas Jünger; Matthias Berthold; Rainer Leupers | 16th International Modelica and FMI Conference, September 2025 | [arXiv][2025_8] |
 | Automatic integration of SystemC in the FMI standard for Software-defined Vehicle design | Giovanni Pollo; Andrei Mihai Albu; Alessio Burrello; Daniele Jahier Pagliari; Cristian Tesconi; Loris Panaro; Dario Soldi; Fabio Autieri; Sara Vinco | Forum on specification & Design Language, August 2025 | [arXiv][2025_7] |
 | SCiMA: A Systolic CiM-Based Accelerator With a New Weight Mapping for CNNs—A Virtual Framework Approach | Rezgar Sadeghi; Zainalabedin Navabi | IEEE Access Journal Volume 13, July 2025 | [IEEExplore][2025_5] |
+| Leveraging SystemC-TLM-based Virtual Prototypes for Embedded Software Fuzzing | Chiara Ghinami; Jonas Winzer; Nils Bosbach; Lennart M. Reimann; Lukas Jünger; Simon Wörner; Rainer Leupers | 25th International Conference on Embedded Computer Systems Architectures, Modeling and Simulation (SAMOS XXV), July 2025 | [arXiv][2025_11] |
 | Split’n’Cover: ISO 26262 Hardware Safety Analysis with SystemC | Lukas Steiner; Kira Kraft; Derek Christ; Denis Uecker; Christian Malek; Matthias Jung; Norbert Wehn |International Journal of Parallel Programming, April 2025 | [Springer Nature Link][2025_3] |
 | The art of temporal decoupling | Niko Zurstraßen; Ruben Brandhofer; José Cubero-Cascante; Nils Bosbach; Lukas Jünger; Rainer Leupers | VLSI Journal Integration, Volume 101, March 2025 | [Elsevier / ScienceDirect][2025_1] |
 | Using virtual prototypes and metamorphic testing to verify the hardware/software-stack of embedded graphics libraries | Christoph Hazott; Florian Stögmüller; Daniel Große | VLSI Journal Integration, Volume 101, March 2025 | [Elsevier / ScienceDirect][2025_2] |
@@ -66,6 +71,7 @@ Please [let us know][issues] if a publication is missing or needs update.
 -->
 
 [2026_1]: https://ics.jku.at/files/2026ASPDAC_RISC-V_CHERI-VP.pdf
+[2026_2]: https://arxiv.org/pdf/2602.18142
 
 [2025_1]: https://www.sciencedirect.com/science/article/pii/S0167926024001780
 [2025_2]: https://www.sciencedirect.com/science/article/pii/S0167926024001846
@@ -74,6 +80,10 @@ Please [let us know][issues] if a publication is missing or needs update.
 [2025_5]: https://ieeexplore.ieee.org/document/11068969
 [2025_6]: https://ics.jku.at/files/2025DVConEurope_Leveraging_RISC-V_for_Flexible_and_Adaptive_Real-Time_Radar_Sequencing.pdf
 [2025_7]: https://arxiv.org/pdf/2508.19665
+[2025_8]: https://arxiv.org/pdf/2507.18339
+[2025_9]: https://arxiv.org/pdf/2512.11398
+[2025_10]: https://arxiv.org/pdf/2508.20223
+[2025_11]: https://arxiv.org/pdf/2509.01318
 
 [2024_1]: https://ics.jku.at/files/2024OSDA_RISCV-VP-plusplus.pdf
 [2024_2]: https://ics.jku.at/files/2024DATE_RISCV-VP-plusplus_RVV.pdf
