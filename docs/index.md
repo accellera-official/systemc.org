@@ -32,7 +32,7 @@ toc: false
           </div>
           <div class="col-lg-6">
             <h1 class="display-5 fw-bold lh-1 mb-3">Accellera<br>Summer of Code</h1>
-            <p class="lead">Students can now apply for the Accellera Summer of Code 2026 program!</p>
+            <p class="lead">Application is open for students. Extended deadline: <b>April 10</b>!</p>
             <a href="/events/asoc2026/" target="_blank" class="btn btn-primary btn-lg">More information</a>
             <!--<a href="/events/cfp/" target="_blank" class="btn btn-secondary btn-lg">Call for Presentations</a>-->
           </div>

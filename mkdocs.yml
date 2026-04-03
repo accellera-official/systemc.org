@@ -23,6 +23,7 @@ nav:
 #- Documentation:
 #    - SystemC: docs/systemc/documentation.md
 - Events:
+    - Accellera Summer of Code: events/asoc2026.md
     - SystemC Events: events/scevents.md
     - SystemC Call for Presentations: events/cfp.md
     - SystemC Sprint - April 2026: events/sprint202604.md
