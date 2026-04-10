@@ -21,9 +21,15 @@ We’re looking for presentations (20–30 minutes) on topics such as:
 
 **Submit your proposal now!**
 
+<!--
 Send a brief abstract (2–3 paragraphs) before **2 April 2026** to [systemc-evolution-day@lists.accellera.org](mailto:systemc-evolution-day@lists.accellera.org).
 
 Abstracts will be reviewed by the SystemC Fika organization committee. Submitters will be notified 6 April 2026 latest whether their presentation is accepted.
+-->
+
+Send a brief abstract (2–3 paragraphs) to [systemc-evolution-day@lists.accellera.org](mailto:systemc-evolution-day@lists.accellera.org).
+
+Abstracts will be reviewed by the SystemC Fika organization committee. Submitters will be informed and invited to present at one of the next Fika events.
 
 ## More information
 
