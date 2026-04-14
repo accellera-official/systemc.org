@@ -6,7 +6,6 @@ toc: false
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
   </div>
   <div class="carousel-inner hero">
     <div class="carousel-item active">
@@ -24,7 +23,7 @@ toc: false
         </div>
       </div>
     </div>
-    <div class="carousel-item">
+    <!--<div class="carousel-item">
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
@@ -34,11 +33,10 @@ toc: false
             <h1 class="display-5 fw-bold lh-1 mb-3">Accellera<br>Summer of Code</h1>
             <p class="lead">Application is open for students. Extended deadline: <b>April 10</b>!</p>
             <a href="/events/asoc2026/" target="_blank" class="btn btn-primary btn-lg">More information</a>
-            <!--<a href="/events/cfp/" target="_blank" class="btn btn-secondary btn-lg">Call for Presentations</a>-->
           </div>
         </div>
       </div>
-    </div>
+    </div>-->
     <div class="carousel-item">
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
