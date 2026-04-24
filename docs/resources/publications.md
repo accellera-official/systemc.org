@@ -14,6 +14,7 @@ Please [let us know][issues] if a publication is missing or needs update.
 | Title          | Author(s)   | Conference or Journal   | Source       |
 | :------------- | :---------- | :---------------------- | :----------- |
 | **2026** |
+| CHESSY: Coupled Hybrid Emulation with SystemC-FPGA Synchronization | Lorenzo Ruotolo; Giovanni Pollo; Mohamed Amine Hamdi; Matteo Risso; Yukai Chen; Enrico Macii; Massimo Poncino; Sara Vinco; Alessio Burrello; Daniele Jahier Pagliari | Design, Automation and Test in Europe Conference (DATE) 2026 | [arXiv][2026_3] |
 | Toward Automated Virtual Electronic Control Unit (ECU) Twins for Shift-Left Automotive Software Testing | Sebastian Dingler; Frederik Boenke | February 2026 | [arXiv][2026_2] |
 | A RISC-V CHERI VP: Enabling system-level evaluation of the capability-based CHERI architecture | Manfred Schlägl; Andreas Hinterdorfer; Daniel Große | Asia and South Pacific Design Automation Conference (ASP-DAC), 2026 | [University][2026_1] |
 | **2025** |
@@ -72,6 +73,7 @@ Please [let us know][issues] if a publication is missing or needs update.
 
 [2026_1]: https://ics.jku.at/files/2026ASPDAC_RISC-V_CHERI-VP.pdf
 [2026_2]: https://arxiv.org/pdf/2602.18142
+[2026_3]: https://arxiv.org/html/2604.10093v1
 
 [2025_1]: https://www.sciencedirect.com/science/article/pii/S0167926024001780
 [2025_2]: https://www.sciencedirect.com/science/article/pii/S0167926024001846

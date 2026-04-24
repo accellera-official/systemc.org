@@ -1,15 +1,13 @@
 toc: false
 
-# SystemC Events
+# SystemC Events & History
 <br>
 
+<!--
 ## Upcoming Events
 
- * [SystemC Sprint, 22 April 2026 (in-person event)](../sprint202604/)
- * [SystemC Evolution Fika, 23 April 2026 (online event)](../scef202604/)
 
 
-<!--
 <img style="float:right; width:300px;" src="/images/systemc-summer-of-code-logo-2-1500.png">
 
 ## SystemC Summer of Code submission is open! 
@@ -44,7 +42,7 @@ SystemC Evolution Day events are co-located with [DVCon Europe](https://dvcon-eu
 * [SystemC Evolution Day 2017](../sced2017/)
 * [SystemC Evolution Day 2016](../sced2016/)
 
-
+<br>
 ## SystemC Evolution Fika <img style="float:right; width:300px;" src="/images/scef.png">
 
 In addition to our SystemC Evolution Day events, we are also continuing the SystemC Evolution with smaller, regular, online workshops. We refer to these workshops as *fikas*, to honor the fika tradition of sharing a coffee, slowing down a bit, and talking about things that we care about. These virtual events are free of charge.
@@ -55,16 +53,27 @@ If you have topics that you think should be included in upcoming fikas, please l
 
 ### Past SystemC Evolution Fikas:
 
-* [June 2025](../scef202506/)
-* [March 2025](../scef202503/)
-* [May 2024](../scef202405/)
-* [February 2024](../scef202402/)
-* [September 2023](../scef202309/)
-* [September 2022](../scef202209/)
-* [April 2022](../scef202204/)
-* [June 2021](../scef202106/)
-* [March 2021](../scef202103/)
+* [Fika April 2026](../scef202604/)
+* [Fika June 2025](../scef202506/)
+* [Fika March 2025](../scef202503/)
+* [Fika May 2024](../scef202405/)
+* [Fika February 2024](../scef202402/)
+* [Fika September 2023](../scef202309/)
+* [Fika September 2022](../scef202209/)
+* [Fika April 2022](../scef202204/)
+* [Fika June 2021](../scef202106/)
+* [Fika March 2021](../scef202103/)
 
+<br>
+## SystemC Sprint <img style="float:right; width:300px;" src="/images/systemc-sprint-logo-500.png">
+
+The SystemC Sprint is a practical, code‑focused event where participants actively develop and advance key SystemC initiatives. Unlike the Fika's, the Sprint event is designed for collaborative implementation, discussion, and rapid prototyping. Participants are expected to write, review, and discuss real SystemC code together with fellow contributors and experts. 
+
+### Past SystemC Sprints:
+
+* [Sprint, April 2026](../sprint202604/)
+
+<br>
 ## Contact us
 
 [systemc-evolution-fika@lists.accellera.org](mailto:systemc-evolution-fika@lists.accellera.org)

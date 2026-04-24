@@ -23,10 +23,8 @@ nav:
 #- Documentation:
 #    - SystemC: docs/systemc/documentation.md
 - Events:
-    - Accellera Summer of Code 2026: events/asoc2026.md
-    - SystemC Events: events/scevents.md
+    - SystemC Events & History: events/scevents.md
     - SystemC Call for Presentations: events/cfp.md
-    - SystemC Sprint - April 2026: events/sprint202604.md
     - SystemC Evolution Fika - April 2026: events/scef202604.md
     - SystemC Evolution Fika - June 2025: events/scef202506.md
     - SystemC Evolution Fika - March 2025: events/scef202503.md
