@@ -3,11 +3,12 @@ toc: false
 # SystemC Events & History
 <br>
 
-<!--
+
 ## Upcoming Events
 
+**19 November 2026**: [SystemC Evolution Day 2026, Holiday Inn Munich City Centre](../sced2026/)
 
-
+<!--
 <img style="float:right; width:300px;" src="/images/systemc-summer-of-code-logo-2-1500.png">
 
 ## SystemC Summer of Code submission is open! 
