@@ -44,8 +44,8 @@ toc: false
           </div>
           <div class="col-lg-6">
             <h1 class="display-5 fw-bold lh-1 mb-3">SystemC Evolution Day</h1>
-            <p class="lead">The next SystemC Evolution Day will take place at November 19. The Program will be announced soon!</p>
-            <a href="/events/sced2026/" target="_blank" class="btn btn-primary btn-lg">Event page</a>
+            <p class="lead">The next SystemC Evolution Day will take place at November 19. The program is available now!</p>
+            <a href="/events/sced2026/" target="_blank" class="btn btn-primary btn-lg">Show program</a>
             <!--<a href="/events/cfp/" target="_blank" class="btn btn-secondary btn-lg">Call for Presentations</a>-->
           </div>
         </div>
