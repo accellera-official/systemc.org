@@ -79,6 +79,14 @@ This page gives an overview of the available SystemC training. Please [let us kn
 
 ---
 
+## ErrBits
+
+[SystemC Ramp-Up Studio: Self-Paced Course with Hands-On Labs (Free Starter Track)][errbits_training_1]
+
+[SystemC Self-Study Path: Written Tutorials, Fundamentals to TLM-2.0][errbits_training_2]
+
+---
+
 ## Fraunhofer IESE
 
 <!--[SystemC Basics][fhg_training_1]-->
@@ -144,6 +152,9 @@ This page gives an overview of the available SystemC training. Please [let us kn
 [doulos_training_14]: https://www.doulos.com/training/soc-design-and-verification/systemc-tlm-20/systemc-modeling-using-tlm-20-self-paced/
 [doulos_training_15]: https://www.doulos.com/training/soc-design-and-verification/systemc-tlm-20/comprehensive-systemc-self-paced-bundle/
 [doulos_training_16]: https://www.doulos.com/training/soc-design-and-verification/systemc-tlm-20/comprehensive-systemc-and-tlm-20-modeling-self-paced-bundle/
+
+[errbits_training_1]: https://errbits.com/systemc-studio.html
+[errbits_training_2]: https://errbits.com/systemc-articles.html
 
 [fhg_training_1]: https://www.eas.iis.fraunhofer.de/en/events/trainings/systemc-basics.html
 [fhg_training_2]: https://www.iese.fraunhofer.de/en/seminare_training/virtual-prototyping.html#4
